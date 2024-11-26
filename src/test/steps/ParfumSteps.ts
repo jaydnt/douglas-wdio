@@ -13,7 +13,7 @@ Given(/^User navigates to the application$/, async () => {
   addWinstonInfoLog("Loading App.");
   await browser.url(env.APP_URL);
   addAllureReportLog("Maximize Window.");
-  addWinstonErrorLog("Maximize Window.");
+  addWinstonErrorLog("Wrong.");
   await browser.maximizeWindow();
   await browser.pause(5000);
 });
