@@ -1,8 +1,8 @@
 import fs from "fs";
 import appRoot from "app-root-path";
 import * as dotenv from "dotenv";
-
-dotenv.config({ path: `${appRoot}/.env.${process.env.ENV}` });
+const setEnv = process.env.ENV ? process.env.ENV : "prod";
+dotenv.config({ path: `${appRoot}/.env.${setEnv}` });
 
 export const config: WebdriverIO.Config = {
   //
