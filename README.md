@@ -1,4 +1,4 @@
-# Webdriver.io (WDIO) with TypeScript and Cucumber (BDD)
+# WebdriverIO (WDIO) with TypeScript and Cucumber (BDD)
 
 WebdriverIO (WDIO) with TypeScript and Cucumber (BDD) Automation Framework is a powerful combination for building maintainable, scalable, and efficient test automation solutions.
 
