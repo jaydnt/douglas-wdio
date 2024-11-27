@@ -479,3 +479,228 @@
 2024-11-27 17:02:30 info: Click on NEU from Highlights Drop down
 2024-11-27 17:02:36 info: Asserting Filter option NEU
 2024-11-27 17:02:36 info: Expected filter option is NEU, but found NEU
+2024-11-27 17:43:22 info: Loading App
+2024-11-27 17:43:26 info: Maximize Window
+2024-11-27 17:43:26 info: Asserting dashboard page url
+2024-11-27 17:43:27 error: Something went wrong in Assert Dashboard Page Url : AssertionError: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de/login: expected 'https://www.douglas.de/de/login' to equal 'https://www.douglas.de/de'
+2024-11-27 17:43:28 info: Loading App
+2024-11-27 17:43:31 info: Maximize Window
+2024-11-27 17:43:32 info: Asserting dashboard page url
+2024-11-27 17:43:32 error: Something went wrong in Assert Dashboard Page Url : AssertionError: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de/login: expected 'https://www.douglas.de/de/login' to equal 'https://www.douglas.de/de'
+2024-11-27 17:44:13 info: Loading App
+2024-11-27 17:44:18 info: Maximize Window
+2024-11-27 17:44:18 info: Asserting dashboard page url
+2024-11-27 17:44:18 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 17:44:18 info: Accept Cookie
+2024-11-27 17:44:27 info: Asserting dashboard page title
+2024-11-27 17:44:27 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 17:44:27 info: Click on PARFUM
+2024-11-27 17:44:34 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 17:44:34 info: Expected title is Online Parfümerie Douglas, but found Online Parfümerie Douglas
+2024-11-27 17:44:39 info: Move to Serach Box
+2024-11-27 17:44:41 info: Click on Highlights Drop down
+2024-11-27 17:44:47 info: Click on Sale from Highlights Drop down
+2024-11-27 17:44:52 info: Asserting Filter option Sale
+2024-11-27 17:44:53 info: Expected filter option is Sale, but found Sale
+2024-11-27 17:44:53 info: Fetching pagination details
+2024-11-27 17:44:53 info: Total pages to validate: 28
+2024-11-27 17:44:53 info: Validating filter tag on page 1 of 28
+2024-11-27 17:44:54 info: Loading App
+2024-11-27 17:44:59 info: Maximize Window
+2024-11-27 17:45:00 info: Asserting dashboard page url
+2024-11-27 17:45:00 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 17:45:00 info: Accept Cookie
+2024-11-27 17:45:07 error: Something went wrong in Accept Cookie : Error: element ("[data-testid="uc-accept-all-button"]") still not displayed after 5000ms
+2024-11-27 17:45:12 info: Asserting dashboard page title
+2024-11-27 17:45:12 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 17:45:12 info: Click on PARFUM
+2024-11-27 17:45:18 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 17:45:18 info: Expected title is Online Parfümerie Douglas, but found Online Parfümerie Douglas
+2024-11-27 17:45:23 info: Move to Serach Box
+2024-11-27 17:45:23 info: Click on Highlights Drop down
+2024-11-27 17:45:28 info: Click on NEU from Highlights Drop down
+2024-11-27 17:45:34 info: Asserting Filter option NEU
+2024-11-27 17:45:35 info: Expected filter option is NEU, but found NEU
+2024-11-27 17:45:35 info: Fetching pagination details
+2024-11-27 17:45:35 info: Total pages to validate: 15
+2024-11-27 17:45:35 info: Validating filter tag on page 1 of 15
+2024-11-27 17:52:57 info: Loading App
+2024-11-27 17:53:02 info: Maximize Window
+2024-11-27 17:53:03 info: Asserting dashboard page url
+2024-11-27 17:53:03 info: Accept Cookie
+2024-11-27 17:53:03 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 17:53:11 info: Asserting dashboard page title
+2024-11-27 17:53:13 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 17:53:13 info: Click on PARFUM
+2024-11-27 17:53:21 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 17:53:21 info: Expected title is Online Parfümerie Douglas, but found Online Parfümerie Douglas
+2024-11-27 17:53:26 info: Move to Serach Box
+2024-11-27 17:53:28 info: Click on Highlights Drop down
+2024-11-27 17:53:34 info: Click on Sale from Highlights Drop down
+2024-11-27 17:53:40 info: Asserting Filter option Sale
+2024-11-27 17:53:40 info: Expected filter option is Sale, but found Sale
+2024-11-27 17:53:40 info: Fetching pagination details
+2024-11-27 17:53:40 info: Total pages to validate: 28
+2024-11-27 17:53:40 info: Validating filter tag on page 1 of 28
+2024-11-27 17:53:41 info: Verifying if the applied filters contain: 'Sale'
+2024-11-27 17:53:41 info: Filter verification successful on this page
+2024-11-27 17:53:41 info: Navigating to page 2
+2024-11-27 17:53:46 info: Validating filter tag on page 2 of 28
+2024-11-27 17:53:47 info: Verifying if the applied filters contain: 'Sale'
+2024-11-27 17:53:47 info: Filter verification successful on this page
+2024-11-27 17:53:47 info: Navigating to page 3
+2024-11-27 17:53:52 info: Validating filter tag on page 3 of 28
+2024-11-27 17:53:53 info: Verifying if the applied filters contain: 'Sale'
+2024-11-27 17:53:53 info: Filter verification successful on this page
+2024-11-27 17:53:53 info: Navigating to page 4
+2024-11-27 17:53:58 info: Validating filter tag on page 4 of 28
+2024-11-27 17:53:59 info: Verifying if the applied filters contain: 'Sale'
+2024-11-27 17:53:59 info: Filter verification successful on this page
+2024-11-27 17:53:59 info: Navigating to page 5
+2024-11-27 17:54:04 info: Validating filter tag on page 5 of 28
+2024-11-27 17:54:06 info: Verifying if the applied filters contain: 'Sale'
+2024-11-27 17:54:06 info: Filter verification successful on this page
+2024-11-27 17:54:06 info: Navigating to page 6
+2024-11-27 17:54:10 info: Validating filter tag on page 6 of 28
+2024-11-27 17:54:13 info: Verifying if the applied filters contain: 'Sale'
+2024-11-27 17:54:13 info: Filter verification successful on this page
+2024-11-27 17:54:13 info: Navigating to page 7
+2024-11-27 17:54:17 info: Validating filter tag on page 7 of 28
+2024-11-27 17:54:20 info: Verifying if the applied filters contain: 'Sale'
+2024-11-27 17:54:20 info: Filter verification successful on this page
+2024-11-27 17:54:20 info: Navigating to page 8
+2024-11-27 17:54:25 info: Validating filter tag on page 8 of 28
+2024-11-27 17:54:29 info: Verifying if the applied filters contain: 'Sale'
+2024-11-27 17:54:29 info: Filter verification successful on this page
+2024-11-27 17:54:29 info: Navigating to page 9
+2024-11-27 17:57:15 info: Loading App
+2024-11-27 17:57:20 info: Maximize Window
+2024-11-27 17:57:20 info: Asserting dashboard page url
+2024-11-27 17:57:20 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 17:57:20 info: Accept Cookie
+2024-11-27 17:57:28 info: Asserting dashboard page title
+2024-11-27 17:57:28 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 17:57:28 info: Click on PARFUM
+2024-11-27 17:57:35 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 17:57:35 info: Expected title is Online Parfümerie Douglas, but found Online Parfümerie Douglas
+2024-11-27 17:57:40 info: Move to Serach Box
+2024-11-27 17:57:43 info: Click on Highlights Drop down
+2024-11-27 17:57:48 info: Click on NEU from Highlights Drop down
+2024-11-27 17:57:53 info: Asserting Filter option NEU
+2024-11-27 17:57:54 info: Expected filter option is NEU, but found NEU
+2024-11-27 17:57:54 info: Fetching pagination details
+2024-11-27 17:57:54 info: Total pages to validate: 15
+2024-11-27 17:57:54 info: Validating filter tag on page 1 of 15
+2024-11-27 17:57:55 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 17:57:55 info: Filter verification successful on this page
+2024-11-27 17:57:55 info: Navigating to page 2
+2024-11-27 17:58:00 info: Validating filter tag on page 2 of 15
+2024-11-27 17:58:03 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 17:58:03 info: Filter verification successful on this page
+2024-11-27 17:58:03 info: Navigating to page 3
+2024-11-27 17:58:08 info: Validating filter tag on page 3 of 15
+2024-11-27 17:58:09 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 17:58:09 info: Filter verification successful on this page
+2024-11-27 17:58:09 info: Navigating to page 4
+2024-11-27 17:58:13 info: Validating filter tag on page 4 of 15
+2024-11-27 17:58:15 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 17:58:15 info: Filter verification successful on this page
+2024-11-27 17:58:15 info: Navigating to page 5
+2024-11-27 17:58:19 info: Validating filter tag on page 5 of 15
+2024-11-27 17:58:21 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 17:58:21 info: Filter verification successful on this page
+2024-11-27 17:58:21 info: Navigating to page 6
+2024-11-27 17:58:26 info: Validating filter tag on page 6 of 15
+2024-11-27 17:58:28 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 17:58:28 info: Navigating to page 7
+2024-11-27 17:58:28 info: Filter verification successful on this page
+2024-11-27 17:58:33 info: Validating filter tag on page 7 of 15
+2024-11-27 17:58:34 info: Filter verification successful on this page
+2024-11-27 17:58:34 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 17:58:34 info: Navigating to page 8
+2024-11-27 17:58:39 info: Validating filter tag on page 8 of 15
+2024-11-27 17:58:41 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 17:58:41 info: Filter verification successful on this page
+2024-11-27 17:58:41 info: Navigating to page 9
+2024-11-27 17:58:45 info: Validating filter tag on page 9 of 15
+2024-11-27 17:58:47 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 17:58:47 info: Filter verification successful on this page
+2024-11-27 17:58:47 info: Navigating to page 10
+2024-11-27 17:58:52 info: Validating filter tag on page 10 of 15
+2024-11-27 18:02:27 info: Loading App
+2024-11-27 18:02:31 info: Maximize Window
+2024-11-27 18:02:32 info: Asserting dashboard page url
+2024-11-27 18:02:32 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 18:02:32 info: Accept Cookie
+2024-11-27 18:02:42 info: Asserting dashboard page title
+2024-11-27 18:02:42 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 18:02:42 info: Click on PARFUM
+2024-11-27 18:02:48 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 18:02:48 info: Expected title is Online Parfümerie Douglas, but found Online Parfümerie Douglas
+2024-11-27 18:02:53 info: Move to Serach Box
+2024-11-27 18:02:58 info: Click on Highlights Drop down
+2024-11-27 18:03:04 info: Click on NEU from Highlights Drop down
+2024-11-27 18:03:09 info: Asserting Filter option NEU
+2024-11-27 18:03:10 info: Expected filter option is NEU, but found NEU
+2024-11-27 18:03:10 info: Fetching pagination details
+2024-11-27 18:03:10 info: Total pages to validate: 15
+2024-11-27 18:03:10 info: Validating filter tag on page 1 of 15
+2024-11-27 18:03:11 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 18:03:11 info: Filter verification successful on this page
+2024-11-27 18:03:11 info: Navigating to page 2
+2024-11-27 18:03:15 info: Validating filter tag on page 2 of 15
+2024-11-27 18:03:18 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 18:03:18 info: Filter verification successful on this page
+2024-11-27 18:03:18 info: Navigating to page 3
+2024-11-27 18:03:22 info: Validating filter tag on page 3 of 15
+2024-11-27 18:03:24 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 18:03:24 info: Filter verification successful on this page
+2024-11-27 18:03:24 info: Navigating to page 4
+2024-11-27 18:03:28 info: Validating filter tag on page 4 of 15
+2024-11-27 18:03:30 info: Filter verification successful on this page
+2024-11-27 18:03:30 info: Navigating to page 5
+2024-11-27 18:03:30 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 18:03:34 info: Validating filter tag on page 5 of 15
+2024-11-27 18:03:35 info: Filter verification successful on this page
+2024-11-27 18:03:35 info: Navigating to page 6
+2024-11-27 18:03:35 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 18:03:40 info: Validating filter tag on page 6 of 15
+2024-11-27 18:03:42 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 18:03:42 info: Filter verification successful on this page
+2024-11-27 18:03:42 info: Navigating to page 7
+2024-11-27 18:03:46 info: Validating filter tag on page 7 of 15
+2024-11-27 18:03:48 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 18:03:48 info: Navigating to page 8
+2024-11-27 18:03:48 info: Filter verification successful on this page
+2024-11-27 18:03:53 info: Validating filter tag on page 8 of 15
+2024-11-27 18:03:54 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 18:03:54 info: Filter verification successful on this page
+2024-11-27 18:03:54 info: Navigating to page 9
+2024-11-27 18:03:59 info: Validating filter tag on page 9 of 15
+2024-11-27 18:04:00 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 18:04:00 info: Navigating to page 10
+2024-11-27 18:04:00 info: Filter verification successful on this page
+2024-11-27 18:04:05 info: Validating filter tag on page 10 of 15
+2024-11-27 18:04:07 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 18:04:07 info: Filter verification successful on this page
+2024-11-27 18:04:07 info: Navigating to page 11
+2024-11-27 18:04:12 info: Validating filter tag on page 11 of 15
+2024-11-27 18:04:14 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 18:04:14 info: Navigating to page 12
+2024-11-27 18:04:14 info: Filter verification successful on this page
+2024-11-27 18:04:19 info: Validating filter tag on page 12 of 15
+2024-11-27 18:04:21 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 18:04:21 info: Filter verification successful on this page
+2024-11-27 18:04:21 info: Navigating to page 13
+2024-11-27 18:04:25 info: Validating filter tag on page 13 of 15
+2024-11-27 18:04:28 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 18:04:28 info: Filter verification successful on this page
+2024-11-27 18:04:28 info: Navigating to page 14
+2024-11-27 18:04:33 info: Validating filter tag on page 14 of 15
+2024-11-27 18:04:35 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 18:04:35 info: Filter verification successful on this page
+2024-11-27 18:04:35 info: Navigating to page 15
+2024-11-27 18:04:40 info: Validating filter tag on page 15 of 15
+2024-11-27 18:04:43 info: Verifying if the applied filters contain: 'NEU'
+2024-11-27 18:04:43 info: Filter verification successful on this page
+2024-11-27 18:04:43 info: Reached the last page, stopping pagination.

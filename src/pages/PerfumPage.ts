@@ -1,5 +1,9 @@
 import { expect } from "chai";
-import { getBrowserUrl, getPageTitle } from "../utils/browser-manager";
+import {
+  browserPause,
+  getBrowserUrl,
+  getPageTitle,
+} from "../utils/browser-manager";
 import {
   addAllureReportLog,
   addWinstonErrorLog,
@@ -20,6 +24,11 @@ class PerfumPage {
       }
     },
     appliedFiltterOption: "//button[@class='selected-facets__value']",
+    pageInfoLocator: "//div[@data-testid='pagination-title-dropdown']",
+    filterTag: (filterOption: string) => {
+      return `//div[contains(@data-testid,'product-eyecatcher') and text()='${filterOption}']`;
+    },
+    nextPageArrow: "//a[@data-testid='pagination-arrow-right']",
   };
   constructor() {}
 
@@ -159,6 +168,84 @@ class PerfumPage {
       addAllureReportLog(errorMessage);
       addWinstonErrorLog(errorMessage);
       throw new Error(errorMessage);
+    }
+  }
+
+  async verifyTheFilterTagAcrossPages(actualFilterText: string) {
+    let currentPage = 1;
+    let totalPages = 1;
+
+    addWinstonInfoLog("Fetching pagination details");
+    addAllureReportLog("Fetching pagination details");
+    const pageInfo = await browser.$(
+      this.perfumPageElementXPath.pageInfoLocator
+    );
+    const pageInfoText = await pageInfo.getText();
+
+    if (pageInfoText) {
+      const match = pageInfoText.match(/Seite (\d+) von (\d+)/);
+      if (match) {
+        currentPage = parseInt(match[1]);
+        totalPages = parseInt(match[2]);
+      }
+    }
+
+    addWinstonInfoLog(`Total pages to validate: ${totalPages}`);
+    addAllureReportLog(`Total pages to validate: ${totalPages}`);
+    while (currentPage <= totalPages) {
+      addWinstonInfoLog(
+        `Validating filter tag on page ${currentPage} of ${totalPages}`
+      );
+      addAllureReportLog(
+        `Validating filter tag on page ${currentPage} of ${totalPages}`
+      );
+
+      const filters = await command.getElements(
+        this.perfumPageElementXPath.filterTag(actualFilterText)
+      );
+
+      const filterTexts: string[] = [];
+
+      for (const element of filters) {
+        const elementText = (await command.getText(element)).trim();
+        filterTexts.push(elementText);
+      }
+
+      // const filterTexts: string[] = await Promise.all(
+      //   filters.map(async (filter) => (await filter.getText()).trim())
+      // );
+
+      addWinstonInfoLog(
+        `Verifying if the applied filters contain: '${actualFilterText}'`
+      );
+      addAllureReportLog(
+        `Verifying if the applied filters contain: ${actualFilterText}`
+      );
+      expect(filterTexts).to.contain(actualFilterText.toUpperCase());
+      addWinstonInfoLog("Filter verification successful on this page");
+      addAllureReportLog("Filter verification successful on this page");
+      if (currentPage < totalPages) {
+        addWinstonInfoLog(`Navigating to page ${currentPage + 1}`);
+        addAllureReportLog(`Navigating to page ${currentPage + 1}`);
+        const nextPageButton = await browser.$(
+          this.perfumPageElementXPath.nextPageArrow
+        );
+        if (await nextPageButton.isDisplayed()) {
+          await nextPageButton.click();
+          await browserPause(4000);
+          currentPage++;
+        } else {
+          addWinstonInfoLog("Next page button not found, stopping pagination.");
+          addAllureReportLog(
+            "Next page button not found, stopping pagination."
+          );
+          break;
+        }
+      } else {
+        addWinstonInfoLog("Reached the last page, stopping pagination.");
+        addAllureReportLog("Reached the last page, stopping pagination.");
+        break;
+      }
     }
   }
 }

@@ -75,6 +75,8 @@ Then("Verify the {string} filter is applied", async (filterOption: string) => {
   // asserting filter option applied
   await perfumPage.assertFilterOption(filterOption);
 
+  await perfumPage.verifyTheFilterTagAcrossPages(filterOption);
+
   // pause the browser for 5 seconds
   await browserPause(5000);
 });

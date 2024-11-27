@@ -22,3 +22,6 @@
 2024-11-27 16:55:42 error: Something went wrong in Accept Cookie : Error: element ("[data-testid="uc-accept-all-button"]") still not displayed after 5000ms
 2024-11-27 16:57:44 error: Something went wrong in Accept Cookie : Error: element ("[data-testid="uc-accept-all-button"]") still not displayed after 5000ms
 2024-11-27 17:02:08 error: Something went wrong in Accept Cookie : Error: element ("[data-testid="uc-accept-all-button"]") still not displayed after 5000ms
+2024-11-27 17:43:27 error: Something went wrong in Assert Dashboard Page Url : AssertionError: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de/login: expected 'https://www.douglas.de/de/login' to equal 'https://www.douglas.de/de'
+2024-11-27 17:43:32 error: Something went wrong in Assert Dashboard Page Url : AssertionError: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de/login: expected 'https://www.douglas.de/de/login' to equal 'https://www.douglas.de/de'
+2024-11-27 17:45:07 error: Something went wrong in Accept Cookie : Error: element ("[data-testid="uc-accept-all-button"]") still not displayed after 5000ms

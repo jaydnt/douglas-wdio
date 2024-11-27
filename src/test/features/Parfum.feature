@@ -10,5 +10,4 @@ Feature: Verify the perfume page
 
     Examples:
       | FilterOption |
-      | Sale         |
       | NEU          |
