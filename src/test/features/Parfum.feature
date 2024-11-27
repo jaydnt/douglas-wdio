@@ -1,6 +1,6 @@
 Feature: Verify the perfume page
 
-  Scenario: Verfiy the filter option in Highlights dropdown
+  Scenario Outline: Verfiy the filter option in Highlights dropdown
     Given User navigates to the application
     When User click on "PARFUM" tab
     Then Verify user on the parfum page
@@ -11,3 +11,4 @@ Feature: Verify the perfume page
     Examples:
       | FilterOption |
       | Sale         |
+      | NEU          |

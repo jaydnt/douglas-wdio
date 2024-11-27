@@ -24,6 +24,14 @@ class Command {
   async getText(element: any) {
     return await element.getText();
   }
+
+  async isDisplayed(element: any) {
+    return await element.isDisplayed();
+  }
+
+  async waitForDisplay(element: any, milliseconds: number) {
+    return await element.waitForDisplayed({ timeout: milliseconds });
+  }
 }
 
 export default new Command();

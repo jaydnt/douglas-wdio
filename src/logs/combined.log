@@ -229,3 +229,253 @@
 2024-11-27 16:21:47 info: Click on Sale from Highlights Drop down
 2024-11-27 16:21:52 info: Asserting Filter option Sale
 2024-11-27 16:21:52 info: Expected filter option is Sale, but found Sale
+2024-11-27 16:24:41 info: Loading App
+2024-11-27 16:24:46 info: Maximize Window
+2024-11-27 16:24:46 info: Asserting dashboard page url
+2024-11-27 16:24:47 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:24:47 info: Accept Cookie
+2024-11-27 16:24:56 info: Asserting dashboard page title
+2024-11-27 16:24:56 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 16:24:56 info: Click on PARFUM
+2024-11-27 16:25:03 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 16:25:03 info: Expected title is Online Parfümerie Douglas, but found Online Parfümerie Douglas
+2024-11-27 16:25:08 info: Move to Serach Box
+2024-11-27 16:25:08 info: Click on Highlights Drop down
+2024-11-27 16:25:14 info: Click on Sale from Highlights Drop down
+2024-11-27 16:25:19 info: Asserting Filter option Sale
+2024-11-27 16:25:19 info: Expected filter option is Sale, but found Sale
+2024-11-27 16:25:24 info: Loading App
+2024-11-27 16:25:27 info: Maximize Window
+2024-11-27 16:25:28 info: Asserting dashboard page url
+2024-11-27 16:25:30 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:25:30 info: Accept Cookie
+2024-11-27 16:25:41 error: Something went wrong in Accept Cookie : Error: Can't call click on element with selector "[data-testid="uc-accept-all-button"]" because element wasn't found
+2024-11-27 16:26:48 info: Loading App
+2024-11-27 16:26:52 info: Maximize Window
+2024-11-27 16:26:53 info: Asserting dashboard page url
+2024-11-27 16:26:54 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:26:54 info: Accept Cookie
+2024-11-27 16:27:03 info: Asserting dashboard page title
+2024-11-27 16:27:03 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 16:27:03 info: Click on PARFUM
+2024-11-27 16:27:10 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 16:27:10 error: Something went wrong in Assert Perfum Page Title : AssertionError: Expected title is Online Parfümerie Douglas, but found DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr: expected 'DOUGLAS ✔️ Black Friday | 20 % Rabatt…' to equal 'Online Parfümerie Douglas'
+2024-11-27 16:27:10 info: Loading App
+2024-11-27 16:27:16 info: Maximize Window
+2024-11-27 16:27:18 info: Asserting dashboard page url
+2024-11-27 16:27:18 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:27:18 info: Accept Cookie
+2024-11-27 16:27:31 error: Something went wrong in Accept Cookie : Error: Can't call click on element with selector "[data-testid="uc-accept-all-button"]" because element wasn't found
+2024-11-27 16:30:34 info: Loading App
+2024-11-27 16:30:39 info: Maximize Window
+2024-11-27 16:30:40 info: Asserting dashboard page url
+2024-11-27 16:30:40 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:30:40 info: Accept Cookie
+2024-11-27 16:30:47 info: Asserting dashboard page title
+2024-11-27 16:30:47 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 16:30:47 info: Click on PARFUM
+2024-11-27 16:30:54 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 16:30:54 info: Expected title is Online Parfümerie Douglas, but found Online Parfümerie Douglas
+2024-11-27 16:30:59 info: Move to Serach Box
+2024-11-27 16:31:02 info: Click on Highlights Drop down
+2024-11-27 16:31:08 info: Click on Sale from Highlights Drop down
+2024-11-27 16:31:13 info: Asserting Filter option Sale
+2024-11-27 16:31:13 info: Expected filter option is Sale, but found Sale
+2024-11-27 16:31:18 info: Loading App
+2024-11-27 16:33:30 info: Loading App
+2024-11-27 16:33:34 info: Maximize Window
+2024-11-27 16:33:34 info: Asserting dashboard page url
+2024-11-27 16:33:34 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:33:34 info: Accept Cookie
+2024-11-27 16:33:42 info: Asserting dashboard page title
+2024-11-27 16:33:42 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 16:33:42 info: Click on PARFUM
+2024-11-27 16:33:50 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 16:33:50 info: Expected title is Online Parfümerie Douglas, but found Online Parfümerie Douglas
+2024-11-27 16:33:55 info: Move to Serach Box
+2024-11-27 16:33:56 info: Click on Highlights Drop down
+2024-11-27 16:34:01 info: Click on Sale from Highlights Drop down
+2024-11-27 16:34:07 info: Asserting Filter option Sale
+2024-11-27 16:34:07 info: Expected filter option is Sale, but found Sale
+2024-11-27 16:34:14 info: Loading App
+2024-11-27 16:37:07 info: Loading App
+2024-11-27 16:37:11 info: Maximize Window
+2024-11-27 16:37:11 info: Asserting dashboard page url
+2024-11-27 16:37:12 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:37:12 info: Accept Cookie
+2024-11-27 16:37:19 info: Asserting dashboard page title
+2024-11-27 16:37:19 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 16:37:19 info: Click on PARFUM
+2024-11-27 16:37:26 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 16:37:26 info: Expected title is Online Parfümerie Douglas, but found Online Parfümerie Douglas
+2024-11-27 16:37:31 info: Move to Serach Box
+2024-11-27 16:37:33 info: Click on Highlights Drop down
+2024-11-27 16:37:39 info: Click on Sale from Highlights Drop down
+2024-11-27 16:37:44 info: Asserting Filter option Sale
+2024-11-27 16:37:45 info: Expected filter option is Sale, but found Sale
+2024-11-27 16:37:50 info: Loading App
+2024-11-27 16:37:53 info: Maximize Window
+2024-11-27 16:37:55 info: Asserting dashboard page url
+2024-11-27 16:37:55 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:37:55 info: Accept Cookie
+2024-11-27 16:38:07 error: Something went wrong in Accept Cookie : Error: Can't call click on element with selector "[data-testid="uc-accept-all-button"]" because element wasn't found
+2024-11-27 16:41:53 info: Loading App
+2024-11-27 16:41:57 info: Maximize Window
+2024-11-27 16:41:58 info: Asserting dashboard page url
+2024-11-27 16:41:58 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:41:58 info: Accept Cookie
+2024-11-27 16:42:05 info: Asserting dashboard page title
+2024-11-27 16:42:05 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 16:42:05 info: Click on PARFUM
+2024-11-27 16:42:18 error: Something went wrong in CLick On Tab : element click intercepted: WebDriverError: element click intercepted: Element <a class="link link--nav-heading navigation-main-entry__link" type="nav-heading" target="" href="/de/c/parfum/01" external="false" linkappearance="true">...</a> is not clickable at point (318, 130). Other element would receive the click: <div id="usercentrics-root" data-created-at="1732705918714" style=""></div>
+  (Session info: chrome=131.0.6778.86) when running "element/f.C5B003AD4652594D0AB9DEB814525FFB.d.6CD1EFDC49926EEF366B2027B3824ED1.e.25/click" with method "POST"
+2024-11-27 16:42:18 info: Loading App
+2024-11-27 16:42:20 info: Maximize Window
+2024-11-27 16:42:20 info: Asserting dashboard page url
+2024-11-27 16:42:20 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:42:20 info: Accept Cookie
+2024-11-27 16:42:25 info: Asserting dashboard page title
+2024-11-27 16:42:26 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 16:42:26 info: Click on PARFUM
+2024-11-27 16:42:38 error: Something went wrong in CLick On Tab : element click intercepted: WebDriverError: element click intercepted: Element <a class="link link--nav-heading navigation-main-entry__link" type="nav-heading" target="" href="/de/c/parfum/01" external="false" linkappearance="true">...</a> is not clickable at point (318, 130). Other element would receive the click: <div id="usercentrics-root" data-created-at="1732705940978" style=""></div>
+  (Session info: chrome=131.0.6778.86) when running "element/f.C5B003AD4652594D0AB9DEB814525FFB.d.F968F9E173145148FD2D493F68FCFBCC.e.157/click" with method "POST"
+2024-11-27 16:44:17 info: Loading App
+2024-11-27 16:44:20 info: Maximize Window
+2024-11-27 16:44:21 info: Asserting dashboard page url
+2024-11-27 16:44:23 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:44:23 info: Accept Cookie
+2024-11-27 16:44:29 info: Asserting dashboard page title
+2024-11-27 16:44:29 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 16:44:29 info: Click on PARFUM
+2024-11-27 16:44:41 error: Something went wrong in CLick On Tab : element click intercepted: WebDriverError: element click intercepted: Element <a class="link link--nav-heading navigation-main-entry__link" type="nav-heading" target="" href="/de/c/parfum/01" external="false" linkappearance="true">...</a> is not clickable at point (318, 130). Other element would receive the click: <div id="usercentrics-root" data-created-at="1732706063564" style=""></div>
+  (Session info: chrome=131.0.6778.86) when running "element/f.021158F30D415D5ED888DDC1536639FD.d.1BC8C1BFFE9B30A8ABB9219F68BB75FA.e.20/click" with method "POST"
+2024-11-27 16:44:41 info: Loading App
+2024-11-27 16:44:46 info: Maximize Window
+2024-11-27 16:44:46 info: Asserting dashboard page url
+2024-11-27 16:44:46 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:44:46 info: Accept Cookie
+2024-11-27 16:44:51 info: Asserting dashboard page title
+2024-11-27 16:44:51 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 16:44:51 info: Click on PARFUM
+2024-11-27 16:44:58 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 16:44:58 info: Expected title is Online Parfümerie Douglas, but found Online Parfümerie Douglas
+2024-11-27 16:45:03 info: Move to Serach Box
+2024-11-27 16:45:04 info: Click on Highlights Drop down
+2024-11-27 16:45:10 info: Click on NEU from Highlights Drop down
+2024-11-27 16:45:15 info: Asserting Filter option NEU
+2024-11-27 16:45:15 info: Expected filter option is NEU, but found NEU
+2024-11-27 16:47:22 info: Loading App
+2024-11-27 16:47:28 info: Maximize Window
+2024-11-27 16:47:28 info: Asserting dashboard page url
+2024-11-27 16:47:28 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:47:28 info: Accept Cookie
+2024-11-27 16:47:36 info: Asserting dashboard page title
+2024-11-27 16:47:36 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 16:47:36 info: Click on PARFUM
+2024-11-27 16:47:44 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 16:47:45 info: Expected title is Online Parfümerie Douglas, but found Online Parfümerie Douglas
+2024-11-27 16:47:50 info: Move to Serach Box
+2024-11-27 16:47:54 info: Click on Highlights Drop down
+2024-11-27 16:47:59 info: Click on Sale from Highlights Drop down
+2024-11-27 16:48:05 info: Asserting Filter option Sale
+2024-11-27 16:48:06 info: Expected filter option is Sale, but found Sale
+2024-11-27 16:48:11 info: Loading App
+2024-11-27 16:48:14 info: Maximize Window
+2024-11-27 16:48:15 info: Asserting dashboard page url
+2024-11-27 16:48:15 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:48:15 info: Accept Cookie
+2024-11-27 16:48:25 error: Something went wrong in Accept Cookie : Error: Can't call click on element with selector "[data-testid="uc-accept-all-button"]" because element wasn't found
+2024-11-27 16:51:29 info: Loading App
+2024-11-27 16:51:33 info: Maximize Window
+2024-11-27 16:51:33 info: Asserting dashboard page url
+2024-11-27 16:51:34 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:51:34 info: Accept Cookie
+2024-11-27 16:51:38 error: Something went wrong in Accept Cookie : Error: waitUntil condition failed with the following reason: WebDriver Bidi command "script.callFunction" failed with error: invalid argument - Invalid input in "arguments"/0.
+2024-11-27 16:51:39 info: Loading App
+2024-11-27 16:51:41 info: Maximize Window
+2024-11-27 16:51:41 info: Asserting dashboard page url
+2024-11-27 16:51:41 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:51:41 info: Accept Cookie
+2024-11-27 16:51:48 info: Asserting dashboard page title
+2024-11-27 16:51:48 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 16:51:48 info: Click on PARFUM
+2024-11-27 16:51:56 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 16:51:56 info: Expected title is Online Parfümerie Douglas, but found Online Parfümerie Douglas
+2024-11-27 16:52:01 info: Move to Serach Box
+2024-11-27 16:52:03 info: Click on Highlights Drop down
+2024-11-27 16:52:08 info: Click on NEU from Highlights Drop down
+2024-11-27 16:52:13 info: Asserting Filter option NEU
+2024-11-27 16:52:14 info: Expected filter option is NEU, but found NEU
+2024-11-27 16:54:46 info: Loading App
+2024-11-27 16:54:50 info: Maximize Window
+2024-11-27 16:54:51 info: Asserting dashboard page url
+2024-11-27 16:54:51 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:54:51 info: Accept Cookie
+2024-11-27 16:54:59 info: Asserting dashboard page title
+2024-11-27 16:54:59 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 16:54:59 info: Click on PARFUM
+2024-11-27 16:55:06 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 16:55:06 info: Expected title is Online Parfümerie Douglas, but found Online Parfümerie Douglas
+2024-11-27 16:55:11 info: Move to Serach Box
+2024-11-27 16:55:14 info: Click on Highlights Drop down
+2024-11-27 16:55:19 info: Click on Sale from Highlights Drop down
+2024-11-27 16:55:25 info: Asserting Filter option Sale
+2024-11-27 16:55:25 info: Expected filter option is Sale, but found Sale
+2024-11-27 16:55:30 info: Loading App
+2024-11-27 16:55:33 info: Maximize Window
+2024-11-27 16:55:34 info: Asserting dashboard page url
+2024-11-27 16:55:36 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:55:36 info: Accept Cookie
+2024-11-27 16:55:42 error: Something went wrong in Accept Cookie : Error: element ("[data-testid="uc-accept-all-button"]") still not displayed after 5000ms
+2024-11-27 16:56:48 info: Loading App
+2024-11-27 16:56:52 info: Maximize Window
+2024-11-27 16:56:52 info: Asserting dashboard page url
+2024-11-27 16:56:52 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:56:52 info: Accept Cookie
+2024-11-27 16:57:00 info: Asserting dashboard page title
+2024-11-27 16:57:00 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 16:57:00 info: Click on PARFUM
+2024-11-27 16:57:08 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 16:57:08 info: Expected title is Online Parfümerie Douglas, but found Online Parfümerie Douglas
+2024-11-27 16:57:13 info: Move to Serach Box
+2024-11-27 16:57:16 info: Click on Highlights Drop down
+2024-11-27 16:57:21 info: Click on Sale from Highlights Drop down
+2024-11-27 16:57:27 info: Asserting Filter option Sale
+2024-11-27 16:57:27 info: Expected filter option is Sale, but found Sale
+2024-11-27 16:57:32 info: Loading App
+2024-11-27 16:57:36 info: Maximize Window
+2024-11-27 16:57:37 info: Asserting dashboard page url
+2024-11-27 16:57:38 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:57:38 info: Accept Cookie
+2024-11-27 16:57:44 error: Something went wrong in Accept Cookie : Error: element ("[data-testid="uc-accept-all-button"]") still not displayed after 5000ms
+2024-11-27 17:01:13 info: Loading App
+2024-11-27 17:01:23 info: Maximize Window
+2024-11-27 17:01:24 info: Asserting dashboard page url
+2024-11-27 17:01:24 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 17:01:24 info: Accept Cookie
+2024-11-27 17:01:29 info: Asserting dashboard page title
+2024-11-27 17:01:29 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 17:01:29 info: Click on PARFUM
+2024-11-27 17:01:36 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 17:01:36 info: Expected title is Online Parfümerie Douglas, but found Online Parfümerie Douglas
+2024-11-27 17:01:41 info: Move to Serach Box
+2024-11-27 17:01:44 info: Click on Highlights Drop down
+2024-11-27 17:01:50 info: Click on Sale from Highlights Drop down
+2024-11-27 17:01:55 info: Asserting Filter option Sale
+2024-11-27 17:01:56 info: Expected filter option is Sale, but found Sale
+2024-11-27 17:02:01 info: Loading App
+2024-11-27 17:02:03 info: Maximize Window
+2024-11-27 17:02:03 info: Asserting dashboard page url
+2024-11-27 17:02:03 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 17:02:03 info: Accept Cookie
+2024-11-27 17:02:08 error: Something went wrong in Accept Cookie : Error: element ("[data-testid="uc-accept-all-button"]") still not displayed after 5000ms
+2024-11-27 17:02:13 info: Asserting dashboard page title
+2024-11-27 17:02:13 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 17:02:13 info: Click on PARFUM
+2024-11-27 17:02:20 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 17:02:20 info: Expected title is Online Parfümerie Douglas, but found Online Parfümerie Douglas
+2024-11-27 17:02:25 info: Move to Serach Box
+2024-11-27 17:02:25 info: Click on Highlights Drop down
+2024-11-27 17:02:30 info: Click on NEU from Highlights Drop down
+2024-11-27 17:02:36 info: Asserting Filter option NEU
+2024-11-27 17:02:36 info: Expected filter option is NEU, but found NEU

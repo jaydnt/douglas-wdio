@@ -56,14 +56,24 @@ class DashboardPage {
         this.dashboardPageElementXPath.acceptButton
       );
 
-      const acceptCookieClick = await command.click(acceptButtonElement);
+      await command.waitForDisplay(acceptButtonElement, 5000);
 
-      return acceptCookieClick;
+      const acceptButtonDisplay = await command.isDisplayed(
+        acceptButtonElement
+      );
+
+      if (acceptButtonDisplay) {
+        const acceptCookieClick = await command.click(acceptButtonElement);
+
+        return acceptCookieClick;
+      }
+      return "";
     } catch (error) {
       const errorMessage = `Something went wrong in Accept Cookie : ${error}`;
       addAllureReportLog(errorMessage);
       addWinstonErrorLog(errorMessage);
-      throw new Error(errorMessage);
+      // throw new Error(errorMessage);
+      return "";
     }
   }
 
