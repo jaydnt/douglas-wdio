@@ -51,3 +51,30 @@ Then("Verify user on the parfum page", async () => {
   // pause the browser for 5 seconds
   await browserPause(5000);
 });
+
+When("I select the {string} dropdown", async (dropDownName: string) => {
+  // click on drop down
+  await perfumPage.clickDropDown(dropDownName);
+
+  // pause the browser for 5 seconds
+  await browserPause(5000);
+});
+
+Then(
+  "I select the {string} filter option from the {string} dropdown",
+  async (filterOption: string, dropDownName: string) => {
+    // click on drop down option
+    await perfumPage.clickOnDropDownOption(filterOption, dropDownName);
+
+    // pause the browser for 5 seconds
+    await browserPause(5000);
+  }
+);
+
+Then("Verify the {string} filter is applied", async (filterOption: string) => {
+  // asserting filter option applied
+  await perfumPage.assertFilterOption(filterOption);
+
+  // pause the browser for 5 seconds
+  await browserPause(5000);
+});

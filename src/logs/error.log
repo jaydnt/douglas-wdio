@@ -3,3 +3,7 @@
 2024-11-27 08:00:57 error: Wrong. 
 2024-11-27 08:03:47 error: Wrong. 
 2024-11-27 08:04:57 error: Wrong. 
+2024-11-27 14:55:25 error: Something went wrong in perfum Click DropDown  : TypeError: element.moceTo is not a function
+2024-11-27 15:16:29 error: Something went wrong in Assert Dashboard Page Title : AssertionError: Expected title is 'Online-Parfümerie ✔️ Parfum & Kosmetik kaufen | DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr': expected 'DOUGLAS ✔️ Black Friday | 20 % Rabatt…' to equal 'Online-Parfümerie ✔️ Parfum & Kosmeti…'
+2024-11-27 15:58:05 error: Something went wrong in Assert Perfum Page Title : AssertionError: Expected title is https://www.douglas.de/de/c/parfum/01, but found DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr: expected 'DOUGLAS ✔️ Black Friday | 20 % Rabatt…' to equal 'Online Parfümerie Douglas'
+2024-11-27 16:07:12 error: Something went wrong in Assert Filter Option : TypeError: filterOptionElements.map is not a function

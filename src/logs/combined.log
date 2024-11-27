@@ -50,3 +50,182 @@
 2024-11-27 12:58:05 info: Expected title is 'Online-Parfümerie ✔️ Parfum & Kosmetik kaufen | DOUGLAS', but found 'Online-Parfümerie ✔️ Parfum & Kosmetik kaufen | DOUGLAS'
 2024-11-27 12:58:11 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
 2024-11-27 12:58:11 info: Expected title is https://www.douglas.de/de/c/parfum/01, but found Online Parfümerie Douglas
+2024-11-27 14:54:57 info: Loading App
+2024-11-27 14:55:02 info: Maximize Window
+2024-11-27 14:55:02 info: Asserting dashboard page url
+2024-11-27 14:55:03 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 14:55:03 info: Accept Cookie
+2024-11-27 14:55:13 info: Asserting dashboard page title
+2024-11-27 14:55:13 info: Expected title is 'Online-Parfümerie ✔️ Parfum & Kosmetik kaufen | DOUGLAS', but found 'Online-Parfümerie ✔️ Parfum & Kosmetik kaufen | DOUGLAS'
+2024-11-27 14:55:13 info: Click on PARFUM
+2024-11-27 14:55:19 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 14:55:19 info: Expected title is https://www.douglas.de/de/c/parfum/01, but found Online Parfümerie Douglas
+2024-11-27 14:55:25 error: Something went wrong in perfum Click DropDown  : TypeError: element.moceTo is not a function
+2024-11-27 14:56:04 info: Loading App
+2024-11-27 14:56:10 info: Maximize Window
+2024-11-27 14:56:10 info: Asserting dashboard page url
+2024-11-27 14:56:11 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 14:56:11 info: Accept Cookie
+2024-11-27 14:56:18 info: Asserting dashboard page title
+2024-11-27 14:56:20 info: Expected title is 'Online-Parfümerie ✔️ Parfum & Kosmetik kaufen | DOUGLAS', but found 'Online-Parfümerie ✔️ Parfum & Kosmetik kaufen | DOUGLAS'
+2024-11-27 14:56:20 info: Click on PARFUM
+2024-11-27 14:56:27 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 14:56:27 info: Expected title is https://www.douglas.de/de/c/parfum/01, but found Online Parfümerie Douglas
+2024-11-27 14:57:19 info: Loading App
+2024-11-27 14:57:26 info: Maximize Window
+2024-11-27 14:57:26 info: Asserting dashboard page url
+2024-11-27 14:57:26 info: Accept Cookie
+2024-11-27 14:57:26 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 14:57:35 info: Asserting dashboard page title
+2024-11-27 14:57:35 info: Expected title is 'Online-Parfümerie ✔️ Parfum & Kosmetik kaufen | DOUGLAS', but found 'Online-Parfümerie ✔️ Parfum & Kosmetik kaufen | DOUGLAS'
+2024-11-27 14:57:35 info: Click on PARFUM
+2024-11-27 14:57:42 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 14:57:42 info: Expected title is https://www.douglas.de/de/c/parfum/01, but found Online Parfümerie Douglas
+2024-11-27 15:16:16 info: Loading App
+2024-11-27 15:16:20 info: Maximize Window
+2024-11-27 15:16:20 info: Asserting dashboard page url
+2024-11-27 15:16:20 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 15:16:20 info: Accept Cookie
+2024-11-27 15:16:29 info: Asserting dashboard page title
+2024-11-27 15:16:29 error: Something went wrong in Assert Dashboard Page Title : AssertionError: Expected title is 'Online-Parfümerie ✔️ Parfum & Kosmetik kaufen | DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr': expected 'DOUGLAS ✔️ Black Friday | 20 % Rabatt…' to equal 'Online-Parfümerie ✔️ Parfum & Kosmeti…'
+2024-11-27 15:20:04 info: Loading App
+2024-11-27 15:20:09 info: Maximize Window
+2024-11-27 15:20:09 info: Asserting dashboard page url
+2024-11-27 15:20:10 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 15:20:10 info: Accept Cookie
+2024-11-27 15:20:18 info: Asserting dashboard page title
+2024-11-27 15:20:18 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 15:20:18 info: Click on PARFUM
+2024-11-27 15:20:26 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 15:20:26 info: Expected title is https://www.douglas.de/de/c/parfum/01, but found Online Parfümerie Douglas
+2024-11-27 15:20:31 info: Move to Serach Box
+2024-11-27 15:20:35 info: Click on Highlights Drop down
+2024-11-27 15:40:51 info: Loading App
+2024-11-27 15:40:59 info: Maximize Window
+2024-11-27 15:40:59 info: Asserting dashboard page url
+2024-11-27 15:40:59 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 15:40:59 info: Accept Cookie
+2024-11-27 15:41:06 info: Asserting dashboard page title
+2024-11-27 15:41:06 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 15:41:06 info: Click on PARFUM
+2024-11-27 15:41:13 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 15:41:13 info: Expected title is https://www.douglas.de/de/c/parfum/01, but found Online Parfümerie Douglas
+2024-11-27 15:41:18 info: Move to Serach Box
+2024-11-27 15:41:18 info: Click on Highlights Drop down
+2024-11-27 15:42:30 info: Loading App
+2024-11-27 15:42:35 info: Maximize Window
+2024-11-27 15:42:35 info: Asserting dashboard page url
+2024-11-27 15:42:35 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 15:42:35 info: Accept Cookie
+2024-11-27 15:42:43 info: Asserting dashboard page title
+2024-11-27 15:42:43 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 15:42:43 info: Click on PARFUM
+2024-11-27 15:42:49 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 15:42:51 info: Expected title is https://www.douglas.de/de/c/parfum/01, but found Online Parfümerie Douglas
+2024-11-27 15:42:56 info: Move to Serach Box
+2024-11-27 15:42:56 info: Click on Highlights Drop down
+2024-11-27 15:43:01 info: Click on Sale from Highlights Drop down
+2024-11-27 15:43:32 info: Loading App
+2024-11-27 15:43:39 info: Maximize Window
+2024-11-27 15:43:39 info: Asserting dashboard page url
+2024-11-27 15:43:39 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 15:43:39 info: Accept Cookie
+2024-11-27 15:43:47 info: Asserting dashboard page title
+2024-11-27 15:43:47 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 15:43:47 info: Click on PARFUM
+2024-11-27 15:43:53 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 15:43:54 info: Expected title is https://www.douglas.de/de/c/parfum/01, but found Online Parfümerie Douglas
+2024-11-27 15:43:59 info: Move to Serach Box
+2024-11-27 15:43:59 info: Click on Highlights Drop down
+2024-11-27 15:44:05 info: Click on Sale from Highlights Drop down
+2024-11-27 15:57:43 info: Loading App
+2024-11-27 15:57:50 info: Maximize Window
+2024-11-27 15:57:51 info: Asserting dashboard page url
+2024-11-27 15:57:51 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 15:57:51 info: Accept Cookie
+2024-11-27 15:57:56 info: Asserting dashboard page title
+2024-11-27 15:57:58 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 15:57:58 info: Click on PARFUM
+2024-11-27 15:58:05 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 15:58:05 error: Something went wrong in Assert Perfum Page Title : AssertionError: Expected title is https://www.douglas.de/de/c/parfum/01, but found DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr: expected 'DOUGLAS ✔️ Black Friday | 20 % Rabatt…' to equal 'Online Parfümerie Douglas'
+2024-11-27 15:59:32 info: Loading App
+2024-11-27 15:59:38 info: Maximize Window
+2024-11-27 15:59:38 info: Asserting dashboard page url
+2024-11-27 15:59:38 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 15:59:38 info: Accept Cookie
+2024-11-27 15:59:46 info: Asserting dashboard page title
+2024-11-27 15:59:46 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 15:59:46 info: Click on PARFUM
+2024-11-27 15:59:52 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 15:59:52 info: Expected title is Online Parfümerie Douglas, but found Online Parfümerie Douglas
+2024-11-27 15:59:57 info: Move to Serach Box
+2024-11-27 15:59:59 info: Click on Highlights Drop down
+2024-11-27 16:00:05 info: Click on Sale from Highlights Drop down
+2024-11-27 16:06:35 info: Loading App
+2024-11-27 16:06:40 info: Maximize Window
+2024-11-27 16:06:41 info: Asserting dashboard page url
+2024-11-27 16:06:41 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:06:41 info: Accept Cookie
+2024-11-27 16:06:48 info: Asserting dashboard page title
+2024-11-27 16:06:48 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 16:06:48 info: Click on PARFUM
+2024-11-27 16:06:55 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 16:06:55 info: Expected title is Online Parfümerie Douglas, but found Online Parfümerie Douglas
+2024-11-27 16:07:00 info: Move to Serach Box
+2024-11-27 16:07:00 info: Click on Highlights Drop down
+2024-11-27 16:07:06 info: Click on Sale from Highlights Drop down
+2024-11-27 16:07:12 error: Something went wrong in Assert Filter Option : TypeError: filterOptionElements.map is not a function
+2024-11-27 16:09:03 info: Loading App
+2024-11-27 16:09:08 info: Maximize Window
+2024-11-27 16:09:08 info: Asserting dashboard page url
+2024-11-27 16:09:09 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:09:09 info: Accept Cookie
+2024-11-27 16:09:16 info: Asserting dashboard page title
+2024-11-27 16:09:16 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 16:09:16 info: Click on PARFUM
+2024-11-27 16:09:23 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 16:09:23 info: Expected title is Online Parfümerie Douglas, but found Online Parfümerie Douglas
+2024-11-27 16:09:28 info: Move to Serach Box
+2024-11-27 16:09:30 info: Click on Highlights Drop down
+2024-11-27 16:09:36 info: Click on Sale from Highlights Drop down
+2024-11-27 16:13:17 info: Loading App
+2024-11-27 16:13:22 info: Maximize Window
+2024-11-27 16:13:22 info: Asserting dashboard page url
+2024-11-27 16:13:22 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:13:22 info: Accept Cookie
+2024-11-27 16:13:31 info: Asserting dashboard page title
+2024-11-27 16:13:31 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 16:13:31 info: Click on PARFUM
+2024-11-27 16:13:38 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 16:13:38 info: Expected title is Online Parfümerie Douglas, but found Online Parfümerie Douglas
+2024-11-27 16:13:43 info: Move to Serach Box
+2024-11-27 16:13:46 info: Click on Highlights Drop down
+2024-11-27 16:13:51 info: Click on Sale from Highlights Drop down
+2024-11-27 16:16:56 info: Loading App
+2024-11-27 16:17:02 info: Maximize Window
+2024-11-27 16:17:02 info: Asserting dashboard page url
+2024-11-27 16:17:02 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:17:02 info: Accept Cookie
+2024-11-27 16:17:09 info: Asserting dashboard page title
+2024-11-27 16:17:09 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 16:17:09 info: Click on PARFUM
+2024-11-27 16:17:16 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 16:17:16 info: Expected title is Online Parfümerie Douglas, but found Online Parfümerie Douglas
+2024-11-27 16:17:21 info: Move to Serach Box
+2024-11-27 16:17:21 info: Click on Highlights Drop down
+2024-11-27 16:17:26 info: Click on Sale from Highlights Drop down
+2024-11-27 16:21:11 info: Loading App
+2024-11-27 16:21:14 info: Maximize Window
+2024-11-27 16:21:15 info: Asserting dashboard page url
+2024-11-27 16:21:15 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 16:21:15 info: Accept Cookie
+2024-11-27 16:21:24 info: Asserting dashboard page title
+2024-11-27 16:21:28 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 16:21:28 info: Click on PARFUM
+2024-11-27 16:21:34 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 16:21:34 info: Expected title is Online Parfümerie Douglas, but found Online Parfümerie Douglas
+2024-11-27 16:21:39 info: Move to Serach Box
+2024-11-27 16:21:41 info: Click on Highlights Drop down
+2024-11-27 16:21:47 info: Click on Sale from Highlights Drop down
+2024-11-27 16:21:52 info: Asserting Filter option Sale
+2024-11-27 16:21:52 info: Expected filter option is Sale, but found Sale

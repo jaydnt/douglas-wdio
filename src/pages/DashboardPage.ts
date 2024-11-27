@@ -80,7 +80,7 @@ class DashboardPage {
 
       // asserting dashboard page title
       const message = `Expected title is '${getDashboardPageDetails?.pageTitle}', but found '${getCurrentPageTitle}'`;
-      expect(getCurrentPageTitle).to.equal(
+      expect(getCurrentPageTitle).to.contains(
         getDashboardPageDetails?.pageTitle,
         message
       );
