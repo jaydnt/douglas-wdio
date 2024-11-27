@@ -20,3 +20,33 @@
 2024-11-27 11:03:01 info: Maximize Window
 2024-11-27 11:03:02 info: Asserting dashboard page url
 2024-11-27 11:03:02 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 12:09:30 info: Loading App
+2024-11-27 12:09:42 info: Maximize Window
+2024-11-27 12:09:42 info: Asserting dashboard page url
+2024-11-27 12:09:42 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 12:09:42 info: Accept Cookie
+2024-11-27 12:21:01 info: Loading App
+2024-11-27 12:21:10 info: Maximize Window
+2024-11-27 12:21:10 info: Asserting dashboard page url
+2024-11-27 12:21:10 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 12:21:10 info: Accept Cookie
+2024-11-27 12:55:57 info: Loading App
+2024-11-27 12:56:02 info: Maximize Window
+2024-11-27 12:56:03 info: Asserting dashboard page url
+2024-11-27 12:56:03 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 12:56:03 info: Accept Cookie
+2024-11-27 12:56:11 info: Asserting dashboard page title
+2024-11-27 12:56:11 info: Expected title is 'Online-Parfümerie ✔️ Parfum & Kosmetik kaufen | DOUGLAS', but found 'Online-Parfümerie ✔️ Parfum & Kosmetik kaufen | DOUGLAS'
+2024-11-27 12:56:11 info: Click on PARFUM
+2024-11-27 12:56:18 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 12:56:19 info: Expected title is https://www.douglas.de/de/c/parfum/01, but found Online Parfümerie Douglas
+2024-11-27 12:57:50 info: Loading App
+2024-11-27 12:57:54 info: Maximize Window
+2024-11-27 12:57:54 info: Asserting dashboard page url
+2024-11-27 12:57:55 info: Accept Cookie
+2024-11-27 12:57:55 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 12:58:05 info: Asserting dashboard page title
+2024-11-27 12:58:05 info: Click on PARFUM
+2024-11-27 12:58:05 info: Expected title is 'Online-Parfümerie ✔️ Parfum & Kosmetik kaufen | DOUGLAS', but found 'Online-Parfümerie ✔️ Parfum & Kosmetik kaufen | DOUGLAS'
+2024-11-27 12:58:11 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 12:58:11 info: Expected title is https://www.douglas.de/de/c/parfum/01, but found Online Parfümerie Douglas

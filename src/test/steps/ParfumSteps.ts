@@ -1,7 +1,8 @@
-import { Given } from "@wdio/cucumber-framework";
+import { Given, When, Then } from "@wdio/cucumber-framework";
 import env from "../../config/env";
 import { addAllureReportLog, addWinstonInfoLog } from "../../utils/helper";
 import dashboardPage from "../../pages/DashboardPage";
+import perfumPage from "../../pages/PerfumPage";
 import {
   browserPause,
   maximizeWindow,
@@ -24,6 +25,28 @@ Given(/^User navigates to the application$/, async () => {
 
   // accept cookie
   await dashboardPage.acceptCookie();
+
+  // pause the browser for 5 seconds
+  await browserPause(5000);
+});
+
+When("User click on {string} tab", async (tabName: string) => {
+  // assert the dashboard page title
+  await dashboardPage.assertDashboardPageTitle();
+
+  // click on tab
+  await dashboardPage.clickOnTab(tabName);
+
+  // pause the browser for 5 seconds
+  await browserPause(5000);
+});
+
+Then("Verify user on the parfum page", async () => {
+  // assert the perfum page url
+  await perfumPage.assertPerfumPageUrl();
+
+  // assert the perfum page title
+  await perfumPage.assertPerfumPageTitle();
 
   // pause the browser for 5 seconds
   await browserPause(5000);

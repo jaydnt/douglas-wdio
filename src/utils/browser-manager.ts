@@ -13,3 +13,7 @@ export const maximizeWindow = async () => {
 export const browserPause = async (milliseconds: number) => {
   return await browser.pause(milliseconds);
 };
+
+export const getPageTitle = async () => {
+  return await browser.getTitle();
+};
