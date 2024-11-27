@@ -8,3 +8,15 @@
 2024-11-27 08:03:47 error: Wrong. 
 2024-11-27 08:04:50 info: Loading App.
 2024-11-27 08:04:57 error: Wrong. 
+2024-11-27 10:48:55 info: Loading App
+2024-11-27 10:49:02 info: Maximize Window
+2024-11-27 10:49:02 info: Asserting dashboard page url
+2024-11-27 10:49:03 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 10:51:54 info: Loading App
+2024-11-27 10:51:59 info: Maximize Window
+2024-11-27 10:51:59 info: Asserting dashboard page url
+2024-11-27 10:52:00 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 11:02:53 info: Loading App
+2024-11-27 11:03:01 info: Maximize Window
+2024-11-27 11:03:02 info: Asserting dashboard page url
+2024-11-27 11:03:02 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
