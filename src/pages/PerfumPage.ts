@@ -6,6 +6,7 @@ import {
 } from "../utils/helper";
 import action from "../core/action";
 import douglasAction from "../core/action";
+import { FrameworkError } from "../error/FrameworkError";
 
 class PerfumPage {
   private perfumPageElementXPath = {
@@ -32,14 +33,14 @@ class PerfumPage {
       const dropDownElement = await $(
         this.perfumPageElementXPath.selectDropDown(dropDownName)
       );
-      await action.waitForDisplay(dropDownElement, 15000);
+      // await action.waitForDisplay(dropDownElement, 200000);
       addWinstonInfoLog(`Click on ${dropDownName} Drop down`);
       await action.waitAndClick(dropDownElement);
     } catch (error) {
       const errorMessage = `Something went wrong in perfum Click DropDown  : ${error}`;
       addAllureReportLog(errorMessage);
       addWinstonErrorLog(errorMessage);
-      throw new Error(errorMessage);
+      throw new FrameworkError(errorMessage);
     }
   }
 
@@ -60,7 +61,7 @@ class PerfumPage {
       const errorMessage = `Something went wrong in Click On Dropdown Option : ${error}`;
       addAllureReportLog(errorMessage);
       addWinstonErrorLog(errorMessage);
-      throw new Error(errorMessage);
+      throw new FrameworkError(errorMessage);
     }
   }
 

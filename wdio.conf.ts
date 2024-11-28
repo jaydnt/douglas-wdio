@@ -1,6 +1,7 @@
 import fs from "fs";
 import appRoot from "app-root-path";
 import * as dotenv from "dotenv";
+import { FrameworkError } from "./src/error/FrameworkError";
 const setEnv = process.env.ENV ? process.env.ENV : "prod";
 dotenv.config({ path: `${appRoot}/.env.${setEnv}` });
 
@@ -58,6 +59,12 @@ export const config: WebdriverIO.Config = {
   afterStep: async function (step, scenario, result, context) {
     if (result.error) {
       await browser.takeScreenshot();
+    }
+  },
+
+  afterTest: async function (test, context, { error }) {
+    if (error) {
+      throw new FrameworkError(`Test failed: ${test.title}`, error);
     }
   },
 };

@@ -1,39 +1,54 @@
+import { FrameworkError } from "../error/FrameworkError";
+
 class Action {
-  constructor() {}
-
-  async getElement(selector: string) {
-    return await $(selector);
-  }
-
-  async getElements(selector: string) {
-    return await $$(selector);
-  }
-
   async click(element: any) {
-    return await element.click();
+    try {
+      return await element.click();
+    } catch (error) {
+      throw new FrameworkError(`Element not found: ${element}`, error);
+    }
   }
   async moveTo(element: any) {
     return await element.moveTo();
   }
 
   async waitAndClick(element: any) {
-    await element.waitForDisplayed();
-    return await element.click();
+    try {
+      await element.waitForDisplayed({
+        timeout: 200000,
+        timeoutMsg: "Element not displayed within the timeout",
+      });
+      return await element.click();
+    } catch (error) {
+      throw new FrameworkError(`Element not found: ${element}`, error);
+    }
   }
 
   async getText(element: any) {
-    return await element.getText();
+    try {
+      return await element.getText();
+    } catch (error) {
+      throw new FrameworkError(`Element not found: ${element}`, error);
+    }
   }
 
   async isDisplayed(element: any) {
-    return await element.isDisplayed();
+    try {
+      return await element.isDisplayed();
+    } catch (error) {
+      throw new FrameworkError(`Element not found: ${element}`, error);
+    }
   }
 
   async waitForDisplay(element: any, milliseconds: number) {
-    return await element.waitForDisplayed({
-      timeout: milliseconds,
-      timeoutMsg: "Element not displayed within the timeout",
-    });
+    try {
+      return await element.waitForDisplayed({
+        timeout: milliseconds,
+        timeoutMsg: "Element not displayed within the timeout",
+      });
+    } catch (error) {
+      throw new FrameworkError(`Element not found: ${element}`, error);
+    }
   }
 
   async openUrl(url: string) {
