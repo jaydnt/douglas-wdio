@@ -801,3 +801,715 @@ from javascript error: {"status":32,"value":"An invalid or illegal selector was 
 2024-11-28 00:38:03 info: Move to Serach Box
 2024-11-28 00:38:14 info: Click on Highlights Drop down
 2024-11-28 00:38:24 error: Something went wrong in perfum Click DropDown  : Error: element ("//div[@class='facet__title' and text()= Highlights]") still not displayed after 10000ms
+2024-11-28 11:31:56 info: Loading App
+2024-11-28 11:32:14 info: Maximize Window
+2024-11-28 11:32:14 info: Asserting dashboard page url
+2024-11-28 11:32:15 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 11:32:15 info: Accept Cookie
+2024-11-28 11:32:19 info: Asserting dashboard page title
+2024-11-28 11:32:21 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 11:32:21 info: Click on PARFUM
+2024-11-28 11:32:32 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 11:32:33 error: Something went wrong in Assert Perfum Page Title : AssertionError: Expected title is DOUGLAS, but found Online Parfümerie Douglas: expected 'Online Parfümerie Douglas' to include 'DOUGLAS'
+2024-11-28 11:35:08 info: Loading App
+2024-11-28 11:35:13 info: Maximize Window
+2024-11-28 11:35:14 info: Asserting dashboard page url
+2024-11-28 11:35:14 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 11:35:14 info: Accept Cookie
+2024-11-28 11:35:17 info: Asserting dashboard page title
+2024-11-28 11:35:18 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 11:35:18 info: Click on PARFUM
+2024-11-28 11:35:24 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 11:35:24 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 11:35:24 info: Move to Serach Box
+2024-11-28 11:35:29 info: Click on Highlights Drop down
+2024-11-28 11:35:39 error: Something went wrong in perfum Click DropDown  : Error: element ("//div[@class='facet__title' and text()= Highlights]") still not displayed after 10000ms
+2024-11-28 11:38:35 info: Loading App
+2024-11-28 11:38:39 info: Maximize Window
+2024-11-28 11:38:39 info: Asserting dashboard page url
+2024-11-28 11:38:40 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 11:38:40 info: Accept Cookie
+2024-11-28 11:38:44 info: Asserting dashboard page title
+2024-11-28 11:38:46 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 11:38:46 info: Click on PARFUM
+2024-11-28 11:38:51 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 11:38:51 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 11:38:51 info: Move to Serach Box
+2024-11-28 11:39:04 info: Click on Highlights Drop down
+2024-11-28 11:39:05 info: Click on NEU from Highlights Drop down
+2024-11-28 11:39:05 info: Asserting Filter option NEU
+2024-11-28 11:39:08 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 11:44:30 info: Loading App
+2024-11-28 11:44:36 info: Maximize Window
+2024-11-28 11:44:36 info: Asserting dashboard page url
+2024-11-28 11:44:37 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 11:44:37 info: Accept Cookie
+2024-11-28 11:44:40 info: Asserting dashboard page title
+2024-11-28 11:44:41 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 11:44:41 info: Click on PARFUM
+2024-11-28 11:44:47 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 11:44:47 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 11:44:47 info: Move to Serach Box
+2024-11-28 11:44:48 info: Click on Highlights Drop down
+2024-11-28 11:44:54 info: Click on NEU from Highlights Drop down
+2024-11-28 11:44:56 info: Asserting Filter option NEU
+2024-11-28 11:44:57 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 11:47:40 info: Loading App
+2024-11-28 11:47:46 info: Maximize Window
+2024-11-28 11:47:46 info: Asserting dashboard page url
+2024-11-28 11:47:46 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 11:47:46 info: Accept Cookie
+2024-11-28 11:47:50 info: Asserting dashboard page title
+2024-11-28 11:47:51 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 11:47:51 info: Click on PARFUM
+2024-11-28 11:48:02 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 11:48:03 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 11:48:03 info: Move to Serach Box
+2024-11-28 11:48:17 info: Click on Highlights Drop down
+2024-11-28 11:48:17 info: Click on NEU from Highlights Drop down
+2024-11-28 11:48:18 info: Asserting Filter option NEU
+2024-11-28 11:48:20 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 11:54:11 info: Loading App
+2024-11-28 11:54:16 info: Maximize Window
+2024-11-28 11:54:17 info: Asserting dashboard page url
+2024-11-28 11:54:17 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 11:54:17 info: Accept Cookie
+2024-11-28 11:54:21 info: Asserting dashboard page title
+2024-11-28 11:54:23 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 11:54:23 info: Click on PARFUM
+2024-11-28 11:54:28 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 11:54:29 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 11:54:29 info: Move to Serach Box
+2024-11-28 11:54:32 info: Click on Highlights Drop down
+2024-11-28 11:54:39 info: Click on NEU from Highlights Drop down
+2024-11-28 11:54:40 info: Asserting Filter option NEU
+2024-11-28 11:54:41 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 11:55:59 info: Loading App
+2024-11-28 11:56:04 info: Maximize Window
+2024-11-28 11:56:04 info: Asserting dashboard page url
+2024-11-28 11:56:05 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 11:56:05 info: Accept Cookie
+2024-11-28 11:56:10 info: Asserting dashboard page title
+2024-11-28 11:56:11 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 11:56:11 info: Click on PARFUM
+2024-11-28 11:56:18 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 11:56:19 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 11:56:19 info: Move to Serach Box
+2024-11-28 11:56:20 info: Click on Highlights Drop down
+2024-11-28 11:56:27 info: Click on NEU from Highlights Drop down
+2024-11-28 11:56:28 info: Asserting Filter option NEU
+2024-11-28 11:56:28 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 11:59:07 info: Loading App
+2024-11-28 11:59:12 info: Maximize Window
+2024-11-28 11:59:13 info: Asserting dashboard page url
+2024-11-28 11:59:13 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 11:59:13 info: Accept Cookie
+2024-11-28 11:59:17 info: Asserting dashboard page title
+2024-11-28 11:59:18 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 11:59:18 info: Click on PARFUM
+2024-11-28 11:59:24 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 11:59:25 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 11:59:25 info: Move to Serach Box
+2024-11-28 11:59:36 info: Click on Highlights Drop down
+2024-11-28 11:59:36 info: Click on NEU from Highlights Drop down
+2024-11-28 11:59:37 info: Asserting Filter option NEU
+2024-11-28 11:59:38 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 12:00:49 info: Loading App
+2024-11-28 12:00:56 info: Maximize Window
+2024-11-28 12:00:57 info: Asserting dashboard page url
+2024-11-28 12:00:57 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 12:00:57 info: Accept Cookie
+2024-11-28 12:01:00 info: Asserting dashboard page title
+2024-11-28 12:01:01 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 12:01:01 info: Click on PARFUM
+2024-11-28 12:01:07 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 12:01:08 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 12:01:08 info: Move to Serach Box
+2024-11-28 12:01:21 info: Click on Highlights Drop down
+2024-11-28 12:01:21 info: Click on NEU from Highlights Drop down
+2024-11-28 12:01:22 info: Asserting Filter option NEU
+2024-11-28 12:01:23 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 12:04:28 info: Loading App
+2024-11-28 12:04:36 info: Maximize Window
+2024-11-28 12:04:36 info: Asserting dashboard page url
+2024-11-28 12:04:36 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 12:04:36 info: Accept Cookie
+2024-11-28 12:04:40 info: Asserting dashboard page title
+2024-11-28 12:04:43 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 12:04:43 info: Click on PARFUM
+2024-11-28 12:04:47 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 12:04:48 info: Move to Serach Box
+2024-11-28 12:04:48 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 12:04:49 info: Click on Highlights Drop down
+2024-11-28 12:04:56 info: Click on NEU from Highlights Drop down
+2024-11-28 12:04:57 info: Asserting Filter option NEU
+2024-11-28 12:04:57 error: Something went wrong in Assert Filter Option : TypeError: element.waitForDisplayed is not a function
+2024-11-28 12:06:38 info: Loading App
+2024-11-28 12:06:42 info: Maximize Window
+2024-11-28 12:06:43 info: Asserting dashboard page url
+2024-11-28 12:06:43 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 12:06:43 info: Accept Cookie
+2024-11-28 12:06:47 info: Asserting dashboard page title
+2024-11-28 12:06:48 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 12:06:48 info: Click on PARFUM
+2024-11-28 12:07:02 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 12:07:02 info: Expected title is douglas, but found online parfümerie douglas
+2024-11-28 12:07:02 info: Move to Serach Box
+2024-11-28 12:07:10 info: Click on Highlights Drop down
+2024-11-28 12:07:12 info: Click on NEU from Highlights Drop down
+2024-11-28 12:07:13 info: Asserting Filter option NEU
+2024-11-28 12:07:13 error: Something went wrong in Assert Filter Option : TypeError: element.waitForDisplayed is not a function
+2024-11-28 12:10:22 info: Loading App
+2024-11-28 12:10:26 info: Maximize Window
+2024-11-28 12:10:26 info: Asserting dashboard page url
+2024-11-28 12:10:26 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 12:10:26 info: Accept Cookie
+2024-11-28 12:10:31 info: Asserting dashboard page title
+2024-11-28 12:10:38 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 12:10:38 info: Click on PARFUM
+2024-11-28 12:10:43 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 12:10:45 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 12:10:45 info: Move to Serach Box
+2024-11-28 12:10:46 info: Click on Highlights Drop down
+2024-11-28 12:10:52 info: Click on NEU from Highlights Drop down
+2024-11-28 12:10:53 info: Asserting Filter option NEU
+2024-11-28 12:10:54 error: Something went wrong in Assert Filter Option : TypeError: element.isDisplayed is not a function
+2024-11-28 12:11:27 info: Loading App
+2024-11-28 12:11:33 info: Maximize Window
+2024-11-28 12:11:34 info: Asserting dashboard page url
+2024-11-28 12:11:34 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 12:11:34 info: Accept Cookie
+2024-11-28 12:11:37 info: Asserting dashboard page title
+2024-11-28 12:11:45 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 12:11:45 info: Click on PARFUM
+2024-11-28 12:11:50 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 12:11:50 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 12:11:50 info: Move to Serach Box
+2024-11-28 12:11:54 info: Click on Highlights Drop down
+2024-11-28 12:12:02 info: Click on NEU from Highlights Drop down
+2024-11-28 12:12:03 info: Asserting Filter option NEU
+2024-11-28 12:12:04 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 12:17:03 info: Loading App
+2024-11-28 12:17:08 info: Maximize Window
+2024-11-28 12:17:08 info: Asserting dashboard page url
+2024-11-28 12:17:08 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 12:17:08 info: Accept Cookie
+2024-11-28 12:17:11 info: Asserting dashboard page title
+2024-11-28 12:17:12 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 12:17:12 info: Click on PARFUM
+2024-11-28 12:17:17 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 12:17:17 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 12:17:17 info: Move to Serach Box
+2024-11-28 12:17:19 info: Click on Highlights Drop down
+2024-11-28 12:17:26 info: Click on NEU from Highlights Drop down
+2024-11-28 12:17:27 info: Asserting Filter option NEU
+2024-11-28 12:17:27 info: Expected filter option is NEU, but found 
+2024-11-28 12:17:27 info: Fetching pagination details
+2024-11-28 12:17:31 info: Validating filter tag on page 1 of 16
+2024-11-28 12:17:31 info: Total pages to validate: 16
+2024-11-28 12:21:33 info: Loading App
+2024-11-28 12:21:40 info: Maximize Window
+2024-11-28 12:21:40 info: Asserting dashboard page url
+2024-11-28 12:21:40 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 12:21:40 info: Accept Cookie
+2024-11-28 12:21:43 info: Asserting dashboard page title
+2024-11-28 12:21:45 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 12:21:45 info: Click on PARFUM
+2024-11-28 12:21:49 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 12:21:49 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 12:21:49 info: Move to Serach Box
+2024-11-28 12:21:52 error: Something went wrong in perfum Click DropDown  : stale element reference: WebDriverError: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.86) when running "actions" with method "POST" and args "{"actions":[{"id":"action5","type":"pointer","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","button":0,"x":0,"y":0,"duration":100,"origin":{"element-6066-11e4-a52e-4f735466cecf":"f.72B472172B0996DAB31D72C8056F5824.d.1AF547EF07D9D843FB67722CB6137DB5.e.154"}}]}]}"
+2024-11-28 12:23:53 info: Loading App
+2024-11-28 12:24:02 info: Maximize Window
+2024-11-28 12:24:02 info: Asserting dashboard page url
+2024-11-28 12:24:02 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 12:24:02 info: Accept Cookie
+2024-11-28 12:24:05 info: Asserting dashboard page title
+2024-11-28 12:24:06 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 12:24:06 info: Click on PARFUM
+2024-11-28 12:24:13 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 12:24:13 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 12:24:13 info: Move to Serach Box
+2024-11-28 12:24:22 info: Click on Highlights Drop down
+2024-11-28 12:24:23 info: Click on NEU from Highlights Drop down
+2024-11-28 12:24:24 info: Asserting Filter option NEU
+2024-11-28 12:24:25 info: Expected filter option is NEU, but found 
+2024-11-28 12:24:25 info: Fetching pagination details
+2024-11-28 12:24:30 info: Total pages to validate: 16
+2024-11-28 12:24:30 info: Validating filter tag on page 1 of 16
+2024-11-28 12:27:03 info: Loading App
+2024-11-28 12:27:11 info: Maximize Window
+2024-11-28 12:27:11 info: Asserting dashboard page url
+2024-11-28 12:27:12 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 12:27:12 info: Accept Cookie
+2024-11-28 12:27:14 info: Asserting dashboard page title
+2024-11-28 12:27:15 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 12:27:15 info: Click on PARFUM
+2024-11-28 12:27:21 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 12:27:21 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 12:27:21 info: Move to Serach Box
+2024-11-28 12:27:33 info: Click on Highlights Drop down
+2024-11-28 12:27:33 info: Click on NEU from Highlights Drop down
+2024-11-28 12:27:34 info: Asserting Filter option NEU
+2024-11-28 12:27:34 info: Expected filter option is NEU, but found 
+2024-11-28 12:27:34 info: Fetching pagination details
+2024-11-28 12:27:39 info: Total pages to validate: 16
+2024-11-28 12:27:39 info: Validating filter tag on page 1 of 16
+2024-11-28 12:27:41 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 12:27:41 info: Filter verification successful on this page
+2024-11-28 12:27:41 info: Navigating to page 2
+2024-11-28 12:27:41 info: Validating filter tag on page 2 of 16
+2024-11-28 12:32:32 info: Loading App
+2024-11-28 12:32:38 info: Maximize Window
+2024-11-28 12:32:38 info: Asserting dashboard page url
+2024-11-28 12:32:38 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 12:32:38 info: Accept Cookie
+2024-11-28 12:32:45 info: Asserting dashboard page title
+2024-11-28 12:32:48 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 12:32:48 info: Click on PARFUM
+2024-11-28 12:32:54 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 12:32:54 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 12:32:54 info: Move to Serach Box
+2024-11-28 12:33:04 info: Click on Highlights Drop down
+2024-11-28 12:33:06 info: Click on NEU from Highlights Drop down
+2024-11-28 12:33:06 info: Asserting Filter option NEU
+2024-11-28 12:33:07 info: Expected filter option is NEU, but found 
+2024-11-28 12:33:07 info: Fetching pagination details
+2024-11-28 12:33:11 info: Total pages to validate: 16
+2024-11-28 12:33:11 info: Validating filter tag on page 1 of 16
+2024-11-28 12:33:12 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 12:33:12 info: Filter verification successful on this page
+2024-11-28 12:33:12 info: Navigating to page 2
+2024-11-28 12:33:13 info: Validating filter tag on page 2 of 16
+2024-11-28 12:37:33 info: Loading App
+2024-11-28 12:37:39 info: Maximize Window
+2024-11-28 12:37:39 info: Asserting dashboard page url
+2024-11-28 12:37:39 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 12:37:39 info: Accept Cookie
+2024-11-28 12:37:43 info: Asserting dashboard page title
+2024-11-28 12:37:47 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 12:37:47 info: Click on PARFUM
+2024-11-28 12:37:51 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 12:37:54 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 12:37:54 info: Move to Serach Box
+2024-11-28 12:38:01 info: Click on Highlights Drop down
+2024-11-28 12:38:02 info: Click on NEU from Highlights Drop down
+2024-11-28 12:38:03 info: Asserting Filter option NEU
+2024-11-28 12:38:03 info: Expected filter option is NEU, but found 
+2024-11-28 12:38:03 info: Fetching pagination details
+2024-11-28 12:38:07 info: Total pages to validate: 16
+2024-11-28 12:38:07 info: Validating filter tag on page 1 of 16
+2024-11-28 12:38:08 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 12:38:08 info: Filter verification successful on this page
+2024-11-28 12:38:08 info: Navigating to page 2
+2024-11-28 12:38:09 info: Validating filter tag on page 2 of 16
+2024-11-28 12:42:02 info: Loading App
+2024-11-28 12:42:07 info: Maximize Window
+2024-11-28 12:42:08 info: Asserting dashboard page url
+2024-11-28 12:42:08 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 12:42:08 info: Accept Cookie
+2024-11-28 12:42:12 info: Asserting dashboard page title
+2024-11-28 12:42:13 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 12:42:13 info: Click on PARFUM
+2024-11-28 12:42:19 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 12:42:19 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 12:42:19 info: Move to Serach Box
+2024-11-28 12:42:28 info: Click on Highlights Drop down
+2024-11-28 12:42:29 info: Click on NEU from Highlights Drop down
+2024-11-28 12:42:29 info: Asserting Filter option NEU
+2024-11-28 12:42:30 info: Expected filter option is NEU, but found 
+2024-11-28 12:42:30 info: Fetching pagination details
+2024-11-28 12:42:34 info: Total pages to validate: 16
+2024-11-28 12:42:34 info: Validating filter tag on page 1 of 16
+2024-11-28 12:42:37 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 12:42:37 info: Filter verification successful on this page
+2024-11-28 12:42:37 info: Navigating to page 2
+2024-11-28 12:42:37 info: Validating filter tag on page 2 of 16
+2024-11-28 12:44:36 info: Loading App
+2024-11-28 12:44:42 info: Maximize Window
+2024-11-28 12:44:42 info: Asserting dashboard page url
+2024-11-28 12:44:43 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 12:44:43 info: Accept Cookie
+2024-11-28 12:44:46 info: Asserting dashboard page title
+2024-11-28 12:44:47 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 12:44:47 info: Click on PARFUM
+2024-11-28 12:44:54 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 12:44:54 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 12:44:54 info: Move to Serach Box
+2024-11-28 12:45:06 info: Click on Highlights Drop down
+2024-11-28 12:45:06 info: Click on NEU from Highlights Drop down
+2024-11-28 12:45:07 info: Asserting Filter option NEU
+2024-11-28 12:45:08 info: Expected filter option is NEU, but found 
+2024-11-28 12:45:08 info: Fetching pagination details
+2024-11-28 12:45:11 info: Total pages to validate: 16
+2024-11-28 12:45:11 info: Validating filter tag on page 1 of 16
+2024-11-28 12:45:14 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 12:45:14 info: Filter verification successful on this page
+2024-11-28 12:45:14 info: Navigating to page 2
+2024-11-28 12:45:14 info: Validating filter tag on page 2 of 16
+2024-11-28 12:55:50 info: Loading App
+2024-11-28 12:55:54 info: Maximize Window
+2024-11-28 12:55:55 info: Asserting dashboard page url
+2024-11-28 12:55:57 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 12:55:57 info: Accept Cookie
+2024-11-28 12:56:02 info: Asserting dashboard page title
+2024-11-28 12:56:04 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 12:56:04 info: Click on PARFUM
+2024-11-28 12:56:12 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 12:56:13 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 12:56:13 info: Move to Serach Box
+2024-11-28 12:56:24 info: Click on Highlights Drop down
+2024-11-28 12:56:24 info: Click on NEU from Highlights Drop down
+2024-11-28 12:56:25 info: Asserting Filter option NEU
+2024-11-28 12:56:26 info: Expected filter option is NEU, but found 
+2024-11-28 12:56:26 info: Fetching pagination details
+2024-11-28 12:56:31 info: Total pages to validate: 16
+2024-11-28 12:56:31 info: Validating filter tag on page 1 of 16
+2024-11-28 12:56:34 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 12:56:34 info: Filter verification successful on this page
+2024-11-28 12:56:34 info: Navigating to page 2
+2024-11-28 12:56:38 info: Validating filter tag on page 2 of 16
+2024-11-28 12:56:40 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 12:56:40 info: Filter verification successful on this page
+2024-11-28 12:56:40 info: Navigating to page 3
+2024-11-28 12:56:45 info: Validating filter tag on page 3 of 16
+2024-11-28 12:56:49 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 12:56:49 info: Filter verification successful on this page
+2024-11-28 12:56:49 info: Navigating to page 4
+2024-11-28 12:56:53 info: Validating filter tag on page 4 of 16
+2024-11-28 12:56:56 info: Filter verification successful on this page
+2024-11-28 12:56:56 info: Navigating to page 5
+2024-11-28 12:56:56 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 12:57:01 info: Validating filter tag on page 5 of 16
+2024-11-28 12:57:06 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 12:57:06 info: Filter verification successful on this page
+2024-11-28 12:57:06 info: Navigating to page 6
+2024-11-28 12:57:10 info: Validating filter tag on page 6 of 16
+2024-11-28 12:57:14 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 12:57:14 info: Filter verification successful on this page
+2024-11-28 12:57:14 info: Navigating to page 7
+2024-11-28 12:57:19 info: Validating filter tag on page 7 of 16
+2024-11-28 12:57:21 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 12:57:21 info: Filter verification successful on this page
+2024-11-28 12:57:21 info: Navigating to page 8
+2024-11-28 12:57:26 info: Validating filter tag on page 8 of 16
+2024-11-28 12:57:28 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 12:57:28 info: Filter verification successful on this page
+2024-11-28 12:57:28 info: Navigating to page 9
+2024-11-28 12:57:33 info: Validating filter tag on page 9 of 16
+2024-11-28 12:57:36 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 12:57:36 info: Filter verification successful on this page
+2024-11-28 12:57:36 info: Navigating to page 10
+2024-11-28 12:57:41 info: Validating filter tag on page 10 of 16
+2024-11-28 12:57:45 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 12:57:45 info: Filter verification successful on this page
+2024-11-28 12:57:45 info: Navigating to page 11
+2024-11-28 12:57:49 info: Validating filter tag on page 11 of 16
+2024-11-28 12:57:53 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 12:57:53 info: Filter verification successful on this page
+2024-11-28 12:57:53 info: Navigating to page 12
+2024-11-28 12:57:58 info: Validating filter tag on page 12 of 16
+2024-11-28 12:58:01 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 12:58:01 info: Filter verification successful on this page
+2024-11-28 12:58:01 info: Navigating to page 13
+2024-11-28 12:58:06 info: Validating filter tag on page 13 of 16
+2024-11-28 12:58:09 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 12:58:09 info: Filter verification successful on this page
+2024-11-28 12:58:09 info: Navigating to page 14
+2024-11-28 12:58:14 info: Validating filter tag on page 14 of 16
+2024-11-28 12:58:18 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 12:58:18 info: Filter verification successful on this page
+2024-11-28 12:58:18 info: Navigating to page 15
+2024-11-28 12:58:22 info: Validating filter tag on page 15 of 16
+2024-11-28 12:58:26 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 12:58:26 info: Filter verification successful on this page
+2024-11-28 12:58:26 info: Navigating to page 16
+2024-11-28 12:58:31 info: Validating filter tag on page 16 of 16
+2024-11-28 12:58:32 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 12:58:32 info: Filter verification successful on this page
+2024-11-28 12:58:32 info: Reached the last page, stopping pagination.
+2024-11-28 13:03:37 info: Loading App
+2024-11-28 13:03:41 info: Maximize Window
+2024-11-28 13:03:42 info: Asserting dashboard page url
+2024-11-28 13:03:42 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 13:03:42 info: Accept Cookie
+2024-11-28 13:03:48 info: Asserting dashboard page title
+2024-11-28 13:03:49 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 13:03:49 info: Click on PARFUM
+2024-11-28 13:03:57 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 13:03:57 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 13:03:57 info: Move to Serach Box
+2024-11-28 13:04:04 info: Click on Highlights Drop down
+2024-11-28 13:04:05 info: Click on NEU from Highlights Drop down
+2024-11-28 13:04:05 info: Asserting Filter option NEU
+2024-11-28 13:04:08 info: Expected filter option is NEU, but found NEU
+2024-11-28 13:04:08 info: Fetching pagination details
+2024-11-28 13:04:09 info: Total pages to validate: 16
+2024-11-28 13:04:10 info: Validating filter tag on page 1 of 16
+2024-11-28 13:04:12 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:04:12 info: Filter verification successful on this page
+2024-11-28 13:04:12 info: Navigating to page 2
+2024-11-28 13:04:12 info: Validating filter tag on page 2 of 16
+2024-11-28 13:06:07 info: Loading App
+2024-11-28 13:06:12 info: Maximize Window
+2024-11-28 13:06:13 info: Asserting dashboard page url
+2024-11-28 13:06:14 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 13:06:14 info: Accept Cookie
+2024-11-28 13:06:16 info: Asserting dashboard page title
+2024-11-28 13:06:23 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 13:06:23 info: Click on PARFUM
+2024-11-28 13:06:28 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 13:06:31 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 13:06:31 info: Move to Serach Box
+2024-11-28 13:06:38 info: Click on Highlights Drop down
+2024-11-28 13:06:39 info: Click on NEU from Highlights Drop down
+2024-11-28 13:06:40 info: Asserting Filter option NEU
+2024-11-28 13:06:42 info: Expected filter option is NEU, but found NEU
+2024-11-28 13:06:42 info: Fetching pagination details
+2024-11-28 13:06:45 info: Total pages to validate: 16
+2024-11-28 13:06:45 info: Validating filter tag on page 1 of 16
+2024-11-28 13:06:47 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:06:47 info: Filter verification successful on this page
+2024-11-28 13:06:47 info: Navigating to page 2
+2024-11-28 13:06:51 info: Validating filter tag on page 2 of 16
+2024-11-28 13:06:54 info: Filter verification successful on this page
+2024-11-28 13:06:54 info: Navigating to page 3
+2024-11-28 13:06:54 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:06:59 info: Validating filter tag on page 3 of 16
+2024-11-28 13:07:00 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:07:00 info: Filter verification successful on this page
+2024-11-28 13:07:00 info: Navigating to page 4
+2024-11-28 13:07:05 info: Validating filter tag on page 4 of 16
+2024-11-28 13:07:07 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:07:07 info: Filter verification successful on this page
+2024-11-28 13:07:07 info: Navigating to page 5
+2024-11-28 13:07:12 info: Validating filter tag on page 5 of 16
+2024-11-28 13:07:13 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:07:13 info: Filter verification successful on this page
+2024-11-28 13:07:13 info: Navigating to page 6
+2024-11-28 13:07:17 info: Validating filter tag on page 6 of 16
+2024-11-28 13:07:19 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:07:19 info: Filter verification successful on this page
+2024-11-28 13:07:19 info: Navigating to page 7
+2024-11-28 13:07:24 info: Validating filter tag on page 7 of 16
+2024-11-28 13:07:25 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:07:25 info: Filter verification successful on this page
+2024-11-28 13:07:25 info: Navigating to page 8
+2024-11-28 13:07:30 info: Validating filter tag on page 8 of 16
+2024-11-28 13:07:32 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:07:32 info: Filter verification successful on this page
+2024-11-28 13:07:32 info: Navigating to page 9
+2024-11-28 13:07:37 info: Validating filter tag on page 9 of 16
+2024-11-28 13:07:39 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:07:39 info: Filter verification successful on this page
+2024-11-28 13:07:39 info: Navigating to page 10
+2024-11-28 13:07:44 info: Validating filter tag on page 10 of 16
+2024-11-28 13:07:45 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:07:45 info: Filter verification successful on this page
+2024-11-28 13:07:45 info: Navigating to page 11
+2024-11-28 13:07:50 info: Validating filter tag on page 11 of 16
+2024-11-28 13:07:53 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:07:53 info: Filter verification successful on this page
+2024-11-28 13:07:53 info: Navigating to page 12
+2024-11-28 13:07:58 info: Validating filter tag on page 12 of 16
+2024-11-28 13:08:00 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:08:00 info: Filter verification successful on this page
+2024-11-28 13:08:00 info: Navigating to page 13
+2024-11-28 13:08:05 info: Validating filter tag on page 13 of 16
+2024-11-28 13:08:09 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:08:09 info: Filter verification successful on this page
+2024-11-28 13:08:09 info: Navigating to page 14
+2024-11-28 13:08:14 info: Validating filter tag on page 14 of 16
+2024-11-28 13:08:18 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:08:18 info: Filter verification successful on this page
+2024-11-28 13:08:18 info: Navigating to page 15
+2024-11-28 13:08:22 info: Validating filter tag on page 15 of 16
+2024-11-28 13:08:25 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:08:25 info: Filter verification successful on this page
+2024-11-28 13:08:25 info: Navigating to page 16
+2024-11-28 13:08:30 info: Validating filter tag on page 16 of 16
+2024-11-28 13:08:30 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:08:30 info: Filter verification successful on this page
+2024-11-28 13:08:30 info: Reached the last page, stopping pagination.
+2024-11-28 13:14:52 info: Loading App
+2024-11-28 13:14:56 info: Maximize Window
+2024-11-28 13:14:57 info: Asserting dashboard page url
+2024-11-28 13:14:57 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 13:14:57 info: Accept Cookie
+2024-11-28 13:15:03 info: Asserting dashboard page title
+2024-11-28 13:15:06 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 13:15:06 info: Click on PARFUM
+2024-11-28 13:15:11 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 13:15:11 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 13:15:11 info: Move to Serach Box
+2024-11-28 13:15:21 info: Click on Highlights Drop down
+2024-11-28 13:15:21 info: Click on NEU from Highlights Drop down
+2024-11-28 13:15:22 info: Asserting Filter option NEU
+2024-11-28 13:15:23 info: Expected filter option is NEU, but found 
+2024-11-28 13:15:23 info: Fetching pagination details
+2024-11-28 13:15:27 info: Total pages to validate: 16
+2024-11-28 13:15:27 info: Validating filter tag on page 1 of 16
+2024-11-28 13:15:29 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:15:29 info: Filter verification successful on this page
+2024-11-28 13:15:29 info: Navigating to page 2
+2024-11-28 13:15:30 info: Validating filter tag on page 2 of 16
+2024-11-28 13:18:23 info: Loading App
+2024-11-28 13:18:27 info: Maximize Window
+2024-11-28 13:18:27 info: Asserting dashboard page url
+2024-11-28 13:18:28 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 13:18:28 info: Accept Cookie
+2024-11-28 13:18:31 info: Asserting dashboard page title
+2024-11-28 13:18:32 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 13:18:32 info: Click on PARFUM
+2024-11-28 13:18:38 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 13:18:38 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 13:18:38 info: Move to Serach Box
+2024-11-28 13:18:46 info: Click on Highlights Drop down
+2024-11-28 13:18:48 info: Click on NEU from Highlights Drop down
+2024-11-28 13:18:49 info: Asserting Filter option NEU
+2024-11-28 13:18:49 info: Expected filter option is NEU, but found 
+2024-11-28 13:18:49 info: Fetching pagination details
+2024-11-28 13:18:54 info: Total pages to validate: 16
+2024-11-28 13:18:54 info: Validating filter tag on page 1 of 16
+2024-11-28 13:18:56 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:18:56 info: Filter verification successful on this page
+2024-11-28 13:18:56 info: Navigating to page 2
+2024-11-28 13:19:01 info: Validating filter tag on page 2 of 16
+2024-11-28 13:19:05 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:19:05 info: Filter verification successful on this page
+2024-11-28 13:19:05 info: Navigating to page 3
+2024-11-28 13:19:09 info: Validating filter tag on page 3 of 16
+2024-11-28 13:19:11 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:19:11 info: Filter verification successful on this page
+2024-11-28 13:19:11 info: Navigating to page 4
+2024-11-28 13:19:16 info: Validating filter tag on page 4 of 16
+2024-11-28 13:19:19 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:19:19 info: Filter verification successful on this page
+2024-11-28 13:19:19 info: Navigating to page 5
+2024-11-28 13:19:24 info: Validating filter tag on page 5 of 16
+2024-11-28 13:19:26 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:19:26 info: Filter verification successful on this page
+2024-11-28 13:19:26 info: Navigating to page 6
+2024-11-28 13:19:57 info: Loading App
+2024-11-28 13:20:03 info: Maximize Window
+2024-11-28 13:20:04 info: Asserting dashboard page url
+2024-11-28 13:20:04 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 13:20:04 info: Accept Cookie
+2024-11-28 13:20:06 info: Asserting dashboard page title
+2024-11-28 13:20:08 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 13:20:08 info: Click on PARFUM
+2024-11-28 13:20:13 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 13:20:13 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 13:20:13 info: Move to Serach Box
+2024-11-28 13:20:21 info: Click on Highlights Drop down
+2024-11-28 13:20:23 info: Click on NEU from Highlights Drop down
+2024-11-28 13:20:24 info: Asserting Filter option NEU
+2024-11-28 13:20:24 info: Fetching pagination details
+2024-11-28 13:20:24 info: Expected filter option is NEU, but found 
+2024-11-28 13:20:28 info: Total pages to validate: 16
+2024-11-28 13:20:28 info: Validating filter tag on page 1 of 16
+2024-11-28 13:20:30 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:20:30 info: Filter verification successful on this page
+2024-11-28 13:20:30 info: Navigating to page 2
+2024-11-28 13:20:31 info: Validating filter tag on page 2 of 16
+2024-11-28 13:20:39 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:20:39 info: Filter verification successful on this page
+2024-11-28 13:20:39 info: Navigating to page 3
+2024-11-28 13:20:41 info: Validating filter tag on page 3 of 16
+2024-11-28 13:32:10 info: Loading App
+2024-11-28 13:32:15 info: Maximize Window
+2024-11-28 13:32:15 info: Asserting dashboard page url
+2024-11-28 13:32:16 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 13:32:16 info: Accept Cookie
+2024-11-28 13:32:19 info: Asserting dashboard page title
+2024-11-28 13:32:22 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 13:32:22 info: Click on PARFUM
+2024-11-28 13:32:28 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 13:32:28 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 13:32:28 info: Move to Serach Box
+2024-11-28 13:32:41 info: Click on Highlights Drop down
+2024-11-28 13:32:41 info: Click on NEU from Highlights Drop down
+2024-11-28 13:32:42 info: Asserting Filter option NEU
+2024-11-28 13:32:44 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 13:42:25 info: Loading App
+2024-11-28 13:42:29 info: Maximize Window
+2024-11-28 13:42:30 info: Asserting dashboard page url
+2024-11-28 13:42:30 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 13:42:30 info: Accept Cookie
+2024-11-28 13:42:35 info: Asserting dashboard page title
+2024-11-28 13:42:35 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 13:42:35 info: Click on PARFUM
+2024-11-28 13:42:43 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 13:42:43 info: Expected title is douglas, but found douglas ✔️ black friday | 20 % rabatt & mehr
+2024-11-28 13:42:43 info: Move to Serach Box
+2024-11-28 13:42:50 info: Click on Highlights Drop down
+2024-11-28 13:42:51 info: Click on NEU from Highlights Drop down
+2024-11-28 13:42:52 info: Asserting Filter option NEU
+2024-11-28 13:42:52 info: Expected filter option is NEU, but found 
+2024-11-28 13:42:52 info: Fetching pagination details
+2024-11-28 13:42:58 info: Total pages to validate: 16
+2024-11-28 13:42:58 info: Validating filter tag on page 1 of 16
+2024-11-28 13:43:00 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:43:00 info: Filter verification successful on this page
+2024-11-28 13:43:00 info: Navigating to page 2
+2024-11-28 13:43:05 info: Validating filter tag on page 2 of 16
+2024-11-28 13:43:06 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:43:06 info: Filter verification successful on this page
+2024-11-28 13:43:06 info: Navigating to page 3
+2024-11-28 13:43:11 info: Validating filter tag on page 3 of 16
+2024-11-28 13:43:13 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:43:13 info: Filter verification successful on this page
+2024-11-28 13:43:13 info: Navigating to page 4
+2024-11-28 13:43:18 info: Validating filter tag on page 4 of 16
+2024-11-28 13:43:20 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:43:20 info: Filter verification successful on this page
+2024-11-28 13:43:20 info: Navigating to page 5
+2024-11-28 13:43:25 info: Validating filter tag on page 5 of 16
+2024-11-28 13:43:27 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:43:27 info: Filter verification successful on this page
+2024-11-28 13:43:27 info: Navigating to page 6
+2024-11-28 13:43:31 info: Validating filter tag on page 6 of 16
+2024-11-28 13:43:35 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:43:35 info: Filter verification successful on this page
+2024-11-28 13:43:35 info: Navigating to page 7
+2024-11-28 13:43:39 info: Validating filter tag on page 7 of 16
+2024-11-28 13:43:42 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:43:42 info: Navigating to page 8
+2024-11-28 13:43:42 info: Filter verification successful on this page
+2024-11-28 13:43:47 info: Validating filter tag on page 8 of 16
+2024-11-28 13:43:52 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:43:52 info: Filter verification successful on this page
+2024-11-28 13:43:52 info: Navigating to page 9
+2024-11-28 13:43:57 info: Validating filter tag on page 9 of 16
+2024-11-28 13:43:59 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:43:59 info: Filter verification successful on this page
+2024-11-28 13:43:59 info: Navigating to page 10
+2024-11-28 13:44:04 info: Validating filter tag on page 10 of 16
+2024-11-28 13:44:07 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:44:07 info: Filter verification successful on this page
+2024-11-28 13:44:07 info: Navigating to page 11
+2024-11-28 13:44:11 info: Validating filter tag on page 11 of 16
+2024-11-28 13:44:15 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:44:15 info: Filter verification successful on this page
+2024-11-28 13:44:15 info: Navigating to page 12
+2024-11-28 13:44:19 info: Validating filter tag on page 12 of 16
+2024-11-28 13:44:22 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:44:22 info: Filter verification successful on this page
+2024-11-28 13:44:22 info: Navigating to page 13
+2024-11-28 13:44:28 info: Validating filter tag on page 13 of 16
+2024-11-28 13:44:33 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:44:33 info: Filter verification successful on this page
+2024-11-28 13:44:33 info: Navigating to page 14
+2024-11-28 13:44:39 info: Validating filter tag on page 14 of 16
+2024-11-28 13:44:41 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:44:41 info: Filter verification successful on this page
+2024-11-28 13:44:41 info: Navigating to page 15
+2024-11-28 13:44:46 info: Validating filter tag on page 15 of 16
+2024-11-28 13:44:49 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:44:49 info: Navigating to page 16
+2024-11-28 13:44:49 info: Filter verification successful on this page
+2024-11-28 13:44:54 info: Validating filter tag on page 16 of 16
+2024-11-28 13:44:58 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 13:44:58 info: Filter verification successful on this page
+2024-11-28 13:44:58 info: Reached the last page, stopping pagination.

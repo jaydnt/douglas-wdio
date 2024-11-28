@@ -20,17 +20,13 @@ class DashboardPage {
 
   async assertDashboardPageURL() {
     try {
-      // logs in report and winston
       addAllureReportLog("Asserting dashboard page url");
       addWinstonInfoLog("Asserting dashboard page url");
 
-      // Get page details from data files
       const getDashboardPageDetails = await getResourcePageDetails("DASHBOARD");
 
-      // Get current page url from browser
       const getCurrentPageUrl = await getBrowserUrl();
 
-      // asserting dashboard page
       const assertMessage = `Expected URL to be ${getDashboardPageDetails?.pageUrl}, but found ${getCurrentPageUrl}`;
       expect(getCurrentPageUrl).to.equal(
         getDashboardPageDetails?.pageUrl,
@@ -49,7 +45,6 @@ class DashboardPage {
 
   async acceptCookie() {
     try {
-      // logs in report and winston
       addAllureReportLog("Accept Cookie");
       addWinstonInfoLog("Accept Cookie");
       const acceptButtonElement = await command.getElement(
@@ -79,16 +74,13 @@ class DashboardPage {
 
   async assertDashboardPageTitle() {
     try {
-      // logs in report and winston
       addAllureReportLog("Asserting dashboard page title");
       addWinstonInfoLog("Asserting dashboard page title");
-      // Get page details from data files
+
       const getDashboardPageDetails = await getResourcePageDetails("DASHBOARD");
 
-      // Get current page title from browser
       const getCurrentPageTitle = await getPageTitle();
 
-      // asserting dashboard page title
       const message = `Expected title is '${getDashboardPageDetails?.pageTitle}', but found '${getCurrentPageTitle}'`;
       expect(getCurrentPageTitle).to.contains(
         getDashboardPageDetails?.pageTitle,
@@ -113,15 +105,13 @@ class DashboardPage {
         throw new Error("Please give valid tab name");
       }
 
-      // logs in report and winston
       addAllureReportLog(`Click on ${tabName}`);
       addWinstonInfoLog(`Click on ${tabName}`);
-      // get tab element
+
       const tabElement = await command.getElement(
         this.dashboardPageElementXPath.getTabXpath(tabName)
       );
 
-      // click on tab element
       const clickTab = await command.click(tabElement);
 
       return clickTab;

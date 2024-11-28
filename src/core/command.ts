@@ -1,12 +1,12 @@
 class Command {
   constructor() {}
 
-  async getElement(xPath: string) {
-    return await $(xPath);
+  async getElement(selector: string) {
+    return await $(selector);
   }
 
-  async getElements(xPath: string) {
-    return await $$(xPath);
+  async getElements(selector: string) {
+    return await $$(selector);
   }
 
   async click(element: any) {
@@ -30,7 +30,10 @@ class Command {
   }
 
   async waitForDisplay(element: any, milliseconds: number) {
-    return await element.waitForDisplayed({ timeout: milliseconds });
+    return await element.waitForDisplayed({
+      timeout: milliseconds,
+      timeoutMsg: "Element not displayed within the timeout",
+    });
   }
 }
 

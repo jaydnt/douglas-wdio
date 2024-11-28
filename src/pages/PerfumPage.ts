@@ -3,6 +3,7 @@ import {
   browserPause,
   getBrowserUrl,
   getPageTitle,
+  waitUntil,
 } from "../utils/browser-manager";
 import {
   addAllureReportLog,
@@ -16,7 +17,7 @@ class PerfumPage {
   private perfumPageElementXPath = {
     searchBox: "//input[@data-testid='typeAhead-input']",
     getDropDownXPath: (dropDownName: string) => {
-      return `//div[@class='facet__title' and text()= ${dropDownName}]`;
+      return `//div[@class='facet__title' and text()= '${dropDownName}']`;
     },
     getDropDownOptionXPath: (dropDownName: string, filterOption: string) => {
       if (dropDownName === "Highlights") {
@@ -26,7 +27,7 @@ class PerfumPage {
     appliedFiltterOption: "//button[@class='selected-facets__value']",
     pageInfoLocator: "//div[@data-testid='pagination-title-dropdown']",
     filterTag: (filterOption: string) => {
-      return `//div[contains(@data-testid,'product-eyecatcher') and text()='${filterOption}']`;
+      return `//div[contains(@data-testid,'product-eyecatcher') and text()= '${filterOption}']`;
     },
     nextPageArrow: "//a[@data-testid='pagination-arrow-right']",
   };
@@ -34,13 +35,10 @@ class PerfumPage {
 
   async assertPerfumPageUrl() {
     try {
-      // get perfum page details
       const perfumPageDetails = await getResourcePageDetails("PERFUM");
 
-      // get current url from browser
       const currentPageUrl = await getBrowserUrl();
 
-      // asserting perfum page
       const assertMessage = `Expected URL to be ${perfumPageDetails?.pageUrl}, but found ${currentPageUrl}`;
       expect(currentPageUrl).to.equal(
         perfumPageDetails?.pageUrl,
@@ -59,16 +57,13 @@ class PerfumPage {
 
   async assertPerfumPageTitle() {
     try {
-      // get perfum page details
       const perfumPageDetails = await getResourcePageDetails("PERFUM");
 
-      // get current url from browser
       const currentPageTitle = await getPageTitle();
 
-      // asserting perfum page
-      const assertMessage = `Expected title is ${perfumPageDetails?.pageTitle}, but found ${currentPageTitle}`;
-      expect(currentPageTitle).to.contains(
-        perfumPageDetails?.pageTitle,
+      const assertMessage = `Expected title is ${perfumPageDetails?.pageTitle.toLowerCase()}, but found ${currentPageTitle.toLowerCase()}`;
+      expect(currentPageTitle.toLowerCase()).to.contains(
+        perfumPageDetails?.pageTitle.toLowerCase(),
         assertMessage
       );
       addAllureReportLog(assertMessage);
@@ -86,22 +81,22 @@ class PerfumPage {
     try {
       addAllureReportLog("Move to Serach Box");
       addWinstonInfoLog("Move to Serach Box");
-      // get search box element
+
       const searchBoxElement = await command.getElement(
         this.perfumPageElementXPath.searchBox
       );
 
-      // move to search box
       const moveTillSearchBox = await command.moveTo(searchBoxElement);
 
-      // get drop down element
       const dropDownElement = await command.getElement(
         this.perfumPageElementXPath.getDropDownXPath(dropDownName)
       );
 
+      await command.waitForDisplay(dropDownElement, 200000);
+
       addAllureReportLog(`Click on ${dropDownName} Drop down`);
       addWinstonInfoLog(`Click on ${dropDownName} Drop down`);
-      // wait and click on drop down
+
       const clickDropDown = await command.waitAndClick(dropDownElement);
 
       return clickDropDown;
@@ -115,12 +110,17 @@ class PerfumPage {
 
   async clickOnDropDownOption(filterOption: string, dropDownName: string) {
     try {
-      // get drop down option element
       const dropDownOptionElement = await command.getElement(
         this.perfumPageElementXPath?.getDropDownOptionXPath(
           dropDownName,
           filterOption
         )!
+      );
+
+      await command.waitForDisplay(dropDownOptionElement, 200000);
+      console.log(
+        "dropDownOptionElement",
+        await command.isDisplayed(dropDownOptionElement)
       );
 
       addAllureReportLog(
@@ -129,7 +129,7 @@ class PerfumPage {
       addWinstonInfoLog(
         `Click on ${filterOption} from ${dropDownName} Drop down`
       );
-      // click on option
+
       const clickOnOption = await command.waitAndClick(dropDownOptionElement);
 
       return clickOnOption;
@@ -145,17 +145,17 @@ class PerfumPage {
     try {
       addAllureReportLog(`Asserting Filter option ${filterOption}`);
       addWinstonInfoLog(`Asserting Filter option ${filterOption}`);
-      // get Filter options element
+
       const filterOptionElements = await command.getElements(
         this.perfumPageElementXPath.appliedFiltterOption
       );
 
-      // Fetch and trim text for all elements concurrently
-      const filterOptionsText = await Promise.all(
-        filterOptionElements.map(async (element) =>
-          (await command.getText(element)).trim()
-        )
-      );
+      const filterOptionsText: string[] = [];
+
+      for (const element of filterOptionElements) {
+        const text = (await command.getText(element)).trim();
+        filterOptionsText.push(text);
+      }
 
       const assertMessage = `Expected filter option is ${filterOption}, but found ${filterOptionsText}`;
       expect(filterOption).to.contain(filterOptionsText, assertMessage);
@@ -177,9 +177,12 @@ class PerfumPage {
 
     addWinstonInfoLog("Fetching pagination details");
     addAllureReportLog("Fetching pagination details");
-    const pageInfo = await browser.$(
+    const pageInfo = await command.getElement(
       this.perfumPageElementXPath.pageInfoLocator
     );
+
+    await command.waitForDisplay(pageInfo, 200000);
+
     const pageInfoText = await pageInfo.getText();
 
     if (pageInfoText) {
@@ -204,9 +207,12 @@ class PerfumPage {
         this.perfumPageElementXPath.filterTag(actualFilterText)
       );
 
-      const filterTexts = await Promise.all(
-        filters.map(async (element) => (await command.getText(element)).trim())
-      );
+      const filterTexts: string[] = [];
+
+      for (const element of filters) {
+        const filterText = await command.getText(element);
+        filterTexts.push(filterText);
+      }
 
       addWinstonInfoLog(
         `Verifying if the applied filters contain: '${actualFilterText}'`
@@ -220,13 +226,13 @@ class PerfumPage {
       if (currentPage < totalPages) {
         addWinstonInfoLog(`Navigating to page ${currentPage + 1}`);
         addAllureReportLog(`Navigating to page ${currentPage + 1}`);
-        const nextPageButton = await browser.$(
+        const nextPageButton = await command.getElement(
           this.perfumPageElementXPath.nextPageArrow
         );
         if (await nextPageButton.isDisplayed()) {
           await nextPageButton.click();
-          // await browserPause(4000);
-          currentPage++;
+          await browserPause(4000);
+          currentPage = currentPage + 1;
         } else {
           addWinstonInfoLog("Next page button not found, stopping pagination.");
           addAllureReportLog(

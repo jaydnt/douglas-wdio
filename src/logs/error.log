@@ -34,3 +34,19 @@ from javascript error: {"status":32,"value":"An invalid or illegal selector was 
   (Session info: chrome=131.0.6778.86) when running "element" with method "POST" and args "{"using":"css selector","value":".div.facet__title:contains('Highlights')"}"
 2024-11-28 00:36:30 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
 2024-11-28 00:38:24 error: Something went wrong in perfum Click DropDown  : Error: element ("//div[@class='facet__title' and text()= Highlights]") still not displayed after 10000ms
+2024-11-28 11:32:33 error: Something went wrong in Assert Perfum Page Title : AssertionError: Expected title is DOUGLAS, but found Online Parfümerie Douglas: expected 'Online Parfümerie Douglas' to include 'DOUGLAS'
+2024-11-28 11:35:39 error: Something went wrong in perfum Click DropDown  : Error: element ("//div[@class='facet__title' and text()= Highlights]") still not displayed after 10000ms
+2024-11-28 11:39:08 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 11:44:57 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 11:48:20 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 11:54:41 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 11:56:28 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 11:59:38 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 12:01:23 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 12:04:57 error: Something went wrong in Assert Filter Option : TypeError: element.waitForDisplayed is not a function
+2024-11-28 12:07:13 error: Something went wrong in Assert Filter Option : TypeError: element.waitForDisplayed is not a function
+2024-11-28 12:10:54 error: Something went wrong in Assert Filter Option : TypeError: element.isDisplayed is not a function
+2024-11-28 12:12:04 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 12:21:52 error: Something went wrong in perfum Click DropDown  : stale element reference: WebDriverError: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.86) when running "actions" with method "POST" and args "{"actions":[{"id":"action5","type":"pointer","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","button":0,"x":0,"y":0,"duration":100,"origin":{"element-6066-11e4-a52e-4f735466cecf":"f.72B472172B0996DAB31D72C8056F5824.d.1AF547EF07D9D843FB67722CB6137DB5.e.154"}}]}]}"
+2024-11-28 13:32:44 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))

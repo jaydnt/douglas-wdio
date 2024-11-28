@@ -52,9 +52,17 @@ Then(
   }
 );
 
-Then("Verify the {string} filter is applied", async (filterOption: string) => {
-  // asserting filter option applied
-  await perfumPage.assertFilterOption(filterOption);
+Then(
+  "Verify the {string} visible in filtter tab",
+  async (filterOption: string) => {
+    // asserting filter option applied
+    await perfumPage.assertFilterOption(filterOption);
+  }
+);
 
-  await perfumPage.verifyTheFilterTagAcrossPages(filterOption);
-});
+Then(
+  "Verify the {string} tag visibal on product list",
+  async (filterOption: string) => {
+    await perfumPage.verifyTheFilterTagAcrossPages(filterOption);
+  }
+);
