@@ -25,3 +25,12 @@
 2024-11-27 17:43:27 error: Something went wrong in Assert Dashboard Page Url : AssertionError: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de/login: expected 'https://www.douglas.de/de/login' to equal 'https://www.douglas.de/de'
 2024-11-27 17:43:32 error: Something went wrong in Assert Dashboard Page Url : AssertionError: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de/login: expected 'https://www.douglas.de/de/login' to equal 'https://www.douglas.de/de'
 2024-11-27 17:45:07 error: Something went wrong in Accept Cookie : Error: element ("[data-testid="uc-accept-all-button"]") still not displayed after 5000ms
+2024-11-27 23:42:30 error: Something went wrong in Assert Perfum Page Title : AssertionError: Expected title is Online Parfümerie Douglas, but found DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr: expected 'DOUGLAS ✔️ Black Friday | 20 % Rabatt…' to equal 'Online Parfümerie Douglas'
+2024-11-27 23:58:29 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 00:07:16 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 00:31:36 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 00:34:05 error: Something went wrong in perfum Click DropDown  : invalid selector: WebDriverError: invalid selector
+from javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=131.0.6778.86) when running "element" with method "POST" and args "{"using":"css selector","value":".div.facet__title:contains('Highlights')"}"
+2024-11-28 00:36:30 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 00:38:24 error: Something went wrong in perfum Click DropDown  : Error: element ("//div[@class='facet__title' and text()= Highlights]") still not displayed after 10000ms

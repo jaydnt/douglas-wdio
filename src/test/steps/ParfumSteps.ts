@@ -3,11 +3,7 @@ import env from "../../config/env";
 import { addAllureReportLog, addWinstonInfoLog } from "../../utils/helper";
 import dashboardPage from "../../pages/DashboardPage";
 import perfumPage from "../../pages/PerfumPage";
-import {
-  browserPause,
-  maximizeWindow,
-  openUrl,
-} from "../../utils/browser-manager";
+import { maximizeWindow, openUrl } from "../../utils/browser-manager";
 
 Given(/^User navigates to the application$/, async () => {
   // logs in report and winston
@@ -25,9 +21,6 @@ Given(/^User navigates to the application$/, async () => {
 
   // accept cookie
   await dashboardPage.acceptCookie();
-
-  // pause the browser for 5 seconds
-  await browserPause(5000);
 });
 
 When("User click on {string} tab", async (tabName: string) => {
@@ -36,9 +29,6 @@ When("User click on {string} tab", async (tabName: string) => {
 
   // click on tab
   await dashboardPage.clickOnTab(tabName);
-
-  // pause the browser for 5 seconds
-  await browserPause(5000);
 });
 
 Then("Verify user on the parfum page", async () => {
@@ -47,17 +37,11 @@ Then("Verify user on the parfum page", async () => {
 
   // assert the perfum page title
   await perfumPage.assertPerfumPageTitle();
-
-  // pause the browser for 5 seconds
-  await browserPause(5000);
 });
 
 When("I select the {string} dropdown", async (dropDownName: string) => {
   // click on drop down
   await perfumPage.clickDropDown(dropDownName);
-
-  // pause the browser for 5 seconds
-  await browserPause(5000);
 });
 
 Then(
@@ -65,9 +49,6 @@ Then(
   async (filterOption: string, dropDownName: string) => {
     // click on drop down option
     await perfumPage.clickOnDropDownOption(filterOption, dropDownName);
-
-    // pause the browser for 5 seconds
-    await browserPause(5000);
   }
 );
 
@@ -76,7 +57,4 @@ Then("Verify the {string} filter is applied", async (filterOption: string) => {
   await perfumPage.assertFilterOption(filterOption);
 
   await perfumPage.verifyTheFilterTagAcrossPages(filterOption);
-
-  // pause the browser for 5 seconds
-  await browserPause(5000);
 });

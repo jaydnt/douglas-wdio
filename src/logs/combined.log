@@ -704,3 +704,100 @@
 2024-11-27 18:04:43 info: Verifying if the applied filters contain: 'NEU'
 2024-11-27 18:04:43 info: Filter verification successful on this page
 2024-11-27 18:04:43 info: Reached the last page, stopping pagination.
+2024-11-27 23:42:09 info: Loading App
+2024-11-27 23:42:17 info: Maximize Window
+2024-11-27 23:42:17 info: Asserting dashboard page url
+2024-11-27 23:42:18 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 23:42:18 info: Accept Cookie
+2024-11-27 23:42:22 info: Asserting dashboard page title
+2024-11-27 23:42:24 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 23:42:24 info: Click on PARFUM
+2024-11-27 23:42:29 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 23:42:30 error: Something went wrong in Assert Perfum Page Title : AssertionError: Expected title is Online Parfümerie Douglas, but found DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr: expected 'DOUGLAS ✔️ Black Friday | 20 % Rabatt…' to equal 'Online Parfümerie Douglas'
+2024-11-27 23:57:50 info: Loading App
+2024-11-27 23:57:56 info: Maximize Window
+2024-11-27 23:57:57 info: Asserting dashboard page url
+2024-11-27 23:57:58 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-27 23:57:58 info: Accept Cookie
+2024-11-27 23:58:02 info: Asserting dashboard page title
+2024-11-27 23:58:05 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-27 23:58:05 info: Click on PARFUM
+2024-11-27 23:58:11 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-27 23:58:12 info: Expected title is DOUGLAS, but found DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr
+2024-11-27 23:58:12 info: Move to Serach Box
+2024-11-27 23:58:18 info: Click on Highlights Drop down
+2024-11-27 23:58:27 info: Click on NEU from Highlights Drop down
+2024-11-27 23:58:28 info: Asserting Filter option NEU
+2024-11-27 23:58:29 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 00:06:31 info: Loading App
+2024-11-28 00:06:52 info: Maximize Window
+2024-11-28 00:06:53 info: Asserting dashboard page url
+2024-11-28 00:06:53 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 00:06:53 info: Accept Cookie
+2024-11-28 00:06:55 info: Asserting dashboard page title
+2024-11-28 00:06:58 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 00:06:58 info: Click on PARFUM
+2024-11-28 00:07:03 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 00:07:04 info: Expected title is DOUGLAS, but found DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr
+2024-11-28 00:07:04 info: Move to Serach Box
+2024-11-28 00:07:07 info: Click on Highlights Drop down
+2024-11-28 00:07:15 info: Click on NEU from Highlights Drop down
+2024-11-28 00:07:16 info: Asserting Filter option NEU
+2024-11-28 00:07:16 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 00:30:58 info: Loading App
+2024-11-28 00:31:05 info: Maximize Window
+2024-11-28 00:31:05 info: Asserting dashboard page url
+2024-11-28 00:31:06 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 00:31:06 info: Accept Cookie
+2024-11-28 00:31:11 info: Asserting dashboard page title
+2024-11-28 00:31:12 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 00:31:12 info: Click on PARFUM
+2024-11-28 00:31:20 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 00:31:21 info: Expected title is DOUGLAS, but found DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr
+2024-11-28 00:31:21 info: Move to Serach Box
+2024-11-28 00:31:25 info: Click on Highlights Drop down
+2024-11-28 00:31:33 info: Click on NEU from Highlights Drop down
+2024-11-28 00:31:34 info: Asserting Filter option NEU
+2024-11-28 00:31:36 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 00:33:43 info: Loading App
+2024-11-28 00:33:46 info: Maximize Window
+2024-11-28 00:33:47 info: Asserting dashboard page url
+2024-11-28 00:33:47 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 00:33:47 info: Accept Cookie
+2024-11-28 00:33:53 info: Asserting dashboard page title
+2024-11-28 00:33:54 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 00:33:54 info: Click on PARFUM
+2024-11-28 00:33:59 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 00:34:00 info: Expected title is DOUGLAS, but found DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr
+2024-11-28 00:34:00 info: Move to Serach Box
+2024-11-28 00:34:05 error: Something went wrong in perfum Click DropDown  : invalid selector: WebDriverError: invalid selector
+from javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=131.0.6778.86) when running "element" with method "POST" and args "{"using":"css selector","value":".div.facet__title:contains('Highlights')"}"
+2024-11-28 00:35:56 info: Loading App
+2024-11-28 00:36:02 info: Maximize Window
+2024-11-28 00:36:02 info: Asserting dashboard page url
+2024-11-28 00:36:02 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 00:36:02 info: Accept Cookie
+2024-11-28 00:36:08 info: Asserting dashboard page title
+2024-11-28 00:36:09 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 00:36:09 info: Click on PARFUM
+2024-11-28 00:36:16 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 00:36:20 info: Expected title is DOUGLAS, but found DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr
+2024-11-28 00:36:20 info: Move to Serach Box
+2024-11-28 00:36:20 info: Click on Highlights Drop down
+2024-11-28 00:36:27 info: Click on NEU from Highlights Drop down
+2024-11-28 00:36:28 info: Asserting Filter option NEU
+2024-11-28 00:36:30 error: Something went wrong in Assert Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 00:37:46 info: Loading App
+2024-11-28 00:37:51 info: Maximize Window
+2024-11-28 00:37:52 info: Asserting dashboard page url
+2024-11-28 00:37:52 info: Expected URL to be https://www.douglas.de/de, but found https://www.douglas.de/de
+2024-11-28 00:37:52 info: Accept Cookie
+2024-11-28 00:37:56 info: Asserting dashboard page title
+2024-11-28 00:37:58 info: Expected title is 'DOUGLAS', but found 'DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr'
+2024-11-28 00:37:58 info: Click on PARFUM
+2024-11-28 00:38:02 info: Expected URL to be https://www.douglas.de/de/c/parfum/01, but found https://www.douglas.de/de/c/parfum/01
+2024-11-28 00:38:03 info: Expected title is DOUGLAS, but found DOUGLAS ✔️ Black Friday | 20 % Rabatt & mehr
+2024-11-28 00:38:03 info: Move to Serach Box
+2024-11-28 00:38:14 info: Click on Highlights Drop down
+2024-11-28 00:38:24 error: Something went wrong in perfum Click DropDown  : Error: element ("//div[@class='facet__title' and text()= Highlights]") still not displayed after 10000ms

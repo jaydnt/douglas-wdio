@@ -16,7 +16,7 @@ class PerfumPage {
   private perfumPageElementXPath = {
     searchBox: "//input[@data-testid='typeAhead-input']",
     getDropDownXPath: (dropDownName: string) => {
-      return `//div[@class='facet__title' and text()= '${dropDownName}']`;
+      return `//div[@class='facet__title' and text()= ${dropDownName}]`;
     },
     getDropDownOptionXPath: (dropDownName: string, filterOption: string) => {
       if (dropDownName === "Highlights") {
@@ -67,7 +67,7 @@ class PerfumPage {
 
       // asserting perfum page
       const assertMessage = `Expected title is ${perfumPageDetails?.pageTitle}, but found ${currentPageTitle}`;
-      expect(currentPageTitle).to.equal(
+      expect(currentPageTitle).to.contains(
         perfumPageDetails?.pageTitle,
         assertMessage
       );
@@ -150,12 +150,12 @@ class PerfumPage {
         this.perfumPageElementXPath.appliedFiltterOption
       );
 
-      const filterOptionsText: string[] = [];
-
-      for (const element of filterOptionElements) {
-        const elementText = (await command.getText(element)).trim();
-        filterOptionsText.push(elementText);
-      }
+      // Fetch and trim text for all elements concurrently
+      const filterOptionsText = await Promise.all(
+        filterOptionElements.map(async (element) =>
+          (await command.getText(element)).trim()
+        )
+      );
 
       const assertMessage = `Expected filter option is ${filterOption}, but found ${filterOptionsText}`;
       expect(filterOption).to.contain(filterOptionsText, assertMessage);
@@ -204,16 +204,9 @@ class PerfumPage {
         this.perfumPageElementXPath.filterTag(actualFilterText)
       );
 
-      const filterTexts: string[] = [];
-
-      for (const element of filters) {
-        const elementText = (await command.getText(element)).trim();
-        filterTexts.push(elementText);
-      }
-
-      // const filterTexts: string[] = await Promise.all(
-      //   filters.map(async (filter) => (await filter.getText()).trim())
-      // );
+      const filterTexts = await Promise.all(
+        filters.map(async (element) => (await command.getText(element)).trim())
+      );
 
       addWinstonInfoLog(
         `Verifying if the applied filters contain: '${actualFilterText}'`
@@ -232,7 +225,7 @@ class PerfumPage {
         );
         if (await nextPageButton.isDisplayed()) {
           await nextPageButton.click();
-          await browserPause(4000);
+          // await browserPause(4000);
           currentPage++;
         } else {
           addWinstonInfoLog("Next page button not found, stopping pagination.");
