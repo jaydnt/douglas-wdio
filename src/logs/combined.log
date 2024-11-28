@@ -1513,3 +1513,311 @@ from javascript error: {"status":32,"value":"An invalid or illegal selector was 
 2024-11-28 13:44:58 info: Verifying if the applied filters contain: 'NEU'
 2024-11-28 13:44:58 info: Filter verification successful on this page
 2024-11-28 13:44:58 info: Reached the last page, stopping pagination.
+2024-11-28 14:23:42 info: Loading App
+2024-11-28 14:23:48 info: Maximize Window
+2024-11-28 14:23:49 info: Accept Cookie
+2024-11-28 14:23:55 info: Click on PARFUM
+2024-11-28 14:24:50 info: Loading App
+2024-11-28 14:24:53 info: Maximize Window
+2024-11-28 14:24:55 info: Accept Cookie
+2024-11-28 14:25:05 info: Click on PARFUM
+2024-11-28 14:25:11 info: Move to Serach Box
+2024-11-28 14:25:21 error: Something went wrong in perfum Click DropDown  : stale element reference: WebDriverError: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.86) when running "actions" with method "POST" and args "{"actions":[{"id":"action5","type":"pointer","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","button":0,"x":0,"y":0,"duration":100,"origin":{"element-6066-11e4-a52e-4f735466cecf":"f.993E67F237C1453C26231F0BAC5687FA.d.B358132DA85FC1D486E14B139EEF5248.e.146"}}]}]}"
+2024-11-28 14:35:01 info: Loading App
+2024-11-28 14:35:09 info: Maximize Window
+2024-11-28 14:35:10 info: Accept Cookie
+2024-11-28 14:35:15 info: Click on PARFUM
+2024-11-28 14:35:18 info: Move to Serach Box
+2024-11-28 14:35:28 info: Click on Highlights Drop down
+2024-11-28 14:35:29 info: Click on NEU from Highlights Drop down
+2024-11-28 14:35:30 info: Asserting Filter option NEU
+2024-11-28 14:35:30 error: Something went wrong in Assert Filter Option : ReferenceError: $s is not defined
+2024-11-28 14:38:06 info: Loading App
+2024-11-28 14:38:15 info: Maximize Window
+2024-11-28 14:38:15 info: Accept Cookie
+2024-11-28 14:38:19 info: Click on PARFUM
+2024-11-28 14:38:28 info: Move to Serach Box
+2024-11-28 14:38:32 error: Something went wrong in perfum Click DropDown  : stale element reference: WebDriverError: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.86) when running "actions" with method "POST" and args "{"actions":[{"id":"action4","type":"pointer","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","button":0,"x":0,"y":0,"duration":100,"origin":{"element-6066-11e4-a52e-4f735466cecf":"f.FC9E25AE719A8B1433A52226790F9DE8.d.900B20079477867A85D5595C20DE2651.e.155"}}]}]}"
+2024-11-28 14:40:40 info: Loading App
+2024-11-28 14:40:45 info: Maximize Window
+2024-11-28 14:40:46 info: Accept Cookie
+2024-11-28 14:40:50 info: Click on PARFUM
+2024-11-28 14:40:53 info: Move to Serach Box
+2024-11-28 14:40:56 info: Click on Highlights Drop down
+2024-11-28 14:41:03 info: Click on NEU from Highlights Drop down
+2024-11-28 14:41:03 info: Asserting Filter option NEU
+2024-11-28 14:41:04 info: Expected filter option is NEU, but found 
+2024-11-28 14:41:04 info: Fetching pagination details
+2024-11-28 14:41:07 info: Total pages to validate: 16
+2024-11-28 14:41:07 info: Validating filter tag on page 1 of 16
+2024-11-28 14:41:09 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 14:41:09 info: Filter verification successful on this page
+2024-11-28 14:41:09 info: Navigating to page 2
+2024-11-28 14:41:13 info: Validating filter tag on page 2 of 16
+2024-11-28 14:41:18 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 14:41:18 info: Filter verification successful on this page
+2024-11-28 14:41:18 info: Navigating to page 3
+2024-11-28 14:41:22 info: Validating filter tag on page 3 of 16
+2024-11-28 14:41:25 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 14:41:25 info: Filter verification successful on this page
+2024-11-28 14:41:25 info: Navigating to page 4
+2024-11-28 14:41:30 info: Validating filter tag on page 4 of 16
+2024-11-28 14:41:32 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 14:41:32 info: Filter verification successful on this page
+2024-11-28 14:41:32 info: Navigating to page 5
+2024-11-28 14:41:38 info: Validating filter tag on page 5 of 16
+2024-11-28 14:41:41 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 14:41:41 info: Filter verification successful on this page
+2024-11-28 14:41:41 info: Navigating to page 6
+2024-11-28 14:41:46 info: Validating filter tag on page 6 of 16
+2024-11-28 14:41:48 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 14:41:48 info: Filter verification successful on this page
+2024-11-28 14:41:48 info: Navigating to page 7
+2024-11-28 14:41:53 info: Validating filter tag on page 7 of 16
+2024-11-28 14:41:56 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 14:41:56 info: Filter verification successful on this page
+2024-11-28 14:41:56 info: Navigating to page 8
+2024-11-28 14:42:00 info: Validating filter tag on page 8 of 16
+2024-11-28 14:42:03 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 14:42:03 info: Filter verification successful on this page
+2024-11-28 14:42:03 info: Navigating to page 9
+2024-11-28 14:42:07 info: Validating filter tag on page 9 of 16
+2024-11-28 14:42:10 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 14:42:10 info: Navigating to page 10
+2024-11-28 14:42:10 info: Filter verification successful on this page
+2024-11-28 14:42:14 info: Validating filter tag on page 10 of 16
+2024-11-28 14:42:17 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 14:42:17 info: Filter verification successful on this page
+2024-11-28 14:42:17 info: Navigating to page 11
+2024-11-28 14:42:22 info: Validating filter tag on page 11 of 16
+2024-11-28 14:42:25 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 14:42:25 info: Filter verification successful on this page
+2024-11-28 14:42:25 info: Navigating to page 12
+2024-11-28 14:42:29 info: Validating filter tag on page 12 of 16
+2024-11-28 14:42:32 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 14:42:32 info: Filter verification successful on this page
+2024-11-28 14:42:32 info: Navigating to page 13
+2024-11-28 14:42:37 info: Validating filter tag on page 13 of 16
+2024-11-28 14:42:41 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 14:42:41 info: Filter verification successful on this page
+2024-11-28 14:42:41 info: Navigating to page 14
+2024-11-28 14:42:46 info: Validating filter tag on page 14 of 16
+2024-11-28 14:42:50 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 14:42:50 info: Navigating to page 15
+2024-11-28 14:42:50 info: Filter verification successful on this page
+2024-11-28 14:42:54 info: Validating filter tag on page 15 of 16
+2024-11-28 14:43:00 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 14:43:00 info: Filter verification successful on this page
+2024-11-28 14:43:00 info: Navigating to page 16
+2024-11-28 14:43:05 info: Validating filter tag on page 16 of 16
+2024-11-28 14:43:07 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 14:43:07 info: Filter verification successful on this page
+2024-11-28 14:43:07 info: Reached the last page, stopping pagination.
+2024-11-28 14:45:00 info: Loading App
+2024-11-28 14:45:05 info: Maximize Window
+2024-11-28 14:45:06 info: Accept Cookie
+2024-11-28 14:45:10 info: Click on PARFUM
+2024-11-28 14:45:18 info: Move to Serach Box
+2024-11-28 14:45:20 info: Click on Highlights Drop down
+2024-11-28 14:45:30 info: Click on NEU from Highlights Drop down
+2024-11-28 14:45:31 info: Asserting Filter option NEU
+2024-11-28 14:45:31 error: Something went wrong in Verify Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 14:53:04 info: Loading App
+2024-11-28 14:53:09 info: Maximize Window
+2024-11-28 14:53:09 info: Accept Cookie
+2024-11-28 14:53:14 info: Click on PARFUM
+2024-11-28 14:53:22 info: Move to Serach Box
+2024-11-28 14:53:33 info: Click on Highlights Drop down
+2024-11-28 14:53:34 info: Click on NEU from Highlights Drop down
+2024-11-28 14:53:35 info: Asserting Filter option NEU
+2024-11-28 14:53:35 error: Something went wrong in Verify Filter Option : TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2024-11-28 15:02:43 info: Loading App
+2024-11-28 15:02:50 info: Maximize Window
+2024-11-28 15:02:51 info: Accept Cookie
+2024-11-28 15:03:06 info: Click on PARFUM
+2024-11-28 15:03:11 info: Move to Serach Box
+2024-11-28 15:03:14 info: Click on Highlights Drop down
+2024-11-28 15:03:22 info: Click on NEU from Highlights Drop down
+2024-11-28 15:21:18 info: Loading App
+2024-11-28 15:21:23 info: Maximize Window
+2024-11-28 15:21:24 info: Accept Cookie
+2024-11-28 15:21:32 info: Click on PARFUM
+2024-11-28 15:21:37 info: Move to Serach Box
+2024-11-28 15:21:40 info: Click on Highlights Drop down
+2024-11-28 15:21:47 info: Click on NEU from Highlights Drop down
+2024-11-28 15:21:48 info: Fetching pagination details
+2024-11-28 15:21:52 info: Total pages to validate: 16
+2024-11-28 15:21:52 info: Validating filter tag on page 1 of 16
+2024-11-28 15:21:53 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:21:53 info: Filter verification successful on this page
+2024-11-28 15:21:53 info: Navigating to page 2
+2024-11-28 15:21:58 info: Validating filter tag on page 2 of 16
+2024-11-28 15:22:00 info: Filter verification successful on this page
+2024-11-28 15:22:00 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:22:00 info: Navigating to page 3
+2024-11-28 15:22:05 info: Validating filter tag on page 3 of 16
+2024-11-28 15:22:07 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:22:07 info: Filter verification successful on this page
+2024-11-28 15:22:07 info: Navigating to page 4
+2024-11-28 15:22:12 info: Validating filter tag on page 4 of 16
+2024-11-28 15:22:13 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:22:13 info: Filter verification successful on this page
+2024-11-28 15:22:13 info: Navigating to page 5
+2024-11-28 15:22:18 info: Validating filter tag on page 5 of 16
+2024-11-28 15:22:19 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:22:19 info: Navigating to page 6
+2024-11-28 15:22:19 info: Filter verification successful on this page
+2024-11-28 15:22:24 info: Validating filter tag on page 6 of 16
+2024-11-28 15:22:26 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:22:26 info: Filter verification successful on this page
+2024-11-28 15:22:26 info: Navigating to page 7
+2024-11-28 15:22:31 info: Validating filter tag on page 7 of 16
+2024-11-28 15:22:34 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:22:34 info: Filter verification successful on this page
+2024-11-28 15:22:34 info: Navigating to page 8
+2024-11-28 15:22:39 info: Validating filter tag on page 8 of 16
+2024-11-28 15:22:41 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:22:41 info: Navigating to page 9
+2024-11-28 15:22:41 info: Filter verification successful on this page
+2024-11-28 15:22:45 info: Validating filter tag on page 9 of 16
+2024-11-28 15:22:47 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:22:47 info: Filter verification successful on this page
+2024-11-28 15:22:47 info: Navigating to page 10
+2024-11-28 15:22:52 info: Validating filter tag on page 10 of 16
+2024-11-28 15:22:54 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:22:54 info: Filter verification successful on this page
+2024-11-28 15:22:54 info: Navigating to page 11
+2024-11-28 15:22:59 info: Validating filter tag on page 11 of 16
+2024-11-28 15:23:01 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:23:01 info: Filter verification successful on this page
+2024-11-28 15:23:01 info: Navigating to page 12
+2024-11-28 15:23:05 info: Validating filter tag on page 12 of 16
+2024-11-28 15:23:08 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:23:08 info: Filter verification successful on this page
+2024-11-28 15:23:08 info: Navigating to page 13
+2024-11-28 15:23:13 info: Validating filter tag on page 13 of 16
+2024-11-28 15:23:16 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:23:16 info: Filter verification successful on this page
+2024-11-28 15:23:16 info: Navigating to page 14
+2024-11-28 15:23:21 info: Validating filter tag on page 14 of 16
+2024-11-28 15:23:24 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:23:24 info: Filter verification successful on this page
+2024-11-28 15:23:24 info: Navigating to page 15
+2024-11-28 15:23:29 info: Validating filter tag on page 15 of 16
+2024-11-28 15:23:31 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:23:31 info: Filter verification successful on this page
+2024-11-28 15:23:31 info: Navigating to page 16
+2024-11-28 15:23:35 info: Validating filter tag on page 16 of 16
+2024-11-28 15:23:38 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:23:38 info: Filter verification successful on this page
+2024-11-28 15:23:38 info: Reached the last page, stopping pagination.
+2024-11-28 15:35:41 info: Loading App
+2024-11-28 15:35:45 info: Maximize Window
+2024-11-28 15:35:46 info: Accept Cookie
+2024-11-28 15:35:52 info: Click on PARFUM
+2024-11-28 15:35:57 info: Move to Serach Box
+2024-11-28 15:36:00 info: Click on Highlights Drop down
+2024-11-28 15:36:10 error: Something went wrong in perfum Click DropDown  : Error: element ("//div[@class='facet__title' and text()= 'Highlights']") still not displayed after 10000ms
+2024-11-28 15:38:56 info: Loading App
+2024-11-28 15:39:03 info: Maximize Window
+2024-11-28 15:39:04 info: Accept Cookie
+2024-11-28 15:39:06 info: Click on PARFUM
+2024-11-28 15:39:13 info: Move to Serach Box
+2024-11-28 15:39:22 info: Click on Highlights Drop down
+2024-11-28 15:39:23 info: Click on NEU from Highlights Drop down
+2024-11-28 15:39:24 info: Fetching pagination details
+2024-11-28 15:39:28 info: Total pages to validate: 16
+2024-11-28 15:39:28 info: Validating filter tag on page 1 of 16
+2024-11-28 15:39:29 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:39:29 info: Filter verification successful on this page
+2024-11-28 15:39:29 info: Navigating to page 2
+2024-11-28 15:39:34 info: Validating filter tag on page 2 of 16
+2024-11-28 15:39:37 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:39:37 info: Filter verification successful on this page
+2024-11-28 15:39:37 info: Navigating to page 3
+2024-11-28 15:39:42 info: Validating filter tag on page 3 of 16
+2024-11-28 15:39:43 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:39:43 info: Filter verification successful on this page
+2024-11-28 15:39:43 info: Navigating to page 4
+2024-11-28 15:39:48 info: Validating filter tag on page 4 of 16
+2024-11-28 15:39:49 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:39:49 info: Filter verification successful on this page
+2024-11-28 15:39:49 info: Navigating to page 5
+2024-11-28 15:39:54 info: Validating filter tag on page 5 of 16
+2024-11-28 15:39:57 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:39:57 info: Filter verification successful on this page
+2024-11-28 15:39:57 info: Navigating to page 6
+2024-11-28 15:40:02 info: Validating filter tag on page 6 of 16
+2024-11-28 15:40:05 info: Filter verification successful on this page
+2024-11-28 15:40:05 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:40:05 info: Navigating to page 7
+2024-11-28 15:40:09 info: Validating filter tag on page 7 of 16
+2024-11-28 15:40:14 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:40:14 info: Filter verification successful on this page
+2024-11-28 15:40:14 info: Navigating to page 8
+2024-11-28 15:40:18 info: Validating filter tag on page 8 of 16
+2024-11-28 15:40:22 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:40:22 info: Filter verification successful on this page
+2024-11-28 15:40:22 info: Navigating to page 9
+2024-11-28 15:40:27 info: Validating filter tag on page 9 of 16
+2024-11-28 15:40:30 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:40:30 info: Navigating to page 10
+2024-11-28 15:40:30 info: Filter verification successful on this page
+2024-11-28 15:40:34 info: Validating filter tag on page 10 of 16
+2024-11-28 15:40:36 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:40:36 info: Filter verification successful on this page
+2024-11-28 15:40:36 info: Navigating to page 11
+2024-11-28 15:40:41 info: Validating filter tag on page 11 of 16
+2024-11-28 15:40:44 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:40:44 info: Filter verification successful on this page
+2024-11-28 15:40:44 info: Navigating to page 12
+2024-11-28 15:40:49 info: Validating filter tag on page 12 of 16
+2024-11-28 15:40:52 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:40:52 info: Filter verification successful on this page
+2024-11-28 15:40:52 info: Navigating to page 13
+2024-11-28 15:40:57 info: Validating filter tag on page 13 of 16
+2024-11-28 15:41:01 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:41:01 info: Filter verification successful on this page
+2024-11-28 15:41:01 info: Navigating to page 14
+2024-11-28 15:41:06 info: Validating filter tag on page 14 of 16
+2024-11-28 15:41:10 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:41:10 info: Filter verification successful on this page
+2024-11-28 15:41:10 info: Navigating to page 15
+2024-11-28 15:41:15 info: Validating filter tag on page 15 of 16
+2024-11-28 15:41:18 info: Filter verification successful on this page
+2024-11-28 15:41:18 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:41:18 info: Navigating to page 16
+2024-11-28 15:41:23 info: Validating filter tag on page 16 of 16
+2024-11-28 15:41:24 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:41:24 info: Filter verification successful on this page
+2024-11-28 15:41:24 info: Reached the last page, stopping pagination.
+2024-11-28 15:42:04 info: Loading App
+2024-11-28 15:42:10 info: Maximize Window
+2024-11-28 15:42:10 info: Accept Cookie
+2024-11-28 15:42:15 info: Click on PARFUM
+2024-11-28 15:42:21 info: Move to Serach Box
+2024-11-28 15:42:30 info: Click on Highlights Drop down
+2024-11-28 15:42:31 info: Click on NEU from Highlights Drop down
+2024-11-28 15:42:33 info: Fetching pagination details
+2024-11-28 15:42:35 info: Total pages to validate: 16
+2024-11-28 15:42:35 info: Validating filter tag on page 1 of 16
+2024-11-28 15:42:38 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:42:38 info: Filter verification successful on this page
+2024-11-28 15:42:38 info: Navigating to page 2
+2024-11-28 15:42:38 info: Validating filter tag on page 2 of 16
+2024-11-28 15:45:07 info: Loading App
+2024-11-28 15:45:11 info: Maximize Window
+2024-11-28 15:45:12 info: Accept Cookie
+2024-11-28 15:45:16 info: Click on PARFUM
+2024-11-28 15:45:22 info: Move to Serach Box
+2024-11-28 15:45:31 info: Click on Highlights Drop down
+2024-11-28 15:45:32 info: Click on NEU from Highlights Drop down
+2024-11-28 15:45:34 info: Fetching pagination details
+2024-11-28 15:45:38 info: Total pages to validate: 16
+2024-11-28 15:45:38 info: Validating filter tag on page 1 of 16
+2024-11-28 15:45:39 info: Verifying if the applied filters contain: 'NEU'
+2024-11-28 15:45:39 info: Filter verification successful on this page
+2024-11-28 15:45:39 info: Navigating to page 2
+2024-11-28 15:45:40 info: Validating filter tag on page 2 of 16

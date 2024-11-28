@@ -9,7 +9,6 @@ const myFormat = printf(({ level, message, timestamp }) => {
 export class LoggerService {
   private _logger: any;
   constructor() {
-    // define the custom settings for each transport(file, console)
     const options = {
       file_error: {
         level: "error",
@@ -44,10 +43,9 @@ export class LoggerService {
         new transports.File(options.file_error),
         new transports.File(options.file_combined),
       ],
-      exitOnError: false, // do not exit on handled exceptions
+      exitOnError: false,
     });
 
-    // add console logs only if not in production environment
     if (env.ENV !== "prod") {
       this._logger.add(new transports.Console(options.console));
     }

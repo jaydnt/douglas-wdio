@@ -1,4 +1,4 @@
-class Command {
+class Action {
   constructor() {}
 
   async getElement(selector: string) {
@@ -35,6 +35,18 @@ class Command {
       timeoutMsg: "Element not displayed within the timeout",
     });
   }
+
+  async openUrl(url: string) {
+    return await browser.url(url);
+  }
+
+  async maximizeWindow() {
+    return await browser.maximizeWindow();
+  }
+
+  async browserPause(milliseconds: number) {
+    return await browser.pause(milliseconds);
+  }
 }
 
-export default new Command();
+export default new Action();

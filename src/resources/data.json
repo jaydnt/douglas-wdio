@@ -1,14 +1,10 @@
 {
-  "pageDetails": [
-    {
-      "pageName": "DASHBOARD",
-      "pageUrl": "https://www.douglas.de/de",
-      "pageTitle": "DOUGLAS"
-    },
-    {
-      "pageName": "PERFUM",
-      "pageUrl": "https://www.douglas.de/de/c/parfum/01",
-      "pageTitle": "DOUGLAS"
-    }
-  ]
+  "homePage": {
+    "title": "DOUGLAS",
+    "dashboardUrl": "https://www.douglas.de/de"
+  },
+  "parfumPage": {
+    "title": "DOUGLAS",
+    "parfumPageUrl": "https://www.douglas.de/de/c/parfum/01"
+  }
 }
