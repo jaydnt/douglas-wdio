@@ -17,7 +17,7 @@ name: CI
           run: docker build . --file Dockerfile --tag douglas-wdio:1.0.0
     
         - name: Run the Docker image
-          run: docker run -v ${PWD}/allure-results:/usr/src/app/allure-results -p 4444:4444 douglas-wdio:1.0.0 || true
+          run: docker run -v ${PWD}/allure-results:/usr/src/app/allure-report -p 4444:4444 douglas-wdio:1.0.0 || true
     
         - name: Upload Allure results
           uses: actions/upload-artifact@v2
