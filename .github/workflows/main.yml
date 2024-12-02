@@ -18,7 +18,7 @@ jobs:
           docker run -v ${PWD}/allure-results:/usr/src/app/allure-report -p
           4444:4444 douglas-wdio:1.0.0 || true
       - name: Upload Allure results
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: allure-results
           path: ./allure-results
