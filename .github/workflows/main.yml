@@ -1,44 +1,38 @@
 name: CI
-
-    on:
-      push:
-        branches: [ main ]
-      pull_request:
-        branches: [ main ]
-    
-    jobs:
-      build-and-run:
-        runs-on: ubuntu-latest
-    
-        steps:
-        - uses: actions/checkout@v2
-    
-        - name: Build the Docker image
-          run: docker build . --file Dockerfile --tag douglas-wdio:1.0.0
-    
-        - name: Run the Docker image
-          run: docker run -v ${PWD}/allure-results:/usr/src/app/allure-report -p 4444:4444 douglas-wdio:1.0.0 || true
-    
-        - name: Upload Allure results
-          uses: actions/upload-artifact@v2
-          with:
-            name: allure-results
-            path: ./allure-results
-      
-        - name: Download Allure results
-          uses: actions/download-artifact@v2
-          with:
-              name: allure-results
-    
-        - name: Install Allure CLI
-          run: npm install -g allure-commandline
-    
-        - name: Generate Allure Report
-          run: npm run report
-    
-        - name: Deploy to GitHub Pages
-          uses: peaceiris/actions-gh-pages@v3
-          with:
-            github_token: $
-            publish_dir: ./allure-report
-            publish_branch: gh-pages
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build the Docker image
+        run: "docker build . --file Dockerfile --tag douglas-wdio:1.0.0"
+      - name: Run the Docker image
+        run: >-
+          docker run -v ${PWD}/allure-results:/usr/src/app/allure-report -p
+          4444:4444 douglas-wdio:1.0.0 || true
+      - name: Upload Allure results
+        uses: actions/upload-artifact@v2
+        with:
+          name: allure-results
+          path: ./allure-results
+      - name: Download Allure results
+        uses: actions/download-artifact@v2
+        with:
+          name: allure-results
+      - name: Install Allure CLI
+        run: npm install -g allure-commandline
+      - name: Generate Allure Report
+        run: npm run report
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: $
+          publish_dir: ./allure-report
+          publish_branch: gh-pages
