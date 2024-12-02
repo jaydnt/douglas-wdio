@@ -17,6 +17,7 @@
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.7.2",
     "wdio-chromedriver-service": "^8.1.1",
+    "wdio-docker-service": "^3.2.1",
     "wdio-edgedriver-service": "^3.0.3",
     "wdio-vscode-service": "^6.1.2",
     "wdio-wait-for": "^3.0.11",

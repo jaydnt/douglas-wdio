@@ -1915,3 +1915,76 @@ from javascript error: {"status":32,"value":"An invalid or illegal selector was 
 2024-11-28 16:14:10 info: Verifying if the applied filters contain: 'NEU'
 2024-11-28 16:14:10 info: Filter verification successful on this page
 2024-11-28 16:14:10 info: Reached the last page, stopping pagination.
+2024-12-02 14:37:45 info: Loading App
+2024-12-02 14:37:50 info: Maximize Window
+2024-12-02 14:37:50 info: Accept Cookie
+2024-12-02 14:37:56 info: Click on PARFUM
+2024-12-02 14:42:09 info: Loading App
+2024-12-02 14:42:15 info: Maximize Window
+2024-12-02 14:42:16 info: Accept Cookie
+2024-12-02 14:42:19 info: Click on PARFUM
+2024-12-02 14:42:26 info: Move to Serach Box
+2024-12-02 14:42:29 info: Click on Highlights Drop down
+2024-12-02 14:42:37 info: Click on NEU from Highlights Drop down
+2024-12-02 14:42:39 info: Fetching pagination details
+2024-12-02 14:42:43 info: Validating filter tag on page 1 of 15
+2024-12-02 14:42:43 info: Total pages to validate: 15
+2024-12-02 14:42:44 info: Verifying if the applied filters contain: 'NEU'
+2024-12-02 14:42:44 info: Filter verification successful on this page
+2024-12-02 14:42:44 info: Navigating to page 2
+2024-12-02 14:42:49 info: Validating filter tag on page 2 of 15
+2024-12-02 14:42:50 info: Verifying if the applied filters contain: 'NEU'
+2024-12-02 14:42:50 info: Filter verification successful on this page
+2024-12-02 14:42:50 info: Navigating to page 3
+2024-12-02 14:42:55 info: Validating filter tag on page 3 of 15
+2024-12-02 14:42:56 info: Verifying if the applied filters contain: 'NEU'
+2024-12-02 14:42:56 info: Filter verification successful on this page
+2024-12-02 14:42:56 info: Navigating to page 4
+2024-12-02 14:43:00 info: Validating filter tag on page 4 of 15
+2024-12-02 14:43:01 info: Verifying if the applied filters contain: 'NEU'
+2024-12-02 14:43:01 info: Filter verification successful on this page
+2024-12-02 14:43:01 info: Navigating to page 5
+2024-12-02 14:43:06 info: Validating filter tag on page 5 of 15
+2024-12-02 14:43:07 info: Verifying if the applied filters contain: 'NEU'
+2024-12-02 14:43:07 info: Filter verification successful on this page
+2024-12-02 14:43:07 info: Navigating to page 6
+2024-12-02 14:43:11 info: Validating filter tag on page 6 of 15
+2024-12-02 14:43:12 info: Verifying if the applied filters contain: 'NEU'
+2024-12-02 14:43:12 info: Navigating to page 7
+2024-12-02 14:43:12 info: Filter verification successful on this page
+2024-12-02 14:43:17 info: Validating filter tag on page 7 of 15
+2024-12-02 14:43:18 info: Verifying if the applied filters contain: 'NEU'
+2024-12-02 14:43:18 info: Filter verification successful on this page
+2024-12-02 14:43:18 info: Navigating to page 8
+2024-12-02 14:43:22 info: Validating filter tag on page 8 of 15
+2024-12-02 14:43:23 info: Verifying if the applied filters contain: 'NEU'
+2024-12-02 14:43:23 info: Navigating to page 9
+2024-12-02 14:43:23 info: Filter verification successful on this page
+2024-12-02 14:43:28 info: Validating filter tag on page 9 of 15
+2024-12-02 14:43:29 info: Verifying if the applied filters contain: 'NEU'
+2024-12-02 14:43:29 info: Filter verification successful on this page
+2024-12-02 14:43:29 info: Navigating to page 10
+2024-12-02 14:43:34 info: Validating filter tag on page 10 of 15
+2024-12-02 14:43:35 info: Filter verification successful on this page
+2024-12-02 14:43:35 info: Verifying if the applied filters contain: 'NEU'
+2024-12-02 14:43:35 info: Navigating to page 11
+2024-12-02 14:43:39 info: Validating filter tag on page 11 of 15
+2024-12-02 14:43:41 info: Filter verification successful on this page
+2024-12-02 14:43:41 info: Verifying if the applied filters contain: 'NEU'
+2024-12-02 14:43:41 info: Navigating to page 12
+2024-12-02 14:43:45 info: Validating filter tag on page 12 of 15
+2024-12-02 14:43:46 info: Verifying if the applied filters contain: 'NEU'
+2024-12-02 14:43:46 info: Filter verification successful on this page
+2024-12-02 14:43:46 info: Navigating to page 13
+2024-12-02 14:43:51 info: Validating filter tag on page 13 of 15
+2024-12-02 14:43:52 info: Filter verification successful on this page
+2024-12-02 14:43:52 info: Navigating to page 14
+2024-12-02 14:43:52 info: Verifying if the applied filters contain: 'NEU'
+2024-12-02 14:43:56 info: Validating filter tag on page 14 of 15
+2024-12-02 14:43:58 info: Verifying if the applied filters contain: 'NEU'
+2024-12-02 14:43:58 info: Filter verification successful on this page
+2024-12-02 14:43:58 info: Navigating to page 15
+2024-12-02 14:44:02 info: Validating filter tag on page 15 of 15
+2024-12-02 14:44:03 info: Verifying if the applied filters contain: 'NEU'
+2024-12-02 14:44:03 info: Filter verification successful on this page
+2024-12-02 14:44:03 info: Reached the last page, stopping pagination.

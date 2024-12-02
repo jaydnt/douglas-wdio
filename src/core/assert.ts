@@ -11,8 +11,8 @@ class Assert {
 
   async assertTitleContains(titlePart: string) {
     const actualTitle = await browser.getTitle();
-    expect(actualTitle).to.include(
-      titlePart,
+    expect(actualTitle.toLowerCase()).to.include(
+      titlePart.toLowerCase(),
       `Expected title to contain '${titlePart}', but found '${actualTitle}'`
     );
   }

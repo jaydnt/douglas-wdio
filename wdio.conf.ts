@@ -22,7 +22,23 @@ export const config: WebdriverIO.Config = {
   waitforTimeout: 10000,
   connectionRetryTimeout: 120000,
   connectionRetryCount: 3,
-  services: ["chromedriver", "edgedriver"],
+  services: [
+    "chromedriver",
+    "edgedriver",
+    [
+      "docker",
+      {
+        // Docker options
+        image: "selenium/standalone-chrome",
+        healthCheck: "http://localhost:4444",
+        options: {
+          p: ["4444:4444"],
+          // Add other Docker options here
+        },
+        // Add other wdio-docker-service configurations here
+      },
+    ],
+  ],
   framework: "cucumber",
   reporters: [
     [
