@@ -52,7 +52,7 @@ export const config: WebdriverIO.Config = {
 
   onPrepare: function (config, capabilities) {
     if (fs.existsSync("./allure-results")) {
-      fs.rm("./allure-results", { recursive: true });
+      fs.rmSync("./allure-results", { recursive: true });
     }
   },
 
