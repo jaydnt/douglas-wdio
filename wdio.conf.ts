@@ -22,23 +22,7 @@ export const config: WebdriverIO.Config = {
   waitforTimeout: 10000,
   connectionRetryTimeout: 120000,
   connectionRetryCount: 3,
-  services: [
-    "chromedriver",
-    "edgedriver",
-    [
-      "docker",
-      {
-        // Docker options
-        image: "selenium/standalone-chrome",
-        healthCheck: "http://localhost:4444",
-        options: {
-          p: ["4444:4444"],
-          // Add other Docker options here
-        },
-        // Add other wdio-docker-service configurations here
-      },
-    ],
-  ],
+  services: ["chromedriver", "edgedriver"],
   framework: "cucumber",
   reporters: [
     [
@@ -68,7 +52,7 @@ export const config: WebdriverIO.Config = {
 
   onPrepare: function (config, capabilities) {
     if (fs.existsSync("./allure-results")) {
-      fs.rmdirSync("./allure-results", { recursive: true });
+      fs.rm("./allure-results", { recursive: true });
     }
   },
 
