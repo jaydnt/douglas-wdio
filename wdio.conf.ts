@@ -15,6 +15,9 @@ export const config: WebdriverIO.Config = {
   capabilities: [
     {
       browserName: process.env.BROWSER_NAME,
+      "goog:chromeOptions": {
+        args: ["--headless", "--disable-gpu"],
+      },
     },
   ],
   logLevel: "info",
