@@ -5,11 +5,21 @@ class Action {
     try {
       return await element.click();
     } catch (error) {
-      throw new FrameworkError(`Element not found: ${element}`, error);
+      throw new FrameworkError(
+        `Element not found: ${JSON.stringify(element)}`,
+        error
+      );
     }
   }
   async moveTo(element: any) {
-    return await element.moveTo();
+    try {
+      return await element.moveTo();
+    } catch (error) {
+      throw new FrameworkError(
+        `Element not found: ${JSON.stringify(element)}`,
+        error
+      );
+    }
   }
 
   async waitAndClick(element: any) {
@@ -20,7 +30,10 @@ class Action {
       });
       return await element.click();
     } catch (error) {
-      throw new FrameworkError(`Element not found: ${element}`, error);
+      throw new FrameworkError(
+        `Element not found: ${JSON.stringify(element)}`,
+        error
+      );
     }
   }
 
@@ -28,7 +41,10 @@ class Action {
     try {
       return await element.getText();
     } catch (error) {
-      throw new FrameworkError(`Element not found: ${element}`, error);
+      throw new FrameworkError(
+        `Element not found: ${JSON.stringify(element)}`,
+        error
+      );
     }
   }
 
@@ -36,7 +52,10 @@ class Action {
     try {
       return await element.isDisplayed();
     } catch (error) {
-      throw new FrameworkError(`Element not found: ${element}`, error);
+      throw new FrameworkError(
+        `Element not found: ${JSON.stringify(element)}`,
+        error
+      );
     }
   }
 
@@ -47,7 +66,24 @@ class Action {
         timeoutMsg: "Element not displayed within the timeout",
       });
     } catch (error) {
-      throw new FrameworkError(`Element not found: ${element}`, error);
+      throw new FrameworkError(
+        `Element not found: ${JSON.stringify(element)}`,
+        error
+      );
+    }
+  }
+
+  async waitForClickable(element: any, milliseconds: number) {
+    try {
+      return await element.waitForClickable({
+        timeout: milliseconds,
+        timeoutMsg: "Element not Clickable within the timeout",
+      });
+    } catch (error) {
+      throw new FrameworkError(
+        `Element not found: ${JSON.stringify(element)}`,
+        error
+      );
     }
   }
 

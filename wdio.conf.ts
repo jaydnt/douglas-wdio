@@ -15,14 +15,15 @@ export const config: WebdriverIO.Config = {
   capabilities: [
     {
       browserName: process.env.BROWSER_NAME,
-      "goog:chromeOptions": {
-        args: ["--headless", "--disable-gpu"],
-      },
+      timeouts: { implicit: 10000, pageLoad: 20000, script: 30000 },
+      // "goog:chromeOptions": {
+      //   args: ["--headless", "--disable-gpu"],
+      // },
     },
   ],
   logLevel: "info",
   bail: 0,
-  waitforTimeout: 10000,
+  waitforTimeout: 15000,
   connectionRetryTimeout: 120000,
   connectionRetryCount: 3,
   services: ["chromedriver", "edgedriver"],

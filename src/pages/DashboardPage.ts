@@ -46,6 +46,7 @@ class DashboardPage {
       const tabElement = await $(
         this.dashboardPageElementXPath.getTabXpath(tabName)
       );
+      await action.waitForDisplay(tabElement, 15000);
       await action.click(tabElement);
     } catch (error) {
       const errorMessage = `Something went wrong in CLick On Tab : ${error}`;

@@ -10,7 +10,7 @@ import { FrameworkError } from "../error/FrameworkError";
 
 class PerfumPage {
   private perfumPageElementXPath = {
-    searchBox: "//input[@data-testid='typeAhead-input']",
+    searchBox: "//input[@id='typeAhead-input']",
     selectDropDown: (dropDownName: string) => {
       return `//div[@class='facet__title' and text()= '${dropDownName}']`;
     },
@@ -27,15 +27,32 @@ class PerfumPage {
 
   async clickDropDown(dropDownName: string) {
     try {
-      addWinstonInfoLog("Move to Serach Box");
       const searchBoxElement = await $(this.perfumPageElementXPath.searchBox);
       await action.moveTo(searchBoxElement);
       const dropDownElement = await $(
         this.perfumPageElementXPath.selectDropDown(dropDownName)
       );
+      await action.waitForClickable(dropDownElement, 20000);
+      await action.click(dropDownElement);
+
+      // addWinstonInfoLog("Move to Serach Box");
+      // const searchBoxElement = await $(this.perfumPageElementXPath.searchBox);
+      // console.log("Find search box.");
+      // await action.waitForDisplay(searchBoxElement, 200000);
+      // console.log("Wait for search box.");
+      // if (await action.isDisplayed(searchBoxElement)) {
+      //   await action.moveTo(searchBoxElement);
+      //   console.log("Moved to Serach Box");
+      // }
+      // const dropDownElement = await $(
+      //   this.perfumPageElementXPath.selectDropDown(dropDownName)
+      // );
       // await action.waitForDisplay(dropDownElement, 200000);
-      addWinstonInfoLog(`Click on ${dropDownName} Drop down`);
-      await action.waitAndClick(dropDownElement);
+      // await action.moveTo(dropDownElement);
+      // if (await action.isDisplayed(dropDownElement)) {
+      //   addWinstonInfoLog(`Click on ${dropDownName} Drop down`);
+      //   await action.click(dropDownElement);
+      // }
     } catch (error) {
       const errorMessage = `Something went wrong in perfum Click DropDown  : ${error}`;
       addAllureReportLog(errorMessage);
@@ -49,14 +66,16 @@ class PerfumPage {
       const dropDownOptionElement = await $(
         this.perfumPageElementXPath?.dropDownOption(filterOption)!
       );
-      await action.waitForDisplay(dropDownOptionElement, 15000);
+      // await action.waitForDisplay(dropDownOptionElement, 15000);
+      await dropDownOptionElement.waitForClickable({ timeout: 15000 });
       addAllureReportLog(
         `Click on ${filterOption} from ${dropDownName} Drop down`
       );
       addWinstonInfoLog(
         `Click on ${filterOption} from ${dropDownName} Drop down`
       );
-      await action.waitAndClick(dropDownOptionElement);
+      // await action.waitAndClick(dropDownOptionElement);
+      await dropDownOptionElement.click();
     } catch (error) {
       const errorMessage = `Something went wrong in Click On Dropdown Option : ${error}`;
       addAllureReportLog(errorMessage);
@@ -66,18 +85,77 @@ class PerfumPage {
   }
 
   async verifyFilterOption(filterOption: string) {
-    const filterOptionElements = await browser.$$(
-      this.perfumPageElementXPath.appliedFiltterOption
-    );
-    const filterOptionsText: string[] = [];
-    for (const element of filterOptionElements) {
-      const text = (await action.getText(element)).trim();
-      filterOptionsText.push(text);
+    try {
+      const filterOptionElements = await browser.$$(
+        this.perfumPageElementXPath.appliedFiltterOption
+      );
+      const filterOptionsText: string[] = [];
+      for (const element of filterOptionElements) {
+        await action.waitForDisplay(element, 15000);
+        const text = (await action.getText(element)).trim();
+        filterOptionsText.push(text);
+      }
+      expect(filterOption).to.contain(
+        filterOptionsText,
+        `Expected filter option is ${filterOption}, but found ${filterOptionsText}`
+      );
+    } catch (error) {
+      const errorMessage = `Something went wrong in Click On Dropdown Option : ${error}`;
+      addAllureReportLog(errorMessage);
+      addWinstonErrorLog(errorMessage);
+      throw new FrameworkError(errorMessage);
     }
-    expect(filterOption).to.contain(
-      filterOptionsText,
-      `Expected filter option is ${filterOption}, but found ${filterOptionsText}`
-    );
+  }
+
+  async verifyTheFilterTagAcrossPagesV2(actualFilterText: string) {
+    try {
+      let currentPage = 1;
+      let totalPage = 0;
+      const pageInfo = await $(this.perfumPageElementXPath.pageInfoLocator);
+      await action.waitForDisplay(pageInfo, 15000);
+      const pageInfoText = await pageInfo.getText();
+      if (pageInfoText) {
+        const match = pageInfoText.match(/Seite (\d+) von (\d+)/);
+        if (match) {
+          // currentPage = Number(match[1]);
+          totalPage = Number(match[2]);
+        }
+      }
+      console.log("totalPage", totalPage);
+      for (let i = currentPage; i <= totalPage; i++) {
+        // const pageInfo = await $(this.perfumPageElementXPath.pageInfoLocator);
+        // await action.waitForDisplay(pageInfo, 15000);
+        const filters = await browser.$$(
+          this.perfumPageElementXPath.filterTag(actualFilterText)
+        );
+        console.log("page", i, "filters", filters.length);
+        const filterTexts: string[] = [];
+        for (const element of filters) {
+          // await action.waitForDisplay(element, 15000);
+          const filterText = await action.getText(element);
+          filterTexts.push(filterText);
+        }
+        console.log("filterTexts", filterTexts);
+        // expect(filterTexts).to.contain(actualFilterText.toUpperCase());
+
+        const nextPageButton = await $(
+          this.perfumPageElementXPath.nextPageArrow
+        );
+
+        if (await nextPageButton.isDisplayed()) {
+          await nextPageButton.click();
+          // await douglasAction.browserPause(4000);
+        }
+      }
+    } catch (error) {
+      const errorMessage = `Something went wrong in Verify The Filter Tag Across Pages V2 : ${JSON.stringify(
+        error
+      )}`;
+
+      addAllureReportLog(errorMessage);
+      addWinstonErrorLog(errorMessage);
+      throw new FrameworkError(errorMessage);
+    }
   }
 
   async verifyTheFilterTagAcrossPages(actualFilterText: string) {
