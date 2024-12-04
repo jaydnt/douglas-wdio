@@ -46,10 +46,10 @@ Then(
   }
 );
 
-// Then(
-//   "Verify the {string} tag visibal on product list",
-//   async (filterOption: string) => {
-//     // await perfumPage.verifyTheFilterTagAcrossPages(filterOption);
-//     await perfumPage.verifyTheFilterTagAcrossPagesV2(filterOption);
-//   }
-// );
+Then(
+  "Verify the {string} tag visibal on product list",
+  async (filterOption: string) => {
+    // await perfumPage.verifyTheFilterTagAcrossPages(filterOption);
+    await perfumPage.verifyTheFilterTagAcrossPagesV2(filterOption);
+  }
+);

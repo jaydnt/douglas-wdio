@@ -87,6 +87,20 @@ class Action {
     }
   }
 
+  async waitForPageToLoad() {
+    try {
+      await browser.waitUntil(
+        async () =>
+          (await browser.execute(() => document.readyState)) === "complete"
+      );
+    } catch (error) {
+      throw new FrameworkError(
+        `Element not found: ${JSON.stringify(element)}`,
+        error
+      );
+    }
+  }
+
   async openUrl(url: string) {
     return await browser.url(url);
   }

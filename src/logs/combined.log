@@ -2546,3 +2546,215 @@ from javascript error: {"status":32,"value":"An invalid or illegal selector was 
 2024-12-04 18:28:18 info: Accept Cookie
 2024-12-04 18:28:22 info: Click on PARFUM
 2024-12-04 18:28:29 error: Something went wrong in perfum Click DropDown  : FrameworkError: Element not found: {"sessionId":"4ab8ac772a4177a3f8322495fcfedcf8","elementId":"f.74A198408207C7B96C41D793D67D83B2.d.6EC9A5F92911E3F66329D711AE85743C.e.133","element-6066-11e4-a52e-4f735466cecf":"f.74A198408207C7B96C41D793D67D83B2.d.6EC9A5F92911E3F66329D711AE85743C.e.133","selector":"//input[@id='typeAhead-input']","parent":{"sessionId":"4ab8ac772a4177a3f8322495fcfedcf8","capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"131.0.6778.87","chrome":{"chromedriverVersion":"131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir20360_1116405174"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:60011"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":10000,"pageLoad":20000,"script":30000},"unhandledPromptBehavior":"ignore","webSocketUrl":"ws://localhost:9515/session/4ab8ac772a4177a3f8322495fcfedcf8","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true}},"isReactElement":false,"isShadowElement":false}
+2024-12-04 18:32:12 info: Loading App
+2024-12-04 18:32:16 info: Maximize Window
+2024-12-04 18:32:17 info: Accept Cookie
+2024-12-04 18:32:22 info: Click on PARFUM
+2024-12-04 18:32:36 info: Click on NEU from Highlights Drop down
+2024-12-04 18:33:16 info: Loading App
+2024-12-04 18:33:19 info: Maximize Window
+2024-12-04 18:33:20 info: Accept Cookie
+2024-12-04 18:33:27 info: Click on PARFUM
+2024-12-04 18:33:42 info: Click on NEU from Highlights Drop down
+2024-12-04 18:34:55 info: Loading App
+2024-12-04 18:35:00 info: Maximize Window
+2024-12-04 18:35:01 info: Accept Cookie
+2024-12-04 18:35:06 info: Click on PARFUM
+2024-12-04 18:35:25 info: Click on NEU from Highlights Drop down
+2024-12-04 18:36:16 info: Loading App
+2024-12-04 18:36:20 info: Maximize Window
+2024-12-04 18:36:20 info: Accept Cookie
+2024-12-04 18:36:25 info: Click on PARFUM
+2024-12-04 18:36:34 error: Something went wrong in perfum Click DropDown  : FrameworkError: Element not found: {"sessionId":"480cfb17ed6d1556ce2207b29bd25d6d","elementId":"f.8028DFD69EBBF5B3A492DE07C7C55C8D.d.7A2FF08FB059CA20114199BB5060F7A0.e.138","element-6066-11e4-a52e-4f735466cecf":"f.8028DFD69EBBF5B3A492DE07C7C55C8D.d.7A2FF08FB059CA20114199BB5060F7A0.e.138","selector":"//input[@id='typeAhead-input']","parent":{"sessionId":"480cfb17ed6d1556ce2207b29bd25d6d","capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"131.0.6778.87","chrome":{"chromedriverVersion":"131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir3672_2040040408"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:60751"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":10000,"pageLoad":20000,"script":30000},"unhandledPromptBehavior":"ignore","webSocketUrl":"ws://localhost:9515/session/480cfb17ed6d1556ce2207b29bd25d6d","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true}},"isReactElement":false,"isShadowElement":false}
+2024-12-04 18:39:32 info: Loading App
+2024-12-04 18:39:37 info: Maximize Window
+2024-12-04 18:39:38 info: Accept Cookie
+2024-12-04 18:39:44 info: Click on PARFUM
+2024-12-04 18:40:02 info: Click on NEU from Highlights Drop down
+2024-12-04 18:40:58 info: Loading App
+2024-12-04 18:41:03 info: Maximize Window
+2024-12-04 18:41:04 info: Accept Cookie
+2024-12-04 18:41:08 info: Click on PARFUM
+2024-12-04 18:41:15 error: Something went wrong in perfum Click DropDown  : FrameworkError: Element not found: {"sessionId":"5140467ee847fc32fff6389664fbd58e","elementId":"f.F9796A44CA08883256B4F1AE71CC7EBB.d.C6EF102792C729C88A4289D163C864CB.e.147","element-6066-11e4-a52e-4f735466cecf":"f.F9796A44CA08883256B4F1AE71CC7EBB.d.C6EF102792C729C88A4289D163C864CB.e.147","selector":"//input[@id='typeAhead-input']","parent":{"sessionId":"5140467ee847fc32fff6389664fbd58e","capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"131.0.6778.87","chrome":{"chromedriverVersion":"131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir22748_1435012483"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:61144"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":10000,"pageLoad":20000,"script":30000},"unhandledPromptBehavior":"ignore","webSocketUrl":"ws://localhost:9515/session/5140467ee847fc32fff6389664fbd58e","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true}},"isReactElement":false,"isShadowElement":false}
+2024-12-04 18:41:56 info: Loading App
+2024-12-04 18:41:59 info: Maximize Window
+2024-12-04 18:42:00 info: Accept Cookie
+2024-12-04 18:42:06 info: Click on PARFUM
+2024-12-04 18:42:20 info: Click on NEU from Highlights Drop down
+2024-12-04 18:43:09 info: Loading App
+2024-12-04 18:43:13 info: Maximize Window
+2024-12-04 18:43:14 info: Accept Cookie
+2024-12-04 18:43:18 info: Click on PARFUM
+2024-12-04 18:43:27 error: Something went wrong in perfum Click DropDown  : FrameworkError: Element not found: {"sessionId":"0f5ddd75c17c04e259a2a0c2a7ab3b84","elementId":"f.681A66D467BE8728A5BB427D9C0F01B7.d.FD9EA8C6909D01D9809A74962940398E.e.138","element-6066-11e4-a52e-4f735466cecf":"f.681A66D467BE8728A5BB427D9C0F01B7.d.FD9EA8C6909D01D9809A74962940398E.e.138","selector":"//input[@id='typeAhead-input']","parent":{"sessionId":"0f5ddd75c17c04e259a2a0c2a7ab3b84","capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"131.0.6778.87","chrome":{"chromedriverVersion":"131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir30512_1934550423"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:61470"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":10000,"pageLoad":20000,"script":30000},"unhandledPromptBehavior":"ignore","webSocketUrl":"ws://localhost:9515/session/0f5ddd75c17c04e259a2a0c2a7ab3b84","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true}},"isReactElement":false,"isShadowElement":false}
+2024-12-04 18:43:47 info: Loading App
+2024-12-04 18:43:52 info: Maximize Window
+2024-12-04 18:43:52 info: Accept Cookie
+2024-12-04 18:43:55 info: Click on PARFUM
+2024-12-04 18:44:02 error: Something went wrong in perfum Click DropDown  : FrameworkError: Element not found: {"sessionId":"b531ca5456b7d3d8554bbcc8e03d64af","elementId":"f.F53A304D3EAA292B661BA9C84852B540.d.336FBC3E7BC08885A06E04609BD19CE8.e.138","element-6066-11e4-a52e-4f735466cecf":"f.F53A304D3EAA292B661BA9C84852B540.d.336FBC3E7BC08885A06E04609BD19CE8.e.138","selector":"//input[@id='typeAhead-input']","parent":{"sessionId":"b531ca5456b7d3d8554bbcc8e03d64af","capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"131.0.6778.87","chrome":{"chromedriverVersion":"131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir29160_1561575669"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:61679"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":10000,"pageLoad":20000,"script":30000},"unhandledPromptBehavior":"ignore","webSocketUrl":"ws://localhost:9515/session/b531ca5456b7d3d8554bbcc8e03d64af","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true}},"isReactElement":false,"isShadowElement":false}
+2024-12-04 18:44:24 info: Loading App
+2024-12-04 18:44:28 info: Maximize Window
+2024-12-04 18:44:29 info: Accept Cookie
+2024-12-04 18:44:33 info: Click on PARFUM
+2024-12-04 18:44:41 error: Something went wrong in perfum Click DropDown  : FrameworkError: Element not found: {"sessionId":"333a51833dba8bc3834f961aa31137b6","elementId":"f.60400DAC9E2F2F8F641A58EBCC546AF5.d.B2D5DB3FD2E45049232BD0EEC215FA1C.e.141","element-6066-11e4-a52e-4f735466cecf":"f.60400DAC9E2F2F8F641A58EBCC546AF5.d.B2D5DB3FD2E45049232BD0EEC215FA1C.e.141","selector":"//input[@id='typeAhead-input']","parent":{"sessionId":"333a51833dba8bc3834f961aa31137b6","capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"131.0.6778.87","chrome":{"chromedriverVersion":"131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir32052_1376532999"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:61800"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":10000,"pageLoad":20000,"script":30000},"unhandledPromptBehavior":"ignore","webSocketUrl":"ws://localhost:9515/session/333a51833dba8bc3834f961aa31137b6","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true}},"isReactElement":false,"isShadowElement":false}
+2024-12-04 19:02:11 info: Loading App
+2024-12-04 19:02:15 info: Maximize Window
+2024-12-04 19:02:16 info: Accept Cookie
+2024-12-04 19:02:20 info: Click on PARFUM
+2024-12-04 19:03:04 info: Loading App
+2024-12-04 19:03:08 info: Maximize Window
+2024-12-04 19:03:09 info: Accept Cookie
+2024-12-04 19:03:14 info: Click on PARFUM
+2024-12-04 19:03:22 error: Something went wrong in perfum Click DropDown  : FrameworkError: Element not found: {"sessionId":"c11af4ef1b6ea9451c20846ce66aca02","elementId":"f.994C5F0580FB7F3CC1F884CE2F2FCEA5.d.CFB17043E74D34A78D6E4B3914DA54ED.e.143","element-6066-11e4-a52e-4f735466cecf":"f.994C5F0580FB7F3CC1F884CE2F2FCEA5.d.CFB17043E74D34A78D6E4B3914DA54ED.e.143","selector":"//input[@id='typeAhead-input']","parent":{"sessionId":"c11af4ef1b6ea9451c20846ce66aca02","capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"131.0.6778.87","chrome":{"chromedriverVersion":"131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir33256_1769834266"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:62138"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":10000,"pageLoad":20000,"script":30000},"unhandledPromptBehavior":"ignore","webSocketUrl":"ws://localhost:9515/session/c11af4ef1b6ea9451c20846ce66aca02","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true}},"isReactElement":false,"isShadowElement":false}
+2024-12-04 19:06:40 info: Loading App
+2024-12-04 19:06:45 info: Maximize Window
+2024-12-04 19:06:46 info: Accept Cookie
+2024-12-04 19:06:50 info: Click on PARFUM
+2024-12-04 19:06:55 error: Something went wrong in perfum Click DropDown  : TypeError: searchBoxElement.waitForDisplay is not a function
+2024-12-04 19:07:45 info: Loading App
+2024-12-04 19:07:52 info: Maximize Window
+2024-12-04 19:07:52 info: Accept Cookie
+2024-12-04 19:07:54 info: Click on PARFUM
+2024-12-04 19:08:18 error: Something went wrong in perfum Click DropDown  : Error: element ("//input[@id='typeAhead-input']") still not displayed after 15000ms
+2024-12-04 19:12:03 info: Loading App
+2024-12-04 19:12:09 info: Maximize Window
+2024-12-04 19:12:10 info: Accept Cookie
+2024-12-04 19:12:18 info: Click on PARFUM
+2024-12-04 19:13:23 info: Loading App
+2024-12-04 19:13:27 info: Maximize Window
+2024-12-04 19:13:28 info: Accept Cookie
+2024-12-04 19:13:31 info: Click on PARFUM
+2024-12-04 19:14:01 info: Loading App
+2024-12-04 19:14:05 info: Maximize Window
+2024-12-04 19:14:05 info: Accept Cookie
+2024-12-04 19:14:09 info: Click on PARFUM
+2024-12-04 19:14:16 error: Something went wrong in perfum Click DropDown  : FrameworkError: Element not found: {"sessionId":"3b7fd84bc052eb4dd890be3995cc0208","elementId":"f.31C219F7A63D5CAD40BAB4ED77E64256.d.C8853D796FB0C45757721A1FAABEE9AD.e.143","element-6066-11e4-a52e-4f735466cecf":"f.31C219F7A63D5CAD40BAB4ED77E64256.d.C8853D796FB0C45757721A1FAABEE9AD.e.143","selector":"//a[@class='link link--text douglas-logo__link']","parent":{"sessionId":"3b7fd84bc052eb4dd890be3995cc0208","capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"131.0.6778.87","chrome":{"chromedriverVersion":"131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir29032_384942512"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:63370"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":10000,"pageLoad":20000,"script":30000},"unhandledPromptBehavior":"ignore","webSocketUrl":"ws://localhost:9515/session/3b7fd84bc052eb4dd890be3995cc0208","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true}},"isReactElement":false,"isShadowElement":false}
+2024-12-04 19:14:38 info: Loading App
+2024-12-04 19:14:42 info: Maximize Window
+2024-12-04 19:14:42 info: Accept Cookie
+2024-12-04 19:14:46 info: Click on PARFUM
+2024-12-04 19:15:21 info: Loading App
+2024-12-04 19:15:26 info: Maximize Window
+2024-12-04 19:15:27 info: Accept Cookie
+2024-12-04 19:15:31 info: Click on PARFUM
+2024-12-04 19:15:52 error: Something went wrong in perfum Click DropDown  : Error: element ("//a[@class='link link--text douglas-logo__link']") still not displayed after 15000ms
+2024-12-04 19:21:47 info: Loading App
+2024-12-04 19:21:51 info: Maximize Window
+2024-12-04 19:21:51 info: Accept Cookie
+2024-12-04 19:21:56 info: Click on PARFUM
+2024-12-04 19:22:45 info: Loading App
+2024-12-04 19:22:49 info: Maximize Window
+2024-12-04 19:22:49 info: Accept Cookie
+2024-12-04 19:22:56 info: Click on PARFUM
+2024-12-04 19:23:22 error: Something went wrong in perfum Click DropDown  : Error: element ("//a[@class='link link--text douglas-logo__link']") still not displayed after 20000ms
+2024-12-04 19:30:58 info: Loading App
+2024-12-04 19:31:03 info: Maximize Window
+2024-12-04 19:31:03 info: Accept Cookie
+2024-12-04 19:31:08 info: Click on PARFUM
+2024-12-04 19:31:45 info: Loading App
+2024-12-04 19:31:49 info: Maximize Window
+2024-12-04 19:31:50 info: Accept Cookie
+2024-12-04 19:31:55 info: Click on PARFUM
+2024-12-04 19:32:31 info: Loading App
+2024-12-04 19:32:35 info: Maximize Window
+2024-12-04 19:32:36 info: Accept Cookie
+2024-12-04 19:32:40 info: Click on PARFUM
+2024-12-04 19:33:20 info: Loading App
+2024-12-04 19:33:24 info: Maximize Window
+2024-12-04 19:33:25 info: Accept Cookie
+2024-12-04 19:33:30 info: Click on PARFUM
+2024-12-04 19:34:13 info: Loading App
+2024-12-04 19:34:16 info: Maximize Window
+2024-12-04 19:34:17 info: Accept Cookie
+2024-12-04 19:34:22 error: Something went wrong in Accept Cookie : FrameworkError: Element not found: {"sessionId":"6b3fcd017346f98542b4fbcb87baa6de","error":{},"selector":"[data-testid=\"uc-accept-all-button\"]","parent":{"sessionId":"6b3fcd017346f98542b4fbcb87baa6de","capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"131.0.6778.87","chrome":{"chromedriverVersion":"131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir34852_457314237"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:49861"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":10000,"pageLoad":20000,"script":30000},"unhandledPromptBehavior":"ignore","webSocketUrl":"ws://localhost:9515/session/6b3fcd017346f98542b4fbcb87baa6de","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true}},"isReactElement":false,"isShadowElement":false,"elementId":"f.497A96915D3F5AEF86F9569E39889F86.d.30CA226B60DCFE9C5C2180B7F64B1C3A.e.112","element-6066-11e4-a52e-4f735466cecf":"f.497A96915D3F5AEF86F9569E39889F86.d.30CA226B60DCFE9C5C2180B7F64B1C3A.e.112"}
+2024-12-04 19:34:22 info: Click on PARFUM
+2024-12-04 19:34:37 error: Something went wrong in CLick On Tab : FrameworkError: Element not found: {"sessionId":"6b3fcd017346f98542b4fbcb87baa6de","elementId":"f.497A96915D3F5AEF86F9569E39889F86.d.30CA226B60DCFE9C5C2180B7F64B1C3A.e.45","element-6066-11e4-a52e-4f735466cecf":"f.497A96915D3F5AEF86F9569E39889F86.d.30CA226B60DCFE9C5C2180B7F64B1C3A.e.45","selector":"//a[@type='nav-heading' and text()='PARFUM']","parent":{"sessionId":"6b3fcd017346f98542b4fbcb87baa6de","capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"131.0.6778.87","chrome":{"chromedriverVersion":"131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir34852_457314237"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:49861"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":10000,"pageLoad":20000,"script":30000},"unhandledPromptBehavior":"ignore","webSocketUrl":"ws://localhost:9515/session/6b3fcd017346f98542b4fbcb87baa6de","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true}},"isReactElement":false,"isShadowElement":false}
+2024-12-04 19:36:49 info: Loading App
+2024-12-04 19:36:55 info: Maximize Window
+2024-12-04 19:36:56 info: Accept Cookie
+2024-12-04 19:36:59 info: Click on PARFUM
+2024-12-04 19:37:35 info: Loading App
+2024-12-04 19:37:39 info: Maximize Window
+2024-12-04 19:37:40 info: Accept Cookie
+2024-12-04 19:37:44 info: Click on PARFUM
+2024-12-04 19:38:19 info: Loading App
+2024-12-04 19:38:23 info: Maximize Window
+2024-12-04 19:38:24 info: Accept Cookie
+2024-12-04 19:38:28 info: Click on PARFUM
+2024-12-04 19:39:02 info: Loading App
+2024-12-04 19:39:06 info: Maximize Window
+2024-12-04 19:39:07 info: Accept Cookie
+2024-12-04 19:39:11 info: Click on PARFUM
+2024-12-04 19:39:59 info: Loading App
+2024-12-04 19:40:04 info: Maximize Window
+2024-12-04 19:40:04 info: Accept Cookie
+2024-12-04 19:40:10 info: Click on PARFUM
+2024-12-04 19:43:02 info: Loading App
+2024-12-04 19:43:06 info: Maximize Window
+2024-12-04 19:43:07 info: Accept Cookie
+2024-12-04 19:43:11 info: Click on PARFUM
+2024-12-04 19:43:25 info: Click on NEU from Highlights Drop down
+2024-12-04 19:43:46 info: Loading App
+2024-12-04 19:43:50 info: Maximize Window
+2024-12-04 19:43:51 info: Accept Cookie
+2024-12-04 19:43:55 info: Click on PARFUM
+2024-12-04 19:44:11 info: Click on NEU from Highlights Drop down
+2024-12-04 19:44:31 info: Loading App
+2024-12-04 19:44:35 info: Maximize Window
+2024-12-04 19:44:36 info: Accept Cookie
+2024-12-04 19:44:39 info: Click on PARFUM
+2024-12-04 19:44:53 info: Click on NEU from Highlights Drop down
+2024-12-04 19:45:15 info: Loading App
+2024-12-04 19:45:19 info: Maximize Window
+2024-12-04 19:45:19 info: Accept Cookie
+2024-12-04 19:45:23 info: Click on PARFUM
+2024-12-04 19:45:37 info: Click on NEU from Highlights Drop down
+2024-12-04 19:45:59 info: Loading App
+2024-12-04 19:46:03 info: Maximize Window
+2024-12-04 19:46:03 info: Accept Cookie
+2024-12-04 19:46:07 info: Click on PARFUM
+2024-12-04 19:46:22 info: Click on NEU from Highlights Drop down
+2024-12-04 19:48:05 info: Loading App
+2024-12-04 19:48:10 info: Maximize Window
+2024-12-04 19:48:10 info: Accept Cookie
+2024-12-04 19:48:14 info: Click on PARFUM
+2024-12-04 19:48:27 info: Click on NEU from Highlights Drop down
+2024-12-04 19:50:42 info: Loading App
+2024-12-04 19:50:46 info: Maximize Window
+2024-12-04 19:50:47 info: Accept Cookie
+2024-12-04 19:50:51 info: Click on PARFUM
+2024-12-04 19:51:05 info: Click on NEU from Highlights Drop down
+2024-12-04 19:51:28 info: Loading App
+2024-12-04 19:51:32 info: Maximize Window
+2024-12-04 19:51:32 info: Accept Cookie
+2024-12-04 19:51:37 info: Click on PARFUM
+2024-12-04 19:51:49 info: Click on NEU from Highlights Drop down
+2024-12-04 19:52:20 info: Loading App
+2024-12-04 19:52:23 info: Maximize Window
+2024-12-04 19:52:24 info: Accept Cookie
+2024-12-04 19:52:32 info: Click on PARFUM
+2024-12-04 19:52:49 info: Click on NEU from Highlights Drop down
+2024-12-04 19:53:52 info: Loading App
+2024-12-04 19:53:56 info: Maximize Window
+2024-12-04 19:53:57 info: Accept Cookie
+2024-12-04 19:54:02 info: Click on PARFUM
+2024-12-04 19:54:17 info: Click on NEU from Highlights Drop down
+2024-12-04 19:57:53 info: Loading App
+2024-12-04 19:57:57 info: Maximize Window
+2024-12-04 19:57:58 info: Accept Cookie
+2024-12-04 19:58:03 info: Click on PARFUM
+2024-12-04 19:58:15 info: Click on NEU from Highlights Drop down
+2024-12-04 20:04:53 info: Loading App
+2024-12-04 20:04:58 info: Maximize Window
+2024-12-04 20:04:58 info: Accept Cookie
+2024-12-04 20:05:02 info: Click on PARFUM
+2024-12-04 20:05:14 info: Click on NEU from Highlights Drop down
+2024-12-04 20:06:21 info: Loading App
+2024-12-04 20:06:25 info: Maximize Window
+2024-12-04 20:06:26 info: Accept Cookie
+2024-12-04 20:06:29 info: Click on PARFUM
+2024-12-04 20:06:42 info: Click on NEU from Highlights Drop down
+2024-12-04 20:08:58 info: Loading App
+2024-12-04 20:09:03 info: Maximize Window
+2024-12-04 20:09:03 info: Accept Cookie
+2024-12-04 20:09:09 info: Click on PARFUM
+2024-12-04 20:09:23 info: Click on NEU from Highlights Drop down
