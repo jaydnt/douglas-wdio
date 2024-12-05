@@ -32,7 +32,7 @@ class PerfumPage {
         this.perfumPageElementXPath.selectDropDown(dropDownName)
       );
       await action.moveTo(dropDownElement);
-      await action.waitForClickable(dropDownElement, 20000);
+      await action.isDisplayed(dropDownElement);
       await action.click(dropDownElement);
     } catch (error) {
       const errorMessage = `Something went wrong in perfum Click DropDown  : ${error}`;
