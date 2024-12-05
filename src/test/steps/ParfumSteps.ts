@@ -2,7 +2,7 @@ import { Given, When, Then } from "@wdio/cucumber-framework";
 import env from "../../config/env";
 import { addAllureReportLog, addWinstonInfoLog } from "../../utils/helper";
 import dashboardPage from "../../pages/DashboardPage";
-import perfumPage from "../../pages/PerfumPage";
+import parfumPage from "../../pages/ParfumPage";
 import assert from "../../core/assert";
 import data from "../../resources/data.json";
 import douglasAction from "../../core/action";
@@ -29,26 +29,26 @@ Then("Verify user on the parfum page", async () => {
 });
 
 When("I select the {string} dropdown", async (dropDownName: string) => {
-  await perfumPage.clickDropDown(dropDownName);
+  await parfumPage.clickDropDown(dropDownName);
 });
 
 Then(
   "I select the {string} filter option from the {string} dropdown",
   async (filterOption: string, dropDownName: string) => {
-    await perfumPage.clickOnDropDownOption(filterOption, dropDownName);
+    await parfumPage.clickOnDropDownOption(filterOption, dropDownName);
   }
 );
 
 Then(
   "Verify the {string} visible in filtter tab",
   async (filterOption: string) => {
-    await perfumPage.verifyFilterOption(filterOption);
+    await parfumPage.verifyFilterOption(filterOption);
   }
 );
 
 Then(
   "Verify the {string} tag visibal on product list",
   async (filterOption: string) => {
-    await perfumPage.verifyTheFilterTagAcrossPages(filterOption);
+    await parfumPage.verifyTheFilterTagAcrossPages(filterOption);
   }
 );

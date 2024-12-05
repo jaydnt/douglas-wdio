@@ -9,21 +9,21 @@ import assert from "../core/assert";
 import douglasAction from "../core/action";
 import { FrameworkError } from "../error/FrameworkError";
 
-class PerfumPage {
+class ParfumPage {
   private perfumPageElementXPath = {
     searchBox: "//a[@class='link link--text douglas-logo__link']",
+    appliedFiltterOption: "//button[@class='selected-facets__value']",
+    pageInfoLocator: "//div[@data-testid='pagination-title-dropdown']",
+    nextPageArrow: "//a[@data-testid='pagination-arrow-right']",
     selectDropDown: (dropDownName: string) => {
       return `//div[@class='facet__title' and text()= '${dropDownName}']`;
     },
     dropDownOption: (filterOption: string) => {
       return `//div[@class='facet-option__label']//div[text()='${filterOption}']`;
     },
-    appliedFiltterOption: "//button[@class='selected-facets__value']",
-    pageInfoLocator: "//div[@data-testid='pagination-title-dropdown']",
     filterTag: (filterOption: string) => {
       return `//div[contains(@data-testid,'product-eyecatcher') and text()= '${filterOption}']`;
     },
-    nextPageArrow: "//a[@data-testid='pagination-arrow-right']",
   };
 
   async clickDropDown(dropDownName: string) {
@@ -155,4 +155,4 @@ class PerfumPage {
   }
 }
 
-export default new PerfumPage();
+export default new ParfumPage();

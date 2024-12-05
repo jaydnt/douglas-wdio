@@ -35,7 +35,7 @@ jobs:
         run: |
           echo "${{ secrets.EC2_PRIVATE_KEY }}" > private_key.pem
           chmod 600 private_key.pem
-          ssh -i private_key.pem -T -o StrictHostKeyChecking=no ${{ env.USERNAME }}@${{ env.HOST }} << 'EOF'
+          ssh -i private_key.pem -T -o StrictHostKeyChecking=no ${{ secrets.EC2_USERNAME }}@${{ secrets.EC2_HOST }} << 'EOF'
             docker stop douglas-wdio-test || true
             docker rm douglas-wdio-test || true
             docker rmi douglas-wdio-test || true
@@ -46,8 +46,8 @@ jobs:
       # Upload Docker Image to EC2
       - name: Push Docker Image to EC2
         run: |
-          scp -i private_key.pem -o StrictHostKeyChecking=no ./docker-compose.yml private_key.pem douglas-wdio-test.tar ${{ env.USERNAME }}@${{ env.HOST }}:~/douglas-wdio-test/
-          ssh -i private_key.pem -o StrictHostKeyChecking=no ${{ env.USERNAME }}@${{ env.HOST }} << 'EOF'
+          scp -i private_key.pem -o StrictHostKeyChecking=no ./docker-compose.yml private_key.pem douglas-wdio-test.tar ${{ secrets.EC2_USERNAME }}@${{ secrets.EC2_HOST }}:~/douglas-wdio-test/
+          ssh -i private_key.pem -o StrictHostKeyChecking=no ${{ secrets.EC2_USERNAME }}@${{ secrets.EC2_HOST }} << 'EOF'
             cd ~/douglas-wdio-test
             docker load < douglas-wdio-test.tar
             docker-compose up -d
