@@ -36,6 +36,7 @@ jobs:
             docker rm douglas-wdio-test || true
             docker rmi douglas-wdio-test || true
             mkdir -p ~/douglas-wdio-test
+            docker save -o douglas-wdio-test.tar douglas-wdio-test
             exit
           EOF
 
