@@ -35,7 +35,7 @@ jobs:
         run: |
           echo "${{ secrets.EC2_PRIVATE_KEY }}" > private_key.pem
           chmod 600 private_key.pem
-          ssh -i private_key.pem -o StrictHostKeyChecking=no ${{ env.USERNAME }}@${{ env.HOST }} << 'EOF'
+          ssh -i private_key.pem -T -o StrictHostKeyChecking=no ${{ env.USERNAME }}@${{ env.HOST }} << 'EOF'
             docker stop douglas-wdio-test || true
             docker rm douglas-wdio-test || true
             docker rmi douglas-wdio-test || true
