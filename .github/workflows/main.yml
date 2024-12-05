@@ -1,38 +1,31 @@
-name: CI
+name: Douglas WDIO TypeScript Deployment
 on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
 jobs:
-  build-and-run:
+  build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - name: Build the Docker image
-        run: "docker build . --file Dockerfile --tag douglas-wdio:1.0.0"
-      - name: Run the Docker image
-        run: >-
-          docker run -v ${PWD}/allure-results:/usr/src/app/allure-results -p
-          4444:4444 douglas-wdio:1.0.0 || true
-      - name: Upload Allure results
-        uses: actions/upload-artifact@v4
+      # Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Set up Node.js environment
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          name: allure-results
-          path: ./allure-results
-      - name: Download Allure results
-        uses: actions/download-artifact@v4
-        with:
-          name: allure-results
-      - name: Install Allure CLI
-        run: npm install -g allure-commandline
-      - name: Generate Allure Report
-        run: npm run report
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: $
-          publish_dir: ./allure-report
-          publish_branch: gh-pages
+          node-version: 20.10.0
+
+      # Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Build the application
+      - name: Build the application
+        run: npm run build
+
+      # Build Docker image
+      - name: Build Docker Image
+        run: docker build -t douglas-wdio-test .

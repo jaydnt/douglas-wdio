@@ -1,12 +1,9 @@
 version: "3.8"
+
 services:
-  wdio:
-    build: .
-    volumes:
-      - .:/usr/src/app
-    working_dir: /usr/src/app
-    entrypoint: ["npm", "run", "wdio"]
-    environment:
-      - NODE_ENV=production
+  douglas-wdio-test:
+    image: douglas-wdio-test
+    container_name: douglas-wdio-test
     ports:
       - "4444:4444"
+    restart: always
