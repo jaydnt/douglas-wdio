@@ -25,3 +25,31 @@ jobs:
       # Build Docker image
       - name: Build Docker Image
         run: docker build -t douglas-wdio-test .
+
+      # Log in to AWS EC2 instance
+      - name: Deploy to EC2
+        env:
+          PRIVATE_KEY: ${{ secrets.EC2_PRIVATE_KEY }}
+          HOST: ${{ secrets.EC2_HOST }}
+          USERNAME: ubuntu
+        run: |
+          echo "${{ secrets.EC2_PRIVATE_KEY }}" > private_key.pem
+          chmod 600 private_key.pem
+          ssh -i private_key.pem -o StrictHostKeyChecking=no ${{ env.USERNAME }}@${{ env.HOST }} << 'EOF'
+            docker stop douglas-wdio-test || true
+            docker rm douglas-wdio-test || true
+            docker rmi douglas-wdio-test || true
+            mkdir -p ~/douglas-wdio-test
+            exit
+          EOF
+
+      # Upload Docker Image to EC2
+      - name: Push Docker Image to EC2
+        run: |
+          scp -i private_key.pem -o StrictHostKeyChecking=no ./docker-compose.yml private_key.pem douglas-wdio-test.tar ${{ env.USERNAME }}@${{ env.HOST }}:~/douglas-wdio-test/
+          ssh -i private_key.pem -o StrictHostKeyChecking=no ${{ env.USERNAME }}@${{ env.HOST }} << 'EOF'
+            cd ~/douglas-wdio-test
+            docker load < douglas-wdio-test.tar
+            docker-compose up -d
+            exit
+          EOF
