@@ -2758,3 +2758,134 @@ from javascript error: {"status":32,"value":"An invalid or illegal selector was 
 2024-12-04 20:09:03 info: Accept Cookie
 2024-12-04 20:09:09 info: Click on PARFUM
 2024-12-04 20:09:23 info: Click on NEU from Highlights Drop down
+2024-12-04 23:46:59 info: Loading App
+2024-12-04 23:47:08 info: Maximize Window
+2024-12-04 23:47:09 info: Accept Cookie
+2024-12-04 23:47:18 info: Click on PARFUM
+2024-12-04 23:47:45 info: Click on NEU from Highlights Drop down
+2024-12-05 00:08:52 info: Loading App
+2024-12-05 00:08:57 info: Maximize Window
+2024-12-05 00:08:59 info: Accept Cookie
+2024-12-05 00:09:06 info: Click on PARFUM
+2024-12-05 00:09:23 info: Click on NEU from Highlights Drop down
+2024-12-05 00:09:33 error: Something went wrong in Verify The Filter Tag Across Pages V2: Page 2 did not load correctly
+2024-12-05 00:15:31 info: Loading App
+2024-12-05 00:15:36 info: Maximize Window
+2024-12-05 00:15:37 info: Accept Cookie
+2024-12-05 00:15:41 info: Click on PARFUM
+2024-12-05 00:15:53 info: Click on NEU from Highlights Drop down
+2024-12-05 00:15:57 error: Something went wrong in Verify The Filter Tag Across Pages V2: Page 2 did not load correctly
+2024-12-05 00:17:01 info: Loading App
+2024-12-05 00:17:05 info: Maximize Window
+2024-12-05 00:17:06 info: Accept Cookie
+2024-12-05 00:17:11 error: Something went wrong in Accept Cookie : FrameworkError: Element not found: {"sessionId":"2f49836a82497e8902dc2dc81a49c807","error":{},"selector":"[data-testid=\"uc-accept-all-button\"]","parent":{"sessionId":"2f49836a82497e8902dc2dc81a49c807","capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"131.0.6778.87","chrome":{"chromedriverVersion":"131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir31596_528791470"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:55615"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":10000,"pageLoad":20000,"script":30000},"unhandledPromptBehavior":"ignore","webSocketUrl":"ws://localhost:9515/session/2f49836a82497e8902dc2dc81a49c807","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true}},"isReactElement":false,"isShadowElement":false}
+2024-12-05 00:17:12 info: Click on PARFUM
+2024-12-05 00:17:25 error: Something went wrong in CLick On Tab : FrameworkError: Element not found: {"sessionId":"2f49836a82497e8902dc2dc81a49c807","elementId":"f.D2F8D0AC87C7B4E78EADE749458E59E6.d.6CE508A18DC53B4407517EFE7C75601C.e.44","element-6066-11e4-a52e-4f735466cecf":"f.D2F8D0AC87C7B4E78EADE749458E59E6.d.6CE508A18DC53B4407517EFE7C75601C.e.44","selector":"//a[@type='nav-heading' and text()='PARFUM']","parent":{"sessionId":"2f49836a82497e8902dc2dc81a49c807","capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"131.0.6778.87","chrome":{"chromedriverVersion":"131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir31596_528791470"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:55615"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":10000,"pageLoad":20000,"script":30000},"unhandledPromptBehavior":"ignore","webSocketUrl":"ws://localhost:9515/session/2f49836a82497e8902dc2dc81a49c807","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true}},"isReactElement":false,"isShadowElement":false}
+2024-12-05 00:17:56 info: Loading App
+2024-12-05 00:18:00 info: Maximize Window
+2024-12-05 00:18:00 info: Accept Cookie
+2024-12-05 00:18:05 info: Click on PARFUM
+2024-12-05 00:18:17 info: Click on NEU from Highlights Drop down
+2024-12-05 00:18:21 error: Something went wrong in Verify The Filter Tag Across Pages V2: Page 1 did not load correctly
+2024-12-05 12:57:52 info: Loading App
+2024-12-05 12:57:59 info: Maximize Window
+2024-12-05 12:58:00 info: Accept Cookie
+2024-12-05 12:58:03 info: Click on PARFUM
+2024-12-05 12:58:17 info: Click on NEU from Highlights Drop down
+2024-12-05 13:02:06 info: Loading App
+2024-12-05 13:02:12 info: Maximize Window
+2024-12-05 13:02:12 info: Accept Cookie
+2024-12-05 13:02:16 info: Click on PARFUM
+2024-12-05 13:02:29 info: Click on NEU from Highlights Drop down
+2024-12-05 13:04:01 info: Loading App
+2024-12-05 13:04:12 info: Maximize Window
+2024-12-05 13:04:14 info: Accept Cookie
+2024-12-05 13:04:29 info: Click on PARFUM
+2024-12-05 13:04:51 info: Click on NEU from Highlights Drop down
+2024-12-05 13:15:06 info: Loading App
+2024-12-05 13:15:11 info: Maximize Window
+2024-12-05 13:15:12 info: Accept Cookie
+2024-12-05 13:15:17 info: Click on PARFUM
+2024-12-05 13:15:36 info: Click on NEU from Highlights Drop down
+2024-12-05 13:19:49 info: Loading App
+2024-12-05 13:19:53 info: Maximize Window
+2024-12-05 13:19:53 info: Accept Cookie
+2024-12-05 13:19:58 info: Click on PARFUM
+2024-12-05 13:20:10 info: Click on NEU from Highlights Drop down
+2024-12-05 13:24:33 info: Loading App
+2024-12-05 13:24:38 info: Maximize Window
+2024-12-05 13:24:38 info: Accept Cookie
+2024-12-05 13:24:44 info: Click on PARFUM
+2024-12-05 13:25:02 info: Click on NEU from Highlights Drop down
+2024-12-05 13:25:56 info: Loading App
+2024-12-05 13:26:04 info: Maximize Window
+2024-12-05 13:26:05 info: Accept Cookie
+2024-12-05 13:26:10 info: Click on PARFUM
+2024-12-05 13:26:23 info: Click on NEU from Highlights Drop down
+2024-12-05 13:52:51 info: Loading App
+2024-12-05 13:52:56 info: Maximize Window
+2024-12-05 13:52:57 info: Accept Cookie
+2024-12-05 13:53:02 info: Click on PARFUM
+2024-12-05 13:53:20 info: Click on NEU from Highlights Drop down
+2024-12-05 13:59:15 info: Loading App
+2024-12-05 13:59:23 info: Maximize Window
+2024-12-05 13:59:24 info: Accept Cookie
+2024-12-05 13:59:27 info: Click on PARFUM
+2024-12-05 13:59:39 info: Click on NEU from Highlights Drop down
+2024-12-05 14:20:37 info: Loading App
+2024-12-05 14:20:43 info: Maximize Window
+2024-12-05 14:20:43 info: Accept Cookie
+2024-12-05 14:20:49 info: Click on PARFUM
+2024-12-05 14:21:05 info: Click on NEU from Highlights Drop down
+2024-12-05 14:26:02 info: Loading App
+2024-12-05 14:26:07 info: Maximize Window
+2024-12-05 14:26:08 info: Accept Cookie
+2024-12-05 14:26:12 info: Click on PARFUM
+2024-12-05 14:26:23 info: Click on NEU from Highlights Drop down
+2024-12-05 14:26:28 error: Something went wrong in Verify The Filter Tag Across Pages V2: i is not defined
+2024-12-05 14:29:14 info: Loading App
+2024-12-05 14:29:17 info: Maximize Window
+2024-12-05 14:29:19 info: Accept Cookie
+2024-12-05 14:29:24 info: Click on PARFUM
+2024-12-05 14:29:36 info: Click on NEU from Highlights Drop down
+2024-12-05 14:35:32 info: Loading App
+2024-12-05 14:35:35 info: Maximize Window
+2024-12-05 14:35:36 info: Accept Cookie
+2024-12-05 14:35:42 info: Click on PARFUM
+2024-12-05 14:35:54 info: Click on NEU from Highlights Drop down
+2024-12-05 14:36:06 error: Something went wrong in Verify The Filter Tag Across Pages V2: Page indicator did not update to page 2
+2024-12-05 14:46:35 info: Loading App
+2024-12-05 14:46:38 info: Maximize Window
+2024-12-05 14:46:39 info: Accept Cookie
+2024-12-05 14:46:44 info: Click on PARFUM
+2024-12-05 14:46:59 info: Click on NEU from Highlights Drop down
+2024-12-05 14:49:02 info: Loading App
+2024-12-05 14:49:07 info: Maximize Window
+2024-12-05 14:49:08 info: Accept Cookie
+2024-12-05 14:49:13 info: Click on PARFUM
+2024-12-05 14:49:28 info: Click on NEU from Highlights Drop down
+2024-12-05 14:52:38 info: Loading App
+2024-12-05 14:52:41 info: Maximize Window
+2024-12-05 14:52:42 info: Accept Cookie
+2024-12-05 14:52:49 info: Click on PARFUM
+2024-12-05 14:53:01 info: Click on NEU from Highlights Drop down
+2024-12-05 15:10:48 info: Loading App
+2024-12-05 15:10:55 info: Maximize Window
+2024-12-05 15:10:55 info: Accept Cookie
+2024-12-05 15:10:59 info: Click on PARFUM
+2024-12-05 15:11:12 info: Click on NEU from Highlights Drop down
+2024-12-05 15:13:25 info: Loading App
+2024-12-05 15:13:34 info: Maximize Window
+2024-12-05 15:13:34 info: Accept Cookie
+2024-12-05 15:13:38 info: Click on PARFUM
+2024-12-05 15:13:53 info: Click on NEU from Highlights Drop down
+2024-12-05 15:19:08 info: Loading App
+2024-12-05 15:19:12 info: Maximize Window
+2024-12-05 15:19:13 info: Accept Cookie
+2024-12-05 15:19:17 info: Click on PARFUM
+2024-12-05 15:19:31 info: Click on NEU from Highlights Drop down
+2024-12-05 15:45:19 info: Loading App
+2024-12-05 15:45:24 info: Maximize Window
+2024-12-05 15:45:25 info: Accept Cookie
+2024-12-05 15:45:30 info: Click on PARFUM
+2024-12-05 15:45:42 info: Click on NEU from Highlights Drop down

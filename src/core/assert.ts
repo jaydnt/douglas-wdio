@@ -59,6 +59,14 @@ class Assert {
     const isDisplayed = await element.isDisplayed();
     expect(isDisplayed).to.be.false;
   }
+
+  async assertTextContain(
+    textToCheck: string,
+    arrayOfText: any[],
+    message: string
+  ) {
+    expect(arrayOfText).to.contain(textToCheck, message);
+  }
 }
 
 export default new Assert();

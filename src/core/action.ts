@@ -90,14 +90,55 @@ class Action {
   async waitForPageToLoad() {
     try {
       await browser.waitUntil(
-        async () =>
-          (await browser.execute(() => document.readyState)) === "complete"
+        async () => {
+          const readyState = await browser.execute(() => document.readyState);
+          return readyState === "complete";
+        },
+        {
+          timeout: 10000, // Adjust timeout as needed
+          timeoutMsg: "Page did not fully load within the timeout period",
+        }
       );
     } catch (error) {
-      throw new FrameworkError(
-        `Element not found: ${JSON.stringify(element)}`,
-        error
+      throw new FrameworkError(`Element not found`, error);
+    }
+  }
+
+  async waitUntillElementTextVisibal(
+    element: any,
+    assertData: string,
+    timeoutTime: number,
+    timeoutMessage: string
+  ) {
+    try {
+      await browser.waitUntil(
+        async () => {
+          const updatedElement = await element.getText();
+          return updatedElement.includes(assertData);
+        },
+        {
+          timeout: timeoutTime,
+          timeoutMsg: timeoutMessage,
+        }
       );
+    } catch (error) {
+      throw new FrameworkError(`Element not found`, error);
+    }
+  }
+
+  async scrollIntoView(element: any) {
+    try {
+      return element.scrollIntoView();
+    } catch (error) {
+      throw new FrameworkError(`Element not found`, error);
+    }
+  }
+
+  async isClickable(element: any) {
+    try {
+      return element.isClickable();
+    } catch (error) {
+      throw new FrameworkError(`Element not found`, error);
     }
   }
 

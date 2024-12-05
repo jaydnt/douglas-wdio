@@ -5,6 +5,7 @@ import {
   addWinstonInfoLog,
 } from "../utils/helper";
 import action from "../core/action";
+import assert from "../core/assert";
 import douglasAction from "../core/action";
 import { FrameworkError } from "../error/FrameworkError";
 
@@ -73,7 +74,8 @@ class PerfumPage {
         const text = (await action.getText(element)).trim();
         filterOptionsText.push(text);
       }
-      expect(filterOption).to.contain(
+      await assert.assertTextContain(
+        filterOption,
         filterOptionsText,
         `Expected filter option is ${filterOption}, but found ${filterOptionsText}`
       );
@@ -85,116 +87,70 @@ class PerfumPage {
     }
   }
 
-  async verifyTheFilterTagAcrossPagesV2(actualFilterText: string) {
+  async verifyTheFilterTagAcrossPages(actualFilterText: string) {
     try {
       let currentPage = 1;
       let totalPage = 0;
+
+      // Fetch total pages
       const pageInfo = await $(this.perfumPageElementXPath.pageInfoLocator);
       await action.isDisplayed(pageInfo);
-      const pageInfoText = await pageInfo.getText();
+      const pageInfoText = await action.getText(pageInfo);
       if (pageInfoText) {
         const match = pageInfoText.match(/Seite (\d+) von (\d+)/);
         if (match) {
-          // currentPage = Number(match[1]);
           totalPage = Number(match[2]);
         }
       }
-      console.log("totalPage", totalPage);
-      for (let i = currentPage; i <= 3; i++) {
+      console.log("Total pages:", totalPage);
+
+      while (currentPage <= totalPage) {
         const filters = await browser.$$(
           this.perfumPageElementXPath.filterTag(actualFilterText)
         );
-        console.log("page", i, "filters", filters.length);
+        console.log(`Page ${currentPage}: Found ${filters.length} filters`);
         const filterTexts: string[] = [];
         for (const element of filters) {
           await action.isDisplayed(element);
           const filterText = await action.getText(element);
           filterTexts.push(filterText);
         }
-        console.log("filterTexts", filterTexts);
-        expect(filterTexts).to.contain(actualFilterText.toUpperCase());
-
-        const nextPageButton = await $(
-          this.perfumPageElementXPath.nextPageArrow
+        await assert.assertTextContain(
+          actualFilterText.toUpperCase(),
+          filterTexts,
+          `Expected filter option is ${actualFilterText.toUpperCase()}, but found ${filterTexts}`
         );
-        await nextPageButton.scrollIntoView();
-        await nextPageButton.click();
-        await action.waitForPageToLoad();
+
+        if (currentPage < totalPage) {
+          const nextPageButton = await $(
+            this.perfumPageElementXPath.nextPageArrow
+          );
+          await action.scrollIntoView(nextPageButton);
+          const isClickable = await action.isClickable(nextPageButton);
+          if (!isClickable) {
+            throw new Error(
+              `Next page button is not clickable on page ${currentPage}`
+            );
+          }
+          await action.click(nextPageButton);
+          await action.waitUntillElementTextVisibal(
+            pageInfo,
+            `Seite ${currentPage + 1} von`,
+            10000,
+            `Page indicator did not update to page ${currentPage + 1}`
+          );
+          currentPage = currentPage + 1;
+          await action.waitForPageToLoad();
+        } else {
+          break;
+        }
       }
     } catch (error) {
-      const errorMessage = `Something went wrong in Verify The Filter Tag Across Pages V2 : ${JSON.stringify(
-        error
-      )}`;
-
+      const errorMessage = `Something went wrong in Verify The Filter Tag Across Pages V2: ${error.message}`;
+      console.error(errorMessage);
       addAllureReportLog(errorMessage);
       addWinstonErrorLog(errorMessage);
       throw new FrameworkError(errorMessage);
-    }
-  }
-
-  async verifyTheFilterTagAcrossPages(actualFilterText: string) {
-    let currentPage = 1;
-    let totalPages = 1;
-    addWinstonInfoLog("Fetching pagination details");
-    addAllureReportLog("Fetching pagination details");
-    const pageInfo = await $(this.perfumPageElementXPath.pageInfoLocator);
-    await action.waitForDisplay(pageInfo, 15000);
-    const pageInfoText = await pageInfo.getText();
-    if (pageInfoText) {
-      const match = pageInfoText.match(/Seite (\d+) von (\d+)/);
-      if (match) {
-        currentPage = parseInt(match[1]);
-        totalPages = parseInt(match[2]);
-      }
-    }
-    addWinstonInfoLog(`Total pages to validate: ${totalPages}`);
-    addAllureReportLog(`Total pages to validate: ${totalPages}`);
-    while (currentPage <= totalPages) {
-      addWinstonInfoLog(
-        `Validating filter tag on page ${currentPage} of ${totalPages}`
-      );
-      addAllureReportLog(
-        `Validating filter tag on page ${currentPage} of ${totalPages}`
-      );
-      const filters = await browser.$$(
-        this.perfumPageElementXPath.filterTag(actualFilterText)
-      );
-      const filterTexts: string[] = [];
-      for (const element of filters) {
-        const filterText = await action.getText(element);
-        filterTexts.push(filterText);
-      }
-      addWinstonInfoLog(
-        `Verifying if the applied filters contain: '${actualFilterText}'`
-      );
-      addAllureReportLog(
-        `Verifying if the applied filters contain: ${actualFilterText}`
-      );
-      expect(filterTexts).to.contain(actualFilterText.toUpperCase());
-      addWinstonInfoLog("Filter verification successful on this page");
-      addAllureReportLog("Filter verification successful on this page");
-      if (currentPage < totalPages) {
-        addWinstonInfoLog(`Navigating to page ${currentPage + 1}`);
-        addAllureReportLog(`Navigating to page ${currentPage + 1}`);
-        const nextPageButton = await $(
-          this.perfumPageElementXPath.nextPageArrow
-        );
-        if (await nextPageButton.isDisplayed()) {
-          await nextPageButton.click();
-          await douglasAction.browserPause(4000);
-          currentPage = currentPage + 1;
-        } else {
-          addWinstonInfoLog("Next page button not found, stopping pagination.");
-          addAllureReportLog(
-            "Next page button not found, stopping pagination."
-          );
-          break;
-        }
-      } else {
-        addWinstonInfoLog("Reached the last page, stopping pagination.");
-        addAllureReportLog("Reached the last page, stopping pagination.");
-        break;
-      }
     }
   }
 }
