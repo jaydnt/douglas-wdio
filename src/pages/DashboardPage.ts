@@ -49,7 +49,7 @@ class DashboardPage {
       await action.isDisplayed(tabElement);
       await action.click(tabElement);
     } catch (error) {
-      const errorMessage = `Something went wrong in CLick On Tab : ${error}`;
+      const errorMessage = `Something went wrong in CLick On Tab: ${error}`;
       addAllureReportLog(errorMessage);
       addWinstonErrorLog(errorMessage);
       throw new FrameworkError(errorMessage);
